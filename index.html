@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS 2025 世界大学TOP 100</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-text">QS 2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">首页</a></li>
+                <li><a href="#universities" class="nav-link">大学列表</a></li>
+                <li><a href="#map" class="nav-link">地图分布</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索大学..." />
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">探索世界顶尖学府</span>
+            </h1>
+            <p class="hero-subtitle">QS 2025 世界大学排名前30强</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">30</span>
+                    <span class="stat-label">顶尖大学</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">国家/地区</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">105</span>
+                    <span class="stat-label">诺贝尔奖得主</span>
+                </div>
+            </div>
+            <a href="#universities" class="cta-button">
+                开始探索
+                <span class="arrow">→</span>
+            </a>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- 筛选器 -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-tabs" id="filterTabs">
+                <!-- JavaScript将动态生成筛选标签 -->
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- 地图分布 -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <h2 class="section-title">全球分布</h2>
+            <div class="map-wrapper">
+                <div class="world-map-container" id="worldMapContainer">
+                    <svg id="worldMap" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 地图将由JavaScript动态生成 -->
+                    </svg>
+                    <div class="map-tooltip" id="mapTooltip">
+                        <div class="tooltip-content">
+                            <h4 id="tooltipCountry"></h4>
+                            <div id="tooltipUniversities"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <h3>图例</h3>
+                    <div class="legend-item">
+                        <span class="legend-box" style="background: #e5e7eb;"></span>
+                        <span>无高校</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-box" style="background: #bfdbfe;"></span>
+                        <span>1所</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-box" style="background: #7dd3fc;"></span>
+                        <span>2-3所</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-box" style="background: #0ea5e9;"></span>
+                        <span>4-5所</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-box" style="background: #0284c7;"></span>
+                        <span>6所及以上</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 大学列表 -->
+    <section id="universities" class="universities-section">
+        <div class="container">
+            <div class="universities-grid collapsed" id="universitiesGrid">
+                <!-- JavaScript将在这里动态生成卡片 -->
+            </div>
+            <button class="expand-button" id="expandButton">
+                展开查看更多 <span class="arrow">↓</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- 关于 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">关于本项目</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">📊</div>
+                    <h3>数据来源</h3>
+                    <p>基于QS 2025世界大学排名，展示全球顶尖30所高校的详细信息</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>项目目标</h3>
+                    <p>提供直观、简要的世界名校信息参考</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">✨</div>
+                    <h3>设计理念</h3>
+                    <p>借鉴苹果官网的极简设计风格</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 QS世界大学排名TOP100. 数据来源: QS World University Rankings 2025</p>
+        </div>
+    </footer>
+
+    <!-- 详情模态框 -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modalBody">
+                <!-- JavaScript将在这里动态生成详细内容 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
