@@ -1,0 +1,1 @@
+# QS-2025-World-University-Rankings-Top-100-Guide
