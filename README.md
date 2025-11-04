@@ -1,4 +1,4 @@
-# QS 2025 世界大学TOP 100 交互展示平台
+![acfe635eb31de8686ed0ac65caee521d](https://github.com/user-attachments/assets/8ff5e97a-1d6f-4efa-b3e2-154b360b7b62)# QS 2025 世界大学TOP 100 交互展示平台
 
 ## 项目概述
 
@@ -18,6 +18,7 @@
 
 ## 使用方法
 
-- 访问 
+- 访问 https://anonymous2333333.github.io/QS-2025-World-University-Rankings-Top-100-Guide
 
 - 下载page到本地
+
