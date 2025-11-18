@@ -36,18 +36,18 @@
             <h1 class="hero-title">
                 <span class="gradient-text">探索世界顶尖学府</span>
             </h1>
-            <p class="hero-subtitle">QS 2025 世界大学排名前30强</p>
+            <p class="hero-subtitle">QS 2025 世界大学排名前100强</p>
             <div class="hero-stats">
                 <div class="stat-item">
-                    <span class="stat-number">30</span>
+                    <span class="stat-number">100</span>
                     <span class="stat-label">顶尖大学</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">15</span>
+                    <span class="stat-number">25</span>
                     <span class="stat-label">国家/地区</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">105</span>
+                    <span class="stat-number">1500+</span>
                     <span class="stat-label">诺贝尔奖得主</span>
                 </div>
             </div>
@@ -131,23 +131,30 @@
 
     <!-- 关于 -->
     <section id="about" class="about-section">
-        <div class="container">
-            <h2 class="section-title">关于本项目</h2>
-            <div class="about-content">
-                <div class="about-card">
-                    <div class="about-icon">📊</div>
-                    <h3>数据来源</h3>
-                    <p>基于QS 2025世界大学排名，展示全球顶尖30所高校的详细信息</p>
+        <div class="about-panel">
+            <div class="about-topline">
+                <div class="social-link">QS 2025 项目</div>
+                <div class="social-link">世界大学排名</div>
+                <div class="social-link">交互展示平台</div>
+            </div>
+            <div class="about-columns">
+                <div class="about-column">
+                    <p class="column-title">项目简介</p>
+                    <p class="column-item">TOP 100 高校库</p>
+                    <p class="column-item">地理投影地图</p>
+                    <p class="column-item">动态搜索与筛选</p>
                 </div>
-                <div class="about-card">
-                    <div class="about-icon">🎯</div>
-                    <h3>项目目标</h3>
-                    <p>提供直观、简要的世界名校信息参考</p>
+                <div class="about-column">
+                <p class="column-title">数据支持</p>
+                <p class="column-item">官方权威数据源</p>
+                <p class="column-item">覆盖全国重点高校</p>
+                <p class="column-item">年度数据更新迭代</p>
                 </div>
-                <div class="about-card">
-                    <div class="about-icon">✨</div>
-                    <h3>设计理念</h3>
-                    <p>借鉴苹果官网的极简设计风格</p>
+                <div class="about-column contact-column">
+                    <p class="column-title">联系我们</p>
+                    <p class="column-item">项目文件：GitHub</p>
+                    <p class="column-item">版本：v1.2</p>
+                    <p class="column-item">咨询邮箱：<a href="mailto:1480380934@qq.com">1480380934@qq.com</a></p>
                 </div>
             </div>
         </div>
@@ -170,6 +177,10 @@
         </div>
     </div>
 
+    <script src="vendors/d3.min.js"></script>
+    <script src="vendors/topojson-client.min.js"></script>
+    <script src="data/world-110m.inline.js"></script>
+    <script src="data/universities.inline.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

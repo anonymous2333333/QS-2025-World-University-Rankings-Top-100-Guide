@@ -182,7 +182,9 @@ html {
     font-weight: 800;
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .stat-label {
@@ -536,67 +538,58 @@ html {
     display: block;
 }
 
-#worldMap path {
-    fill: #e5e7eb;
-    stroke: rgba(255, 255, 255, 0.3);
+.map-ocean {
+    fill: rgba(255, 255, 255, 0.05);
+    stroke: rgba(255, 255, 255, 0.15);
     stroke-width: 0.5px;
-    transition: all 0.3s ease;
+}
+
+.map-country {
+    stroke: rgba(255, 255, 255, 0.4);
+    stroke-width: 0.5px;
+    transition: fill 0.25s ease, stroke-width 0.25s ease;
     cursor: pointer;
 }
 
-#worldMap path:hover {
-    filter: brightness(1.2);
+.map-country.no-data {
+    fill: rgba(255, 255, 255, 0.08) !important;
+    cursor: default;
+    pointer-events: none;
 }
 
-/* 国家着色 */
-#worldMap rect.country-0 {
-    fill: #e5e7eb;
+.map-country.has-data:hover {
+    filter: brightness(1.1);
+    stroke-width: 0.8px;
 }
 
-#worldMap rect.country-1 {
-    fill: #bfdbfe;
-}
-
-#worldMap rect.country-2-3 {
-    fill: #7dd3fc;
-}
-
-#worldMap rect.country-4-5 {
-    fill: #0ea5e9;
-}
-
-#worldMap rect.country-6plus {
-    fill: #0284c7;
-}
-
-#worldMap rect.active {
-    fill: #fbbf24;
-    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.5));
+.map-country.has-data:active {
+    filter: brightness(1.25);
 }
 
 /* 地图提示框 */
 .map-tooltip {
     position: absolute;
-    bottom: -200px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -110%);
     background: var(--white);
     color: var(--text-color);
     padding: 16px 20px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    min-width: 250px;
+    min-width: 240px;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
+    transition: opacity 0.2s ease;
     z-index: 100;
-    max-height: 300px;
+    max-height: 320px;
     overflow-y: auto;
+    left: -9999px;
+    top: -9999px;
 }
 
 .map-tooltip.active {
     opacity: 1;
-    bottom: 20px;
 }
 
 .tooltip-content h4 {
@@ -719,45 +712,74 @@ html {
 
 /* ===== 关于部分 ===== */
 .about-section {
-    padding: 120px 0;
-    background: var(--white);
+    padding: 0;
+    background: #00439c;
 }
 
-.about-content {
+.about-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.about-topline {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.social-link {
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.about-columns {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
-    margin-top: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
 }
 
-.about-card {
-    text-align: center;
-    padding: 40px;
-    border-radius: var(--border-radius);
-    background: var(--bg-color);
-    transition: all 0.3s;
+.about-column {
+    padding: 12px 0;
+    line-height: 1.8;
 }
 
-.about-card:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow);
-}
-
-.about-icon {
-    font-size: 64px;
-    margin-bottom: 24px;
-}
-
-.about-card h3 {
-    font-size: 24px;
-    font-weight: 700;
+.column-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     margin-bottom: 16px;
 }
 
-.about-card p {
-    font-size: 16px;
-    color: var(--text-secondary);
-    line-height: 1.6;
+.column-item {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 8px;
+}
+
+.column-item a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.column-item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-column {
+    font-size: 14px;
+}
+
+.contact-column .column-item {
+    margin-bottom: 12px;
+    font-size: 13px;
+    opacity: 0.9;
 }
 
 /* ===== 页脚 ===== */
