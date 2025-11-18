@@ -19,9 +19,11 @@
 
 ## 快速开始
 
-1. 克隆或下载本仓库后，直接打开 `index.html` 即可浏览全部内容；如需本地服务器，可在项目根目录运行任意静态服务（如 `npx serve .`）。
-2. 数据位于 `data/universities.json`，可通过 `scripts/build-university-data.js` 从 Markdown 源文件自动生成。
-3. 若需在离线场景使用，`data/universities.inline.js` 与 `data/world-110m.inline.js` 会为主脚本提供兜底数据，无需额外配置。
+1. 可直接访问 https://anonymous2333333.github.io/QS-2025-World-University-Rankings-Top-100-Guide
+2. 克隆或下载本仓库后，直接打开 `index.html` 即可浏览全部内容；如需本地服务器，可在项目根目录运行任意静态服务（如 `npx serve .`）。
+3. 数据位于 `data/universities.json`，可通过 `scripts/build-university-data.js` 从 Markdown 源文件自动生成。
+4. 若需在离线场景使用，`data/universities.inline.js` 与 `data/world-110m.inline.js` 会为主脚本提供兜底数据，无需额外配置。
 
 ## 联系我
 如有任何问题或建议，欢迎通过邮箱 `1480380934@qq.com` 联系我。
+
