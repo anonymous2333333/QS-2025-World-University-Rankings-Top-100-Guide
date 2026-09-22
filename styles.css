@@ -673,6 +673,12 @@ html {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(0, 113, 227, 0.05));
 }
 
+.country-stats-title {
+    font-size: clamp(28px, 4vw, 40px);
+    margin-bottom: 36px;
+    color: var(--text-color);
+}
+
 .country-stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -696,7 +702,7 @@ html {
     transform: translateY(-4px);
 }
 
-.country-flag {
+.country-item .country-flag {
     font-size: 48px;
 }
 
@@ -858,6 +864,16 @@ html {
 .modal-close:hover {
     background: rgba(0, 0, 0, 0.1);
     transform: rotate(90deg);
+}
+
+.modal-close:focus-visible,
+.university-card:focus-visible,
+.expand-button:focus-visible,
+.filter-tab:focus-visible,
+.nav-link:focus-visible,
+.search-box input:focus-visible {
+    outline: 3px solid rgba(0, 113, 227, 0.35);
+    outline-offset: 3px;
 }
 
 #modalBody {
@@ -1027,10 +1043,10 @@ html {
 .loading {
     text-align: center;
     padding: 60px 20px;
-}
-
-.loading::after {
-    content: '加载中...';
     font-size: 18px;
     color: var(--text-secondary);
+}
+
+.loading.error {
+    color: #b42318;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QS 2025 世界大学排名 TOP 100 交互式可视化与地图探索平台">
     <title>QS 2025 世界大学TOP 100</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +25,7 @@
                 <li><a href="#about" class="nav-link">关于</a></li>
             </ul>
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="搜索大学..." />
+                <input type="text" id="searchInput" placeholder="搜索大学..." aria-label="搜索大学" />
                 <span class="search-icon">🔍</span>
             </div>
         </div>
@@ -72,7 +73,12 @@
         </div>
     </section>
 
- 
+    <section class="country-stats-section" aria-labelledby="countryStatsTitle">
+        <div class="container">
+            <h2 class="section-title country-stats-title" id="countryStatsTitle">国家/地区分布统计</h2>
+            <div class="country-stats" id="countryStats" aria-live="polite"></div>
+        </div>
+    </section>
 
     <!-- 地图分布 -->
     <section id="map" class="map-section">
@@ -120,10 +126,10 @@
     <!-- 大学列表 -->
     <section id="universities" class="universities-section">
         <div class="container">
-            <div class="universities-grid collapsed" id="universitiesGrid">
+            <div class="universities-grid collapsed" id="universitiesGrid" aria-live="polite">
                 <!-- JavaScript将在这里动态生成卡片 -->
             </div>
-            <button class="expand-button" id="expandButton">
+            <button class="expand-button" id="expandButton" type="button" aria-controls="universitiesGrid">
                 展开查看更多 <span class="arrow">↓</span>
             </button>
         </div>
@@ -168,9 +174,9 @@
     </footer>
 
     <!-- 详情模态框 -->
-    <div id="detailModal" class="modal">
+    <div id="detailModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle">
         <div class="modal-content">
-            <button class="modal-close">&times;</button>
+            <button class="modal-close" type="button" aria-label="关闭详情弹窗">&times;</button>
             <div id="modalBody">
                 <!-- JavaScript将在这里动态生成详细内容 -->
             </div>

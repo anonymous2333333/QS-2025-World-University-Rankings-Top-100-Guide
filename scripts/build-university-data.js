@@ -99,7 +99,7 @@ function parseTable(block) {
         let name = nameRaw;
         let nameEn = '';
         let nameZh = nameRaw;
-        const match = nameRaw.match(/(.+?)（(.+?)）/);
+        const match = nameRaw.match(/(.+?)[（(](.+?)[）)]/);
         if (match) {
             nameZh = match[1].trim();
             nameEn = match[2].trim();
@@ -183,11 +183,66 @@ function buildDataset() {
     return dataset;
 }
 
+function validateDataset(dataset) {
+    const errors = [];
+    const warnings = [];
+    const rankSet = new Set();
+    const duplicateRanks = [];
+    const missingRequired = [];
+    const missingNarratives = [];
+
+    for (const item of dataset) {
+        if (!Number.isInteger(item.rank) || item.rank <= 0) {
+            errors.push(`存在非法排名: ${item.rank}`);
+        }
+        if (rankSet.has(item.rank)) {
+            duplicateRanks.push(item.rank);
+        }
+        rankSet.add(item.rank);
+
+        if (!item.name || !item.country) {
+            missingRequired.push(`${item.rank}-${item.name || '未命名'}`);
+        }
+
+        if (!item.history || !item.visit) {
+            missingNarratives.push(`${item.rank}-${item.name}`);
+        }
+    }
+
+    if (duplicateRanks.length) {
+        errors.push(`存在重复排名: ${[...new Set(duplicateRanks)].join(', ')}`);
+    }
+
+    if (dataset.length !== 100) {
+        warnings.push(`当前数据条数为 ${dataset.length}，预期应为 100。`);
+    }
+
+    if (missingRequired.length) {
+        errors.push(`存在缺少必填字段（name/country）的院校: ${missingRequired.join(', ')}`);
+    }
+
+    if (missingNarratives.length) {
+        warnings.push(`以下院校缺少历史背景或参观攻略: ${missingNarratives.join(', ')}`);
+    }
+
+    warnings.forEach(msg => console.warn(`[WARN] ${msg}`));
+    if (errors.length) {
+        throw new Error(errors.join('\n'));
+    }
+}
+
 function main() {
-    ensureOutputDir();
-    const dataset = buildDataset();
-    fs.writeFileSync(OUTPUT_JSON, JSON.stringify(dataset, null, 2), 'utf-8');
-    console.log(`已生成 ${dataset.length} 条院校数据 -> ${OUTPUT_JSON}`);
+    try {
+        ensureOutputDir();
+        const dataset = buildDataset();
+        validateDataset(dataset);
+        fs.writeFileSync(OUTPUT_JSON, JSON.stringify(dataset, null, 2), 'utf-8');
+        console.log(`已生成 ${dataset.length} 条院校数据 -> ${OUTPUT_JSON}`);
+    } catch (error) {
+        console.error('构建高校数据失败:');
+        console.error(error.message || error);
+        process.exitCode = 1;
+    }
 }
 
 main();

@@ -1,0 +1,10 @@
+{
+  "name": "qs-2025-world-university-rankings-top-100-guide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-university-data.js",
+    "check:data": "node scripts/smoke-check.js",
+    "smoke": "npm run build:data && npm run check:data"
+  }
+}

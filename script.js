@@ -2,6 +2,8 @@ const DATA_URL = 'data/universities.json';
 const WORLD_TOPO_URL = 'data/world-110m.json';
 const FALLBACK_DATASET = Array.isArray(window.__QS_UNIVERSITIES__) ? window.__QS_UNIVERSITIES__ : [];
 const WORLD_TOPOLOGY = window.__WORLD_TOPO__ || null;
+const SEARCH_DEBOUNCE_MS = 180;
+const MAP_RESIZE_DEBOUNCE_MS = 200;
 
 const COUNTRY_NAME_TOPO_MAP = {
     '中国': 'China',
@@ -83,6 +85,45 @@ let countryToUniversities = {};
 let normalizedCountryStats = {};
 let worldGeoJson = null;
 let mapResizeTimer = null;
+let lastRenderSignature = '';
+let modalLastFocusedElement = null;
+let scrollTicking = false;
+
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function debounce(fn, wait = 200) {
+    let timer = null;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), wait);
+    };
+}
+
+function setGridMessage(message, type = 'info') {
+    if (!universitiesGrid) return;
+    const safeMessage = escapeHtml(message);
+    universitiesGrid.innerHTML = `<p class='loading ${type === 'error' ? 'error' : ''}'>${safeMessage}</p>`;
+}
+
+function getFilteredUniversities() {
+    const searchTerm = currentSearchTerm.trim().toLowerCase();
+    return universities.filter(uni => {
+        const regionMatch = currentRegion === 'all' || uni.region === currentRegion;
+        const searchMatch = !searchTerm ||
+            uni.name.toLowerCase().includes(searchTerm) ||
+            (uni.nameEn && uni.nameEn.toLowerCase().includes(searchTerm)) ||
+            (uni.country && uni.country.toLowerCase().includes(searchTerm)) ||
+            (uni.region && uni.region.toLowerCase().includes(searchTerm));
+        return regionMatch && searchMatch;
+    });
+}
 
 document.addEventListener('DOMContentLoaded', init);
 
@@ -211,7 +252,7 @@ function renderFilterTabs() {
     Object.entries(regionStats)
         .sort((a, b) => b[1] - a[1])
         .forEach(([region, count]) => {
-            tabs.push(`<button class='filter-tab' data-region='${region}'>${region} (${count})</button>`);
+            tabs.push(`<button class='filter-tab' data-region='${escapeHtml(region)}'>${escapeHtml(region)} (${count})</button>`);
         });
 
     filterTabsContainer.innerHTML = tabs.join('');
@@ -236,8 +277,8 @@ function renderCountryStats() {
             const flag = list[0]?.flag || '🎓';
             return `
                 <div class='country-item'>
-                    <span class='country-flag'>${flag}</span>
-                    <span class='country-name'>${country}</span>
+                    <span class='country-flag'>${escapeHtml(flag)}</span>
+                    <span class='country-name'>${escapeHtml(country)}</span>
                     <span class='country-count'>${list.length}所</span>
                 </div>
             `;
@@ -254,19 +295,15 @@ function renderUniversities(filterRegion) {
         currentRegion = filterRegion;
     }
 
-    const filtered = universities.filter(uni => {
-        const regionMatch = currentRegion === 'all' || uni.region === currentRegion;
-        const searchTerm = currentSearchTerm.trim().toLowerCase();
-        const searchMatch = !searchTerm ||
-            uni.name.toLowerCase().includes(searchTerm) ||
-            (uni.nameEn && uni.nameEn.toLowerCase().includes(searchTerm)) ||
-            (uni.country && uni.country.toLowerCase().includes(searchTerm)) ||
-            (uni.region && uni.region.toLowerCase().includes(searchTerm));
-        return regionMatch && searchMatch;
-    });
+    const filtered = getFilteredUniversities();
+    const renderSignature = `${currentRegion}|${currentSearchTerm.trim().toLowerCase()}|${filtered.length}`;
+    if (renderSignature === lastRenderSignature && typeof filterRegion === 'undefined') {
+        return;
+    }
+    lastRenderSignature = renderSignature;
 
     if (!filtered.length) {
-        universitiesGrid.innerHTML = '<p class=\'loading\'>未找到匹配的高校，请更换筛选条件。</p>';
+        setGridMessage('未找到匹配的高校，请更换筛选条件。');
         toggleExpandButton(false);
         return;
     }
@@ -277,27 +314,27 @@ function renderUniversities(filterRegion) {
             const strengths = uni.strengths || uni.highlight || '综合实力卓越';
             const highlight = uni.highlight || strengths;
             return `
-                <div class='university-card' data-rank='${uni.rank}'>
+                <div class='university-card' data-rank='${uni.rank}' role='button' tabindex='0' aria-label='查看第${uni.rank}名 ${escapeHtml(uni.name)} 详情'>
                     <div class='card-header'>
                         <div class='rank-badge'>${uni.rank}</div>
-                        <div class='country-flag'>${uni.flag || '🎓'}</div>
+                        <div class='country-flag'>${escapeHtml(uni.flag || '🎓')}</div>
                     </div>
                     <div class='card-body'>
-                        <h3>${uni.name}</h3>
-                        <p class='university-name-en'>${uni.nameEn}</p>
+                        <h3>${escapeHtml(uni.name)}</h3>
+                        <p class='university-name-en'>${escapeHtml(uni.nameEn)}</p>
                         <div class='card-info'>
                             <div class='info-item'>
                                 <span class='info-icon'>📍</span>
-                                <span class='info-text'>${countryName}</span>
+                                <span class='info-text'>${escapeHtml(countryName)}</span>
                             </div>
                             <div class='info-item'>
                                 <span class='info-icon'>⭐</span>
-                                <span class='info-text'>${strengths}</span>
+                                <span class='info-text'>${escapeHtml(strengths)}</span>
                             </div>
                         </div>
                         <div class='highlights'>
                             <h4>关键亮点</h4>
-                            <p>${highlight}</p>
+                            <p>${escapeHtml(highlight)}</p>
                         </div>
                         <a href='#' class='view-details'>查看详情 →</a>
                     </div>
@@ -317,6 +354,13 @@ function bindCardEvents() {
             event.preventDefault();
             const rank = Number(card.dataset.rank);
             showUniversityDetail(rank);
+        });
+        card.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                const rank = Number(card.dataset.rank);
+                showUniversityDetail(rank);
+            }
         });
     });
 }
@@ -352,38 +396,45 @@ function showUniversityDetail(rank) {
     modalBody.innerHTML = `
         <div class='modal-header'>
             <div class='modal-rank'>${uni.rank}</div>
-            <h2 class='modal-title'>${uni.name}</h2>
-            <p class='modal-subtitle'>${uni.nameEn}</p>
+            <h2 class='modal-title' id='modalTitle'>${escapeHtml(uni.name)}</h2>
+            <p class='modal-subtitle'>${escapeHtml(uni.nameEn)}</p>
             <p class='modal-location'>
-                <span>${uni.flag || '🎓'}</span>
-                <span>${uni.country || '其他地区'}</span>
+                <span>${escapeHtml(uni.flag || '🎓')}</span>
+                <span>${escapeHtml(uni.country || '其他地区')}</span>
             </p>
         </div>
         <div class='modal-section'>
             <h3>关键亮点</h3>
-            <p>${uni.highlight || uni.strengths || '这所高校在多项指标上表现突出。'}</p>
+            <p>${escapeHtml(uni.highlight || uni.strengths || '这所高校在多项指标上表现突出。')}</p>
         </div>
         <div class='modal-section'>
             <h3>历史背景</h3>
-            <p>${uni.history}</p>
+            <p>${escapeHtml(uni.history)}</p>
         </div>
         <div class='modal-section'>
             <h3>学科优势</h3>
-            <p>${uni.strengths || uni.highlight || '官方尚未提供更详细的学科信息。'}</p>
+            <p>${escapeHtml(uni.strengths || uni.highlight || '官方尚未提供更详细的学科信息。')}</p>
         </div>
         <div class='modal-section'>
             <h3>参观攻略</h3>
-            <p>${uni.visit}</p>
+            <p>${escapeHtml(uni.visit)}</p>
         </div>
     `;
 
+    modalLastFocusedElement = document.activeElement;
     modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    modalClose?.focus();
 }
 
 function closeModal() {
     modal?.classList.remove('active');
+    modal?.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
+    if (modalLastFocusedElement && typeof modalLastFocusedElement.focus === 'function') {
+        modalLastFocusedElement.focus();
+    }
 }
 
 async function prepareWorldGeometry() {
@@ -518,7 +569,7 @@ function showMapTooltip(countryName, list = []) {
             .map(uni => `
                 <div class='tooltip-university'>
                     <span class='tooltip-rank'>${uni.rank}</span>
-                    <span class='tooltip-name'>${uni.name}</span>
+                    <span class='tooltip-name'>${escapeHtml(uni.name)}</span>
                 </div>
             `)
             .join('') + (list.length > 6 ? '<p class=\'tooltip-more\'>…还有更多</p>' : '')
@@ -550,10 +601,10 @@ function hideMapTooltip() {
 
 function initEventListeners() {
     if (searchInput) {
-        searchInput.addEventListener('input', event => {
+        searchInput.addEventListener('input', debounce(event => {
             currentSearchTerm = event.target.value;
             renderUniversities();
-        });
+        }, SEARCH_DEBOUNCE_MS));
     }
 
     if (expandButton) {
@@ -593,7 +644,7 @@ function initEventListeners() {
 
     window.addEventListener('resize', () => {
         clearTimeout(mapResizeTimer);
-        mapResizeTimer = setTimeout(() => renderWorldMap(), 200);
+        mapResizeTimer = setTimeout(() => renderWorldMap(), MAP_RESIZE_DEBOUNCE_MS);
     });
 }
 
@@ -619,6 +670,13 @@ function initScrollAnimations() {
 }
 
 function animateCards() {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('.university-card').forEach(card => {
+            card.style.opacity = '1';
+            card.style.transform = 'none';
+        });
+        return;
+    }
     document.querySelectorAll('.university-card').forEach((card, index) => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(30px)';
@@ -631,19 +689,26 @@ function animateCards() {
 }
 
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (!navbar) return;
+    if (scrollTicking) return;
+    scrollTicking = true;
+    window.requestAnimationFrame(() => {
+        const navbar = document.querySelector('.navbar');
+        if (!navbar) {
+            scrollTicking = false;
+            return;
+        }
 
-    const currentScroll = window.pageYOffset;
-    navbar.style.boxShadow = currentScroll > 100 ? '0 2px 20px rgba(0, 0, 0, 0.1)' : 'none';
+        const currentScroll = window.pageYOffset;
+        navbar.style.boxShadow = currentScroll > 100 ? '0 2px 20px rgba(0, 0, 0, 0.1)' : 'none';
+        scrollTicking = false;
+    });
 });
 
 function setLoadingState(isLoading, message = '加载中…') {
-    if (!universitiesGrid || !isLoading) return;
-    universitiesGrid.innerHTML = `<p class='loading'>${message}</p>`;
+    if (!isLoading) return;
+    setGridMessage(message);
 }
 
 function showErrorState(message) {
-    if (!universitiesGrid) return;
-    universitiesGrid.innerHTML = `<p class='loading'>${message}</p>`;
+    setGridMessage(message, 'error');
 }
