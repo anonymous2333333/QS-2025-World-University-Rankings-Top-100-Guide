@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-002",
+  "sourceIndex": 2,
+  "rank": 2,
+  "name": "帝国理工学院",
+  "nameEn": "Imperial College London",
+  "country": "英国",
+  "region": "欧洲",
+  "flag": "🇬🇧",
+  "highlight": "跃升 4 位至全球第二，可持续性指标得分 99.7/100，科研影响力显著提升。",
+  "history": "帝国理工学院于1907年通过合并三所著名机构而成立:皇家科学学院(成立于1845年)、皇家矿业学院(1851年)和城市与行会学院(1884年)。该学院源于阿尔伯特亲王在1851年世界博览会后的远见计划,旨在在南肯辛顿与伦敦伟大的博物馆一起创建一个教育和文化中心。最初是伦敦大学的一部分,帝国理工于2007年完全独立,确立自己为英国唯一专注于科学、工程、医学和商业的大学。该机构已培养出14位诺贝尔奖得主,包括亚历山大·弗莱明爵士,他在1928年发现青霉素,彻底改变了医学。帝国理工一直跻身世界顶尖大学之列,在2025年QS世界排名中获得第2名,在欧洲排名第1。该学院在所有工程学科中表现出色,通过与伦敦五家教学医院的合作保持世界领先的医学研究,并在自然科学方面拥有卓越的项目,特别是在化学、物理和生命科学方面。著名成就包括类风湿性关节炎的抗TNF疗法的开创性工作、对光纤发展的贡献,以及通过其历史悠久的南肯辛顿校园和现代白城创新中心的最先进设施在气候科学、数据科学和生物医学工程方面的领导地位。",
+  "visit": "预约：学生导览必须预约；名额及学期内安排见官方日历。\n\n费用：导览页面未统一列出所有参访项目费用；以具体项目的预订页为准。\n\n开放范围：导览不开放所有建筑或研究空间；自助参观也须遵守现场门禁。\n\n交通：最近地铁站为 South Kensington，沿 Exhibition Road 步行前往。",
+  "photos": [
+    {
+      "file": "Imperial College London down Exhibition Road.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Imperial_College_London_down_Exhibition_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_College_London_down_Exhibition_Road.jpg",
+      "author": "Shadowssettle",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "The main entrance and business school of Imperial College London along Exhibition Road. The City and Guilds Building is visible in the background.",
+      "width": 960,
+      "height": 703,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-002-1",
+      "institutionId": "qs2025-002",
+      "schoolName": "帝国理工学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-002-1.webp",
+      "bytes": 133144,
+      "sha256": "0832860412cabf97f99f53adc28516677519892b6277c790ac296b7571024489",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Exhibition Road 校园建筑",
+      "campus": "South Kensington 校区",
+      "alt": "帝国理工学院：Exhibition Road 校园建筑"
+    },
+    {
+      "file": "Queen's Tower, Londres, Inglaterra, 2022-11-25, DD 103-105 HDR.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Queen%27s_Tower%2C_Londres%2C_Inglaterra%2C_2022-11-25%2C_DD_103-105_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queen%27s_Tower,_Londres,_Inglaterra,_2022-11-25,_DD_103-105_HDR.jpg",
+      "author": "Diego Delso",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Queen's Tower, London, England",
+      "width": 640,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-002-2",
+      "institutionId": "qs2025-002",
+      "schoolName": "帝国理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-002-2.webp",
+      "bytes": 60202,
+      "sha256": "cab98acc7257110c571a5b033f1959e39fc9605a280fce466e55924630b04774",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Queen’s Tower",
+      "campus": "South Kensington 校区",
+      "alt": "帝国理工学院：Queen’s Tower"
+    },
+    {
+      "file": "Dalby Court looking north-east.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Dalby_Court_looking_north-east.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalby_Court_looking_north-east.jpg",
+      "author": "Shadowssettle",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Dalby Court is surrounded by the Bessemer and City and Guilds buildings (pictured) as well as the EEE and Faculty buildings, forming one of the main quads of Imperial College. The court also forms the main route between the main entrance next to the City and Guilds building, and the Sherfield Walkway, behind where this picture was taken.",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-002-3",
+      "institutionId": "qs2025-002",
+      "schoolName": "帝国理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-002-3.webp",
+      "bytes": 120860,
+      "sha256": "4584170fdf4371718414a9f12e5fd9833203938a3ec9cb09a1008c697825796b",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Dalby Court",
+      "campus": "South Kensington 校区",
+      "alt": "帝国理工学院：Dalby Court"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-002-1",
+    "path": "assets/campuses/qs2025-002-1.webp",
+    "width": 960,
+    "height": 703,
+    "alt": "帝国理工学院：Exhibition Road 校园建筑",
+    "title": "Exhibition Road 校园建筑",
+    "campus": "South Kensington 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伦敦",
+    "campus": "South Kensington 校区",
+    "website": "https://www.imperial.ac.uk/",
+    "overview": "南肯辛顿校区位于伦敦的博物馆街区，校园尺度紧凑。沿 Exhibition Road 抵达后，可观察女王塔、庭院与不同时期的教学楼，也适合与附近博物馆安排在同一天。",
+    "visit": {
+      "booking": "学生导览必须预约；名额及学期内安排见官方日历。",
+      "fee": "导览页面未统一列出所有参访项目费用；以具体项目的预订页为准。",
+      "access": "导览不开放所有建筑或研究空间；自助参观也须遵守现场门禁。",
+      "arrival": "最近地铁站为 South Kensington，沿 Exhibition Road 步行前往。",
+      "address": "Exhibition Road, London SW7 2AZ",
+      "officialUrl": "https://www.imperial.ac.uk/study/visit/campus-tours/"
+    },
+    "highlights": [
+      {
+        "title": "Queen’s Tower",
+        "text": "校园中有辨识度的历史建筑。"
+      },
+      {
+        "title": "Dalby Court",
+        "text": "观察教学楼与公共空间关系的庭院。"
+      },
+      {
+        "title": "Exhibition Road 一带",
+        "text": "学校与科学博物馆等机构相邻，可安排步行串游。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Imperial 校园导览",
+        "url": "https://www.imperial.ac.uk/study/visit/campus-tours/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "South Kensington 校区与交通",
+        "url": "https://www.imperial.ac.uk/visit/campuses/south-kensington/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地址",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "伦敦",
+  "website": "https://www.imperial.ac.uk/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

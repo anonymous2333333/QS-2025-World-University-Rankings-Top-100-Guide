@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-011",
+  "sourceIndex": 11,
+  "rank": 11,
+  "name": "宾夕法尼亚大学",
+  "nameEn": "University of Pennsylvania",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "沃顿商学院全球领先，医学与商科交叉学科实力雄厚。",
+  "history": "宾夕法尼亚大学由美国开国元勋本杰明·富兰克林于1740年构想,并于1749年正式创立,最初名为\"费城公立学院\"(Publick Academy of Philadelphia)。富兰克林在1749年秋季发表了他著名的论文《关于宾夕法尼亚青年教育的建议》,召集了24位费城领导人物组成董事会。该机构于1751年向平民和贵族子弟开放,1755年获得特许成为费城学院和学院(College and Academy of Philadelphia),1765年建立了美洲殖民地第一所医学院,1779年正式更名为大学,成为美国第一所被称为\"大学\"的高等教育机构。富兰克林的教育理念在当时具有革命性——不同于其他殖民地学院只培养神职人员,宾大注重培养商业、政府和公共服务领域的领导者,课程设计实用且以英语授课而非拉丁语或希腊语,并且是美国第一所非宗派大学。宾大拥有非凡的学术遗产,38位诺贝尔奖得主与该校有关联,校友包括8位签署《独立宣言》的开国元勋、7位签署美国宪法的代表、2位美国总统(威廉·亨利·哈里森和唐纳德·特朗普)、32位参议员和众多最高法院大法官。该大学在商业教育方面尤其突出,沃顿商学院成立于1881年,是世界上第一所大学商学院,至今仍是全球最负盛名的商学院之一。宾大在法学、医学、护理学、工程学和社会科学方面也表现卓越,2023年在美国大学研究支出中排名第三。该大学的众多\"第一\"包括世界上第一台电子大规模通用数字计算机ENIAC(1946年)、第一所大学护理学院、第一个学生会(休斯顿大厅,1896年)以及美国第一座双层大学足球场(富兰克林球场)。",
+  "visit": "预约：招生信息会与学生导览需注册；官方自助路线不需要登记。\n\n费用：博物馆、展览及活动单独核对票务，不能用自助散步替代入馆预约。\n\n开放范围：学生带领的校园导览主要在室外，部分内部设施仅向授权人员开放。\n\n交通：以 University City 校区为目的地，按官方校园地图选择具体建筑入口。",
+  "photos": [
+    {
+      "file": "College Hall, University of Pennsylvania.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/College_Hall%2C_University_of_Pennsylvania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:College_Hall,_University_of_Pennsylvania.jpg",
+      "author": "Michel Alexandre Salim",
+      "credit": "https://www.flickr.com/photos/misheru/6721515751/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "College Hall at the University of Pennsylvania",
+      "width": 960,
+      "height": 638,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-011-1",
+      "institutionId": "qs2025-011",
+      "schoolName": "宾夕法尼亚大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-011-1.webp",
+      "bytes": 186174,
+      "sha256": "2328991c31e9f83dc93811decd035d09d4db0ee0986dd91c96a0d8973eff5f73",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "College Hall",
+      "campus": "University City 校区",
+      "alt": "宾夕法尼亚大学：College Hall"
+    },
+    {
+      "file": "College Hall, University of Pennsylvania, 2010.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/College_Hall%2C_University_of_Pennsylvania%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:College_Hall,_University_of_Pennsylvania,_2010.jpg",
+      "author": "Smallbones",
+      "credit": "Wikimedia file",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "College Hall , University of Pennsylvania",
+      "width": 960,
+      "height": 936,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-011-2",
+      "institutionId": "qs2025-011",
+      "schoolName": "宾夕法尼亚大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-011-2.webp",
+      "bytes": 195594,
+      "sha256": "4ff6cf0bbd0b8f85bc92448f551c4a1607a342339e846cea1eb4aaa78f0f9ff7",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "College Hall 外观",
+      "campus": "University City 校区",
+      "alt": "宾夕法尼亚大学：College Hall 外观"
+    },
+    {
+      "file": "Autumn Evening on Locust Walk at the University of Pennsylvania.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Autumn_Evening_on_Locust_Walk_at_the_University_of_Pennsylvania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autumn_Evening_on_Locust_Walk_at_the_University_of_Pennsylvania.jpg",
+      "author": "Civiclens123",
+      "credit": "Own work",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "A rainy autumn scene on Locust Walk at the University of Pennsylvania (UPenn) in Philadelphia. The photo was taken in front of Psi Upsilon \"Castle\" house near 36th Street.",
+      "width": 720,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-011-3",
+      "institutionId": "qs2025-011",
+      "schoolName": "宾夕法尼亚大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-011-3.webp",
+      "bytes": 181854,
+      "sha256": "d7563cc9d02d678efe4d4fcc16fe0ffd418f534e63f54606f00c59d963cd7ca4",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Locust Walk",
+      "campus": "University City 校区",
+      "alt": "宾夕法尼亚大学：Locust Walk"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-011-1",
+    "path": "assets/campuses/qs2025-011-1.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "宾夕法尼亚大学：College Hall",
+    "title": "College Hall",
+    "campus": "University City 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "费城",
+    "campus": "University City 校区",
+    "website": "https://www.upenn.edu/",
+    "overview": "宾大嵌在费城西部的城市街区中。Locust Walk 串联校园生活与建筑，College Hall 和周边步道适合步行；若想看博物馆或旁听活动，需要按具体场所另外确认。",
+    "visit": {
+      "booking": "招生信息会与学生导览需注册；官方自助路线不需要登记。",
+      "fee": "博物馆、展览及活动单独核对票务，不能用自助散步替代入馆预约。",
+      "access": "学生带领的校园导览主要在室外，部分内部设施仅向授权人员开放。",
+      "arrival": "以 University City 校区为目的地，按官方校园地图选择具体建筑入口。",
+      "address": "",
+      "officialUrl": "https://www.upenn.edu/visitors"
+    },
+    "highlights": [
+      {
+        "title": "College Hall",
+        "text": "校园中的代表性历史建筑。"
+      },
+      {
+        "title": "Locust Walk",
+        "text": "适合感受城市校园日常的步行轴线。"
+      },
+      {
+        "title": "公共文化设施",
+        "text": "官方访客目录列出博物馆、画廊及公开活动。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Penn 官方访客入口",
+        "url": "https://www.upenn.edu/visitors",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "Penn 校园导览与自助路线",
+        "url": "https://admissions.upenn.edu/visit-connect/visit-penn/on-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "费城",
+  "website": "https://www.upenn.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

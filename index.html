@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="探索 QS 2025 前100所大学：组合筛选、全球地图、收藏、学校对比与校园参访资料。可离线浏览。">
+    <meta name="description" content="用100所大学的真实校园照片开启探索，阅读20校有官方来源的参访指南，收藏和比较心仪院校。QS 2025年度资料，可离线使用。">
     <meta name="theme-color" content="#f5f8fc">
     <meta name="color-scheme" content="light dark">
     <title>QS 2025 · 世界大学探索指南</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3.0.0">
     <script src="vendors/d3.min.js" defer></script>
     <script src="vendors/topojson-client.min.js" defer></script>
     <script src="data/world-110m.inline.js" defer></script>
-    <script src="data/universities.inline.js" defer></script>
-    <script src="js/core.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="js/core.js?v=3.0.0" defer></script>
+    <script src="script.js?v=3.0.0" defer></script>
 </head>
 <body>
     <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -54,11 +53,11 @@
         </section>
         <section id="universities" class="explore-section" aria-labelledby="exploreTitle">
             <div class="container">
-                <div class="section-heading"><div><h2 id="exploreTitle">你的下一站，会是哪里？</h2><p>了解学校的故事，收藏心仪院校，放在一起慢慢比较。</p></div><a class="source-link" href="#about">关于数据与排名<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></a></div>
+                <div class="section-heading"><div><h2 id="exploreTitle">你的下一站，会是哪里？</h2><p>看见 100 校真实风景，读懂 20 校附官方来源的参访指南，收藏心仪院校。</p></div><a class="source-link" href="#about">关于数据与排名<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></a></div>
                 <div class="search-row"><label class="search-field" for="searchInput"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span class="sr-only">搜索学校名称、英文简称、国家或学科关键词</span><input id="searchInput" aria-label="搜索学校名称、英文简称、国家或学科关键词" name="q" type="search" maxlength="160" autocomplete="off" placeholder="搜索学校、英文简称或学科，例如 MIT、工程…"><kbd aria-hidden="true">/</kbd></label><button id="exportButton" class="secondary-button" type="button" disabled><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>导出结果</span></button></div>
                 <p id="dataStatus" class="data-status" role="status">正在读取院校资料…</p>
-                <div class="explorer-layout">
-                    <aside class="filters" aria-labelledby="filtersTitle">
+                <button class="mobile-filter-toggle secondary-button" id="toggleFilters" type="button" aria-expanded="false" aria-controls="filtersPanel">展开筛选条件</button><div class="explorer-layout">
+                    <aside class="filters" id="filtersPanel" aria-labelledby="filtersTitle">
                         <div class="filter-heading"><h3 id="filtersTitle">筛选院校</h3><button id="resetFilters" class="text-button" type="button">重置</button></div>
                         <div class="filter-group region-group"><h4>地理区域</h4><div id="filterTabs" class="region-options" aria-label="地理区域筛选"></div></div>
                         <div class="filter-group"><label for="countrySelect">国家 / 地区</label><select id="countrySelect" name="country"><option value="all">全部国家与地区</option></select></div>
@@ -76,12 +75,13 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about-section container" aria-labelledby="aboutTitle"><div class="about-intro"><span class="brand-word">QS 2025</span><h2 id="aboutTitle">用排名打开视野，<br>用了解做出选择。</h2><p>一个独立的大学探索与校园参访指南。<br>保留年度资料的上下文，让每次比较都有依据。</p></div><div class="source-notes"><h3>数据从哪里来？</h3><p>收录原项目整理的 100 所院校。2025 名次已对照 QS 发布表格校正并列；相同名次的院校以独立编号区分。统计数字根据收录数据计算。</p><h3>阅读时需要知道</h3><p>历史、亮点和参访攻略沿用原资料，未经逐项独立核验；部分学校的现名与开放安排可能已变化。这里展示的是 2025 年资料，不是最新排名。参访前请到学校官网确认预约要求。</p><div class="source-links"><a href="https://www.topuniversities.com/world-university-rankings/2025" target="_blank" rel="noopener noreferrer">QS 2025 官方页面 ↗</a><a href="https://sps.utm.my/wp-content/uploads/2024/09/2025-QS-World-University-Rankings-2.2-For-qs.com_.pdf" target="_blank" rel="noopener noreferrer">排名核对表格 ↗</a><a href="https://github.com/anonymous2333333/QS-2025-World-University-Rankings-Top-100-Guide" target="_blank" rel="noopener noreferrer">原项目与整理资料 ↗</a></div></div></section>
+        <section id="about" class="about-section container" aria-labelledby="aboutTitle"><div class="about-intro"><span class="brand-word">QS 2025</span><h2 id="aboutTitle">用排名打开视野，<br>用了解做出选择。</h2><p>一个独立的大学探索与校园参访指南。<br>保留年度资料的上下文，让每次比较都有依据。</p></div><div class="source-notes"><h3>数据从哪里来？</h3><p>收录 100 所院校的真实校园照片与 20 校参访指南。照片逐张保留作者、来源、许可和校区说明；重点指南附官方依据与核对日期。2025 名次已校正并列，统计数字由数据计算。</p><h3>阅读时需要知道</h3><p>结构化指南与原始资料分开展示：历史、学科亮点等原文未全部独立核验；已发现的奖项、机构和交通错误已更正。排名仍为 2025 年资料，出发前请再次查看学校当期公告。</p><div class="source-links"><a href="IMAGE_CREDITS.md" target="_blank" rel="noopener">照片署名与许可 ↗</a><a href="https://www.topuniversities.com/world-university-rankings/2025" target="_blank" rel="noopener noreferrer">QS 2025 官方页面 ↗</a><a href="https://sps.utm.my/wp-content/uploads/2024/09/2025-QS-World-University-Rankings-2.2-For-qs.com_.pdf" target="_blank" rel="noopener noreferrer">排名核对表格 ↗</a><a href="https://github.com/anonymous2333333/QS-2025-World-University-Rankings-Top-100-Guide" target="_blank" rel="noopener noreferrer">原项目与整理资料 ↗</a></div></div></section>
     </main>
     <footer class="footer container"><p>世界大学探索指南 <span>2025 年度资料 · 独立项目，与 QS 无隶属关系</span></p><a href="#hero">回到顶部 ↑</a></footer>
     <div id="compareTray" class="compare-tray" hidden><div class="compare-tray-inner"><div class="tray-title"><svg class="icon" aria-hidden="true"><use href="#i-compare"/></svg><strong>院校对比</strong><span id="compareCount">0 / 4</span></div><div id="compareItems" class="compare-items"></div><div class="tray-actions"><button id="clearCompare" class="text-button" type="button">清空</button><button id="openCompare" class="primary-button" type="button" disabled>开始对比<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div></div>
     <dialog id="detailModal" class="detail-dialog" aria-labelledby="detailTitle"><div class="dialog-toolbar"><span>院校档案</span><button class="icon-button" type="button" data-close="detailModal" aria-label="关闭院校详情"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="modalBody"></div></dialog>
     <dialog id="compareModal" class="compare-dialog" aria-labelledby="compareTitle"><div class="dialog-toolbar"><h2 id="compareTitle">把心仪院校，放在一起看。</h2><button class="icon-button" type="button" data-close="compareModal" aria-label="关闭院校对比"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="compareBody"></div></dialog>
+    <dialog id="photoModal" class="photo-dialog" aria-labelledby="photoTitle"><div class="dialog-toolbar"><h2 id="photoTitle">校园照片与来源</h2><button class="icon-button" type="button" data-close="photoModal" aria-label="关闭校园照片"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="photoBody"></div></dialog>
     <dialog id="shareModal" class="share-dialog" aria-labelledby="shareTitle"><div class="dialog-toolbar"><h2 id="shareTitle">复制探索链接</h2><button class="icon-button" type="button" data-close="shareModal" aria-label="关闭分享窗口"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><p>自动复制不可用，请选择并复制下方链接。</p><label for="shareUrl" class="sr-only">探索链接</label><textarea id="shareUrl" rows="4" readonly></textarea></dialog>
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
     <noscript><div class="noscript">需要启用 JavaScript 才能使用筛选与对比。也可以直接阅读 <a href="QS2025%20top100.md">完整原始资料</a>。</div></noscript>

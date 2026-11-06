@@ -1,0 +1,1135 @@
+{
+  "qs2025-001": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "剑桥（美国马萨诸塞州）",
+    "campus": "Cambridge 主校区",
+    "website": "https://www.mit.edu/",
+    "overview": "从肯德尔广场走到查尔斯河畔，可以把科技展览、公共艺术和校园建筑串在一起。欢迎中心是方便的起点；大圆顶与斯塔塔中心则呈现了校园截然不同的建筑面貌。",
+    "visit": {
+      "booking": "招生说明会与学生带领的导览均需提前预约，不能依赖现场补位。",
+      "fee": "导览、博物馆和活动分别核对各自票务，不将校园参访与博物馆门票混为一谈。",
+      "access": "教学楼、实验室和活动空间各有管理要求；优先使用官方自助路线。",
+      "arrival": "乘 MBTA 红线到 Kendall/MIT；欢迎中心就在肯德尔广场。",
+      "address": "292 Main Street, Cambridge, MA",
+      "officialUrl": "https://www.mit.edu/visitmit/"
+    },
+    "highlights": [
+      {
+        "title": "Killian Court 与大圆顶",
+        "text": "从庭院外部观看校园的代表性建筑。"
+      },
+      {
+        "title": "Stata Center",
+        "text": "具有鲜明造型的教学与研究建筑，室内区域以开放规定为准。"
+      },
+      {
+        "title": "MIT Museum",
+        "text": "科技与艺术展览；入馆时间和票务需单独确认。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "MIT 官方参访指南",
+        "url": "https://www.mit.edu/visitmit/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "MIT 预约说明",
+        "url": "https://mitadmissions.org/schedule-your-visit/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约"
+        ]
+      }
+    ]
+  },
+  "qs2025-002": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伦敦",
+    "campus": "South Kensington 校区",
+    "website": "https://www.imperial.ac.uk/",
+    "overview": "南肯辛顿校区位于伦敦的博物馆街区，校园尺度紧凑。沿 Exhibition Road 抵达后，可观察女王塔、庭院与不同时期的教学楼，也适合与附近博物馆安排在同一天。",
+    "visit": {
+      "booking": "学生导览必须预约；名额及学期内安排见官方日历。",
+      "fee": "导览页面未统一列出所有参访项目费用；以具体项目的预订页为准。",
+      "access": "导览不开放所有建筑或研究空间；自助参观也须遵守现场门禁。",
+      "arrival": "最近地铁站为 South Kensington，沿 Exhibition Road 步行前往。",
+      "address": "Exhibition Road, London SW7 2AZ",
+      "officialUrl": "https://www.imperial.ac.uk/study/visit/campus-tours/"
+    },
+    "highlights": [
+      {
+        "title": "Queen’s Tower",
+        "text": "校园中有辨识度的历史建筑。"
+      },
+      {
+        "title": "Dalby Court",
+        "text": "观察教学楼与公共空间关系的庭院。"
+      },
+      {
+        "title": "Exhibition Road 一带",
+        "text": "学校与科学博物馆等机构相邻，可安排步行串游。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Imperial 校园导览",
+        "url": "https://www.imperial.ac.uk/study/visit/campus-tours/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "South Kensington 校区与交通",
+        "url": "https://www.imperial.ac.uk/visit/campuses/south-kensington/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地址",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-003": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "牛津",
+    "campus": "市中心学院与图书馆片区",
+    "website": "https://www.ox.ac.uk/",
+    "overview": "牛津没有一处可代表全校的封闭大校园：学院、图书馆和博物馆散布在城市街道间。适合先确定想参观的学院，再把广场、庭院和公共文化空间串成步行路线。",
+    "visit": {
+      "booking": "学院、图书馆与导览各自预约，不存在一张通行全校的预约。",
+      "fee": "各学院开放时间和入场费用不同，需逐项查阅。",
+      "access": "部分区域因教学、考试或活动临时关闭，不能把室外观看等同于入内许可。",
+      "arrival": "先定位目标学院或图书馆入口，使用大学官方地图规划市中心步行路线。",
+      "address": "",
+      "officialUrl": "https://www.ox.ac.uk/about/visit-us/visiting-colleges"
+    },
+    "highlights": [
+      {
+        "title": "Radcliffe Camera 外观",
+        "text": "在公共步行区域欣赏建筑，进入阅览区另有规则。"
+      },
+      {
+        "title": "学院庭院",
+        "text": "选择一所开放学院慢慢看，按该院当日规定入场。"
+      },
+      {
+        "title": "Bodleian Libraries",
+        "text": "馆区包含不同参观项目与展览，分别查看预约。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oxford 学院参访目录",
+        "url": "https://www.ox.ac.uk/about/visit-us/visiting-colleges",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "学院",
+          "开放范围",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "qs2025-004": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "剑桥（美国马萨诸塞州）",
+    "campus": "Harvard Yard 片区",
+    "website": "https://www.harvard.edu/",
+    "overview": "哈佛的校园跨越多个片区，这里聚焦 Harvard Yard 周边。庭院、纪念建筑与图书馆外观适合步行细看；若想听学校的历史故事，可选择官方学生带领的历史导览。",
+    "visit": {
+      "booking": "官方学生历史导览需提前登记，不能与第三方带团混同。",
+      "fee": "官方历史步行导览免费；博物馆及其他活动分别核对票务。",
+      "access": "图书馆与教学建筑并非全部向公众开放，校园也可能临时限制进入。",
+      "arrival": "MBTA 红线 Harvard 站位于 Harvard Yard 对面；其他校区须另查路线。",
+      "address": "",
+      "officialUrl": "https://www.harvard.edu/visit/tours/"
+    },
+    "highlights": [
+      {
+        "title": "Harvard Yard",
+        "text": "从庭院与步道感受校园公共空间。"
+      },
+      {
+        "title": "Widener Library 外观",
+        "text": "图书馆是校园地标，外观参观不代表可进入阅览区。"
+      },
+      {
+        "title": "Memorial Hall 外观",
+        "text": "了解校园中不同年代的建筑。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Harvard 官方导览",
+        "url": "https://www.harvard.edu/visit/tours/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用"
+        ]
+      },
+      {
+        "title": "Harvard 地图与交通",
+        "url": "https://www.harvard.edu/visit/maps-directions/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通"
+        ]
+      }
+    ]
+  },
+  "qs2025-005": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "剑桥（英国）",
+    "campus": "市中心学院与博物馆片区",
+    "website": "https://www.cam.ac.uk/",
+    "overview": "沿着剑河和学院之间的街道步行，比把剑桥当成单一景点更合适。学院各自管理参观，大学博物馆也有独立入口；提前选好两三处目的地，能给建筑和展览留出时间。",
+    "visit": {
+      "booking": "学院参观由各学院安排；开放日、学院访问和普通游览适用不同预约。",
+      "fee": "部分学院有入场收费或时段限制；博物馆和植物园也须分别确认。",
+      "access": "考试期间或活动日可能限制开放，出发前查看目标学院当天公告。",
+      "arrival": "市中心校园分散，先确定学院或博物馆地址，再用官方地图规划步行。",
+      "address": "",
+      "officialUrl": "https://www.cam.ac.uk/about-the-university/visiting-the-university"
+    },
+    "highlights": [
+      {
+        "title": "King’s College Chapel",
+        "text": "学院礼拜堂参观须查该学院票务与开放说明。"
+      },
+      {
+        "title": "Mathematical Bridge",
+        "text": "位于 Queens’ College，观看与入院规则应分开确认。"
+      },
+      {
+        "title": "大学博物馆",
+        "text": "可按兴趣选择艺术、自然史或考古相关展馆。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge 官方访问入口",
+        "url": "https://www.cam.ac.uk/about-the-university/visiting-the-university",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "参访入口"
+        ]
+      },
+      {
+        "title": "Cambridge 学院参观说明",
+        "url": "https://www.postgraduate.study.cam.ac.uk/postgraduate-open-days-faq",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Cambridge 大学博物馆",
+        "url": "https://www.museums.cam.ac.uk/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-006": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "斯坦福",
+    "campus": "Stanford 主校区",
+    "website": "https://www.stanford.edu/",
+    "overview": "主庭院、公共艺术和绿地共同构成斯坦福的步行体验。可以从游客中心领取信息，再沿官方自助路线走向 Main Quad；不要把招生导览的预约等同于所有校园建筑的进入权限。",
+    "visit": {
+      "booking": "招生导览按官方登记；自助参观可参考官方地图，临时活动安排可能影响路线。",
+      "fee": "胡佛塔观景、展馆或活动的费用需单独查阅，未列出统一校园门票。",
+      "access": "部分建筑、教学空间及活动场地不向一般参访开放。",
+      "arrival": "以 Stanford Visitor Center 为自助路线起点；官方地图可查看到访与停车安排。",
+      "address": "295 Galvez Street, Stanford, CA",
+      "officialUrl": "https://visit.stanford.edu/"
+    },
+    "highlights": [
+      {
+        "title": "Main Quad",
+        "text": "校园中心的庭院和连续拱廊。"
+      },
+      {
+        "title": "Memorial Church 外观",
+        "text": "主庭院中的代表性建筑。"
+      },
+      {
+        "title": "Hoover Tower",
+        "text": "可单独了解观景平台开放与票务。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stanford 官方游客信息",
+        "url": "https://visit.stanford.edu/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "地址",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Stanford 自助路线与校园看点",
+        "url": "https://visit.stanford.edu/explore-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点",
+          "路线"
+        ]
+      }
+    ]
+  },
+  "qs2025-007": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "苏黎世",
+    "campus": "Zentrum 校区；相册另含 Hönggerberg",
+    "website": "https://ethz.ch/",
+    "overview": "从市中心到山坡上的主楼和 Polyterrasse，可看到苏黎世校园与城市的关系。ETH 另有 Hönggerberg 校区；规划参访时要认清导览集合点，两个校区不能按同一个地址导航。",
+    "visit": {
+      "booking": "官方 meet ETH 导览通过当期日历预订，语言和集合点按确认信息。",
+      "fee": "官方导览有收费，当前价格应以预订页为准；不能概括成全部免费。",
+      "access": "主楼的公共开放区域与实验室权限不同，学术空间须按规定访问。",
+      "arrival": "前往 Zentrum 可乘电车到 ETH/Universitätsspital，或经 Central 换乘 Polybahn。",
+      "address": "Rämistrasse 101, 8092 Zürich",
+      "officialUrl": "https://ethz.ch/en/campus/access/zentrum.html"
+    },
+    "highlights": [
+      {
+        "title": "ETH 主楼",
+        "text": "Zentrum 校区的历史主建筑。"
+      },
+      {
+        "title": "Polyterrasse",
+        "text": "主楼旁眺望城市的公共平台。"
+      },
+      {
+        "title": "Hönggerberg 校区",
+        "text": "现代教学科研建筑片区，与市中心校区分开规划。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ETH Zentrum 交通与地址",
+        "url": "https://ethz.ch/en/campus/access/zentrum.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "地址"
+        ]
+      },
+      {
+        "title": "meet ETH 官方导览",
+        "url": "https://ethz.ch/en/news-and-events/meet-eth/tours.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "qs2025-008": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "新加坡",
+    "campus": "Kent Ridge 校区与 University Town",
+    "website": "https://nus.edu.sg/",
+    "overview": "Kent Ridge 的校园参访可以围绕大学文化中心、博物馆和 University Town 展开。各地点距离不一，校园交通及部分公共设施会有访客限制，适合先确认路线与当期通知。",
+    "visit": {
+      "booking": "学生导览按官方平台预约；部分时段对访客、校车和食堂有限制。",
+      "fee": "博物馆、导览与活动分别查询，不推定全校项目都免费。",
+      "access": "避免进入教学或住宿区域；限制时段须遵守官方关于陪同导览的要求。",
+      "arrival": "前往 NUS Museum 可在 Clementi 换乘公交；馆址为 Kent Ridge Crescent，UTown 须另行定位。",
+      "address": "NUS Museum, 50 Kent Ridge Crescent, Singapore",
+      "officialUrl": "https://uci.nus.edu.sg/campus-tour/"
+    },
+    "highlights": [
+      {
+        "title": "University Town",
+        "text": "校园中的教学、居住与公共活动片区。"
+      },
+      {
+        "title": "University Cultural Centre",
+        "text": "文化演出与公共艺术所在区域。"
+      },
+      {
+        "title": "NUS Museum",
+        "text": "可独立查看展览和到访要求。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NUS 官方校园导览与限制公告",
+        "url": "https://uci.nus.edu.sg/campus-tour/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "NUS Museum 访客信息",
+        "url": "https://nus.edu.sg/museum/visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地址",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-009": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伦敦",
+    "campus": "Bloomsbury 校区",
+    "website": "https://www.ucl.ac.uk/",
+    "overview": "Bloomsbury 校区与伦敦街区紧密相接。主门、Wilkins Building 和庭院可以串成简短步行路线；校内博物馆各有参观安排，值得与校园建筑分开留时间。",
+    "visit": {
+      "booking": "学生带领导览需要预订；官方自助路线通常不需要预约，但须避开关闭日期。",
+      "fee": "校内博物馆与研究访问规则不同；以各项目页面说明为准。",
+      "access": "一般校园导览不包括学术部门或宿舍参观；UCL East 是另一校区。",
+      "arrival": "可从 Euston Square 或 Warren Street 等地铁站前往 Gower Street 主门。",
+      "address": "Gower Street, London",
+      "officialUrl": "https://www.ucl.ac.uk/study/prospective-students/campus-tours"
+    },
+    "highlights": [
+      {
+        "title": "Wilkins Building",
+        "text": "Bloomsbury 校区代表性建筑与柱廊。"
+      },
+      {
+        "title": "Main Quad",
+        "text": "主门内的公共庭院。"
+      },
+      {
+        "title": "Grant / Petrie Museum",
+        "text": "选择一个校内博物馆，核对其当日开放安排。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UCL 导览预约",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "UCL 自助参观",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours/about-self-guided-campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "自助路线"
+        ]
+      },
+      {
+        "title": "UCL 到访交通",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours/plan-your-visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通"
+        ]
+      },
+      {
+        "title": "UCL 博物馆访客信息",
+        "url": "https://www.ucl.ac.uk/engage/museums-collections/about-us/visitor-information",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "qs2025-010": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "帕萨迪纳",
+    "campus": "Pasadena 校区",
+    "website": "https://www.caltech.edu/",
+    "overview": "加州理工的校园规模适合步行观察。官方自助路线把建筑、研究传统与校园生活联系起来；礼堂、庭院和水景各有特色，而实验室内部并不属于普通散步路线。",
+    "visit": {
+      "booking": "招生导览、建筑导览分别预约；也可以使用官方自助步行图。",
+      "fee": "各导览或活动费用依对应项目确认，不推定所有设施免费开放。",
+      "access": "研究空间和内部设施以学校管理要求为准。",
+      "arrival": "使用官方校园地图与到访页，定位 Pasadena 校区的实际目的建筑。",
+      "address": "",
+      "officialUrl": "https://www.caltech.edu/about/visit/tours"
+    },
+    "highlights": [
+      {
+        "title": "Beckman Auditorium",
+        "text": "具有鲜明轮廓的校园礼堂，演出入场另查活动页。"
+      },
+      {
+        "title": "校园庭院与水景",
+        "text": "可结合官方自助图观察步行空间。"
+      },
+      {
+        "title": "建筑自助路线",
+        "text": "官方路线串联校园中的不同建筑与历史节点。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Caltech 官方导览",
+        "url": "https://www.caltech.edu/about/visit/tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "路线"
+        ]
+      },
+      {
+        "title": "Caltech 校园到访资源",
+        "url": "https://local.caltech.edu/visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地图",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-011": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "费城",
+    "campus": "University City 校区",
+    "website": "https://www.upenn.edu/",
+    "overview": "宾大嵌在费城西部的城市街区中。Locust Walk 串联校园生活与建筑，College Hall 和周边步道适合步行；若想看博物馆或旁听活动，需要按具体场所另外确认。",
+    "visit": {
+      "booking": "招生信息会与学生导览需注册；官方自助路线不需要登记。",
+      "fee": "博物馆、展览及活动单独核对票务，不能用自助散步替代入馆预约。",
+      "access": "学生带领的校园导览主要在室外，部分内部设施仅向授权人员开放。",
+      "arrival": "以 University City 校区为目的地，按官方校园地图选择具体建筑入口。",
+      "address": "",
+      "officialUrl": "https://www.upenn.edu/visitors"
+    },
+    "highlights": [
+      {
+        "title": "College Hall",
+        "text": "校园中的代表性历史建筑。"
+      },
+      {
+        "title": "Locust Walk",
+        "text": "适合感受城市校园日常的步行轴线。"
+      },
+      {
+        "title": "公共文化设施",
+        "text": "官方访客目录列出博物馆、画廊及公开活动。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Penn 官方访客入口",
+        "url": "https://www.upenn.edu/visitors",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "Penn 校园导览与自助路线",
+        "url": "https://admissions.upenn.edu/visit-connect/visit-penn/on-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      }
+    ]
+  },
+  "qs2025-012": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伯克利",
+    "campus": "Berkeley 主校区",
+    "website": "https://www.berkeley.edu/",
+    "overview": "从 Sather Gate 进入，再沿广场与林荫步道走向钟楼，可以感受伯克利校园的不同尺度。官方校园导览与招生说明会是两个项目，预约前应分别确认。",
+    "visit": {
+      "booking": "免费学生步行导览须登记；招生说明会另行预约，团体有不同安排。",
+      "fee": "官方普通步行导览免费；钟楼、私人导览或其他项目另查费用。",
+      "access": "导览不包括宿舍参观；比赛、假期等日期可能变更集合点。",
+      "arrival": "可乘 BART 到 Downtown Berkeley，再步行穿过校园前往确认信中的集合点。",
+      "address": "",
+      "officialUrl": "https://visit.berkeley.edu/campus-tours/free-guided-walking-tours"
+    },
+    "highlights": [
+      {
+        "title": "Sather Gate",
+        "text": "校园与城市街区相接的地标入口。"
+      },
+      {
+        "title": "Campanile / Sather Tower",
+        "text": "校园钟楼；观景开放须另查。"
+      },
+      {
+        "title": "Memorial Glade",
+        "text": "可结合校园步道观察草坪与公共空间。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Berkeley 官方步行导览",
+        "url": "https://visit.berkeley.edu/campus-tours/free-guided-walking-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Berkeley 官方交通说明",
+        "url": "https://visit.berkeley.edu/map-directions/directions-parking",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "集合点"
+        ]
+      }
+    ]
+  },
+  "qs2025-013": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "墨尔本",
+    "campus": "Parkville 校区",
+    "website": "https://www.unimelb.edu.au/",
+    "overview": "Parkville 校区位于墨尔本市中心以北，历史庭院与现代建筑相邻。普通游客可下载官方自助地图，按自己的节奏查看建筑和景观；不应把面向学校团体的导览当成面向所有游客开放。",
+    "visit": {
+      "booking": "一般公众及私人旅游团目前不提供校方带领的团体导览，可使用自助地图。",
+      "fee": "符合条件的学校团体导览有独立安排；普通游客不应据此推定可报名免费导览。",
+      "access": "建筑和活动场所各自管理，使用自助路线时遵守现场标识。",
+      "arrival": "可从 Parkville Station 或 Melbourne University 电车站到校，再确认目的建筑。",
+      "address": "",
+      "officialUrl": "https://www.unimelb.edu.au/campustour/self-guided"
+    },
+    "highlights": [
+      {
+        "title": "Old Quad",
+        "text": "校园中的历史庭院与柱廊。"
+      },
+      {
+        "title": "South Lawn 片区",
+        "text": "绿地与具有特色的地下车库建筑，内外开放依现场要求。"
+      },
+      {
+        "title": "Parkville 步行路线",
+        "text": "按官方地图把建筑与校园景观串联起来。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Melbourne 官方自助参观",
+        "url": "https://www.unimelb.edu.au/campustour/self-guided",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "路线"
+        ]
+      },
+      {
+        "title": "Melbourne 团体导览政策",
+        "url": "https://www.unimelb.edu.au/campustour/guided-campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用"
+        ]
+      },
+      {
+        "title": "Parkville 校区与交通",
+        "url": "https://about.unimelb.edu.au/campus-locations/parkville-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "校区",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-014": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "北京",
+    "campus": "燕园校区",
+    "website": "https://www.pku.edu.cn/",
+    "overview": "燕园的湖、塔与园林建筑适合步行细看。公众参访先解决预约与入校时段，再规划未名湖周边路线；校内教学科研、图书馆和生活空间不属于一般开放参观区域。",
+    "visit": {
+      "booking": "个人参观使用“参观北大”微信小程序，凭本人有效证件实名预约。",
+      "fee": "学校不收取校园参观费用。",
+      "access": "开放日期、入校时段和通道按预约确认；教学科研、宿舍、图书馆等不开放。",
+      "arrival": "官方个人参观通道位于校园东侧，邻近地铁 4 号线北京大学东门站 A 口。",
+      "address": "",
+      "officialUrl": "https://www.pku.edu.cn/visit.html"
+    },
+    "highlights": [
+      {
+        "title": "未名湖",
+        "text": "燕园中有辨识度的湖泊与步行景观。"
+      },
+      {
+        "title": "博雅塔",
+        "text": "与未名湖相邻的校园地标。"
+      },
+      {
+        "title": "园林建筑",
+        "text": "沿开放路线观察建筑与环境，避免进入教学区域。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "北京大学官方参观入口",
+        "url": "https://www.pku.edu.cn/visit.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "参访入口"
+        ]
+      },
+      {
+        "title": "北京大学个人预约须知",
+        "url": "https://www.bwb.pku.edu.cn/ywbl/xycg/02c37f0e32854390817887846c67e4a4.htm",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "交通",
+          "开放范围"
+        ]
+      }
+    ]
+  },
+  "qs2025-015": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "新加坡",
+    "campus": "Yunnan Garden 校区",
+    "website": "https://www.ntu.edu.sg/",
+    "overview": "南洋理工的云南园校区尺度较大，蜂巢建筑、南洋大学纪念空间与绿地各有特色。适合先在官方地图上确定几个目的地，再结合公共巴士规划，而不是把所有建筑都当成可自由进入的展馆。",
+    "visit": {
+      "booking": "普通公共区域与组织访问适用不同规则；学校或机构访问另有申请程序。",
+      "fee": "官方交通与安全页面未列统一校园门票；展馆、导览或活动单独确认。",
+      "access": "遵守校内安保及教学、住宿空间限制，施工期间部分路线可能调整。",
+      "arrival": "Boon Lay 或 Pioneer 地铁站换乘 179；Boon Lay 也可乘 199，具体站点按官方地图。",
+      "address": "",
+      "officialUrl": "https://www.ntu.edu.sg/about-us/visiting-ntu"
+    },
+    "highlights": [
+      {
+        "title": "The Hive",
+        "text": "可先从外部欣赏教学楼的建筑形式。"
+      },
+      {
+        "title": "Yunnan Garden",
+        "text": "了解校园中与南洋大学有关的纪念空间。"
+      },
+      {
+        "title": "校园绿地与湖景",
+        "text": "公共步行区域很分散，合理预留校内交通时间。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NTU 官方到访交通",
+        "url": "https://www.ntu.edu.sg/about-us/visiting-ntu",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "校区"
+        ]
+      },
+      {
+        "title": "NTU 校园安全政策",
+        "url": "https://www.ntu.edu.sg/life-at-ntu/health-and-safety/campus-security",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "开放范围"
+        ]
+      }
+    ]
+  },
+  "qs2025-016": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伊萨卡",
+    "campus": "Ithaca 校区",
+    "website": "https://www.cornell.edu/",
+    "overview": "康奈尔的参访既有大学建筑，也与伊萨卡周边的自然环境相连。游客中心是合适的咨询起点，麦格劳塔和 Arts Quad 可作为步行节点；展馆和峡谷周边仍需留意各自开放与安全提示。",
+    "visit": {
+      "booking": "校园导览按 Visit Cornell 当期可用日期预约，也可选择自助路线。",
+      "fee": "导览、展馆及特别活动分别查看项目页，未给出统一费用承诺。",
+      "access": "部分景点受活动和季节影响；住宿、教学与研究空间不是普通开放参观范围。",
+      "arrival": "可先定位 Martin Y. Tang Welcome Center，再按官方到访工具规划交通。",
+      "address": "616 Thurston Avenue, Ithaca, NY",
+      "officialUrl": "https://admissions.cornell.edu/visit-and-connect"
+    },
+    "highlights": [
+      {
+        "title": "McGraw Tower 与 Uris Library 外观",
+        "text": "校园中具有辨识度的建筑组合。"
+      },
+      {
+        "title": "Arts Quad",
+        "text": "适合感受学院建筑与草坪空间的片区。"
+      },
+      {
+        "title": "Johnson Museum / Botanic Gardens",
+        "text": "可按兴趣选一处，另外查看开放安排。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cornell 官方访问入口",
+        "url": "https://admissions.cornell.edu/visit-and-connect",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "校区"
+        ]
+      },
+      {
+        "title": "Cornell Visitor Relations",
+        "url": "https://universityrelations.cornell.edu/units/visitor/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "地址",
+          "路线"
+        ]
+      },
+      {
+        "title": "Cornell 自助参访建议",
+        "url": "https://faq.enrollment.cornell.edu/kb/article/444-what-if-i-cannot-attend-cornell-days/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "qs2025-017": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "中国香港",
+    "campus": "薄扶林本部与百周年校园",
+    "website": "https://www.hku.hk/",
+    "overview": "港大本部依山展开，历史建筑、庭院和城市景观交织。游客应先确认预约，再规划主楼及博物馆周边的步行；校园有坡度，入口、升降机和目的建筑的位置值得提前查看。",
+    "visit": {
+      "booking": "游客在校方规定时段参观须通过 Visit HKU 实名预约；官方导赏另行报名。",
+      "fee": "官方导赏有收费；一般参观预约与导赏不是同一项目，按当期预订说明确认。",
+      "access": "部分室内空间仅在导赏或特定活动中开放，不能据室外可达推定可入内。",
+      "arrival": "港铁港岛线香港大学站 A 或 C 出口，按校园标识前往；西营盘站也有步行路线。",
+      "address": "",
+      "officialUrl": "https://www.hku.hk/en/campus-life/visit-hku"
+    },
+    "highlights": [
+      {
+        "title": "Main Building",
+        "text": "本部的历史建筑与庭院。"
+      },
+      {
+        "title": "Fung Ping Shan Building",
+        "text": "可查看大学美术博物馆的独立参访安排。"
+      },
+      {
+        "title": "百周年校园",
+        "text": "与本部相连，校内步行需留意高差。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "HKU 官方到访与交通",
+        "url": "https://www.hku.hk/en/campus-life/visit-hku",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "交通",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Visit HKU 官方预约平台",
+        "url": "https://tourist-registration-form.hku.hk/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "导赏费用"
+        ]
+      }
+    ]
+  },
+  "qs2025-018": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "悉尼",
+    "campus": "Camperdown / Darlington 校区",
+    "website": "https://www.sydney.edu.au/",
+    "overview": "悉尼大学的砂岩建筑、Quadrangle 和钟楼构成鲜明的校园景观。自助地图适合普通漫游；面向潜在学生、学校团体和文化参访的导览不同，报名时应选择对应项目。",
+    "visit": {
+      "booking": "部分导览面向特定群体并须预约；也可下载多语言自助地图。",
+      "fee": "潜在学生导览与文化遗产团体导览的收费不同，不应统一标为免费。",
+      "access": "礼堂与建筑内部受活动安排影响，公共散步不代表可参加所有室内项目。",
+      "arrival": "Redfern 站可步行到校；也可从 Central 前往，再按 Parramatta Road 或 City Road 入口导航。",
+      "address": "",
+      "officialUrl": "https://www.sydney.edu.au/engage/visit/campus-tours.html"
+    },
+    "highlights": [
+      {
+        "title": "Main Quadrangle",
+        "text": "围合式庭院与砂岩建筑群。"
+      },
+      {
+        "title": "Great Hall 外观",
+        "text": "校园的历史礼堂，进入须按开放或活动安排。"
+      },
+      {
+        "title": "校园博物馆与文化路线",
+        "text": "可另查 Chau Chak Wing Museum 或遗产导览。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sydney 官方校园导览",
+        "url": "https://www.sydney.edu.au/engage/visit/campus-tours.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "Sydney 到校交通",
+        "url": "https://www.sydney.edu.au/about-us/campuses/getting-to-campus.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通"
+        ]
+      }
+    ]
+  },
+  "qs2025-019": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "悉尼",
+    "campus": "Kensington 校区",
+    "website": "https://www.unsw.edu.au/",
+    "overview": "Kensington 校区由不同高差的建筑与步行空间组成。可沿主步道观察教学区和 Scientia 建筑，再结合官方学生导览了解校园；Paddington 艺术设计校区是另一处目的地。",
+    "visit": {
+      "booking": "Kensington 校园导览须在官方页面选择可预约日期；学校团体另行安排。",
+      "fee": "导览页未列统一覆盖所有项目的费用，具体活动按报名页确认。",
+      "access": "教学楼、研究空间及住宿区域不属于全部开放的游览范围。",
+      "arrival": "L2 到 UNSW High Street 一侧，L3 到 UNSW Anzac Parade 一侧，按目的建筑选择入口。",
+      "address": "",
+      "officialUrl": "https://www.unsw.edu.au/study/discover/campus/campus-tours"
+    },
+    "highlights": [
+      {
+        "title": "Main Walkway",
+        "text": "串联校园不同教学片区的步行轴线。"
+      },
+      {
+        "title": "John Niland Scientia Building",
+        "text": "高处的代表性校园建筑。"
+      },
+      {
+        "title": "分校区体验",
+        "text": "参访艺术设计设施前，先确认是否在 Paddington。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNSW 官方校园导览",
+        "url": "https://www.unsw.edu.au/study/discover/campus/campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "校区"
+        ]
+      },
+      {
+        "title": "UNSW 官方到访交通",
+        "url": "https://www.unsw.edu.au/estate/getting-here",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通"
+        ]
+      }
+    ]
+  },
+  "qs2025-020": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "北京",
+    "campus": "清华园校区",
+    "website": "https://www.tsinghua.edu.cn/",
+    "overview": "清华园中的校门、礼堂与绿地适合沿规定路线步行观察。公众参访首先要完成官方预约，艺术博物馆又有独立的参观通道与要求，不能把入馆和进入校园当成同一权限。",
+    "visit": {
+      "booking": "通过“参观清华”微信小程序实名预约；证件支持情况与具体通道见当前官方说明。",
+      "fee": "学校不收取校园参观费用；艺术博物馆等项目另查票务。",
+      "access": "开放日期及时段可能随活动调整，未经允许不进入教学、办公或科研室内场所。",
+      "arrival": "以预约确认的入校通道为准，不凭旧攻略导航到其他校门。",
+      "address": "",
+      "officialUrl": "https://campusvisit.tsinghua.edu.cn/"
+    },
+    "highlights": [
+      {
+        "title": "二校门",
+        "text": "校园历史地标，按开放路线到访。"
+      },
+      {
+        "title": "大礼堂",
+        "text": "清华园的代表性建筑，可从开放区域观察外观。"
+      },
+      {
+        "title": "清华大学艺术博物馆",
+        "text": "独立安排参观，入口与票务须另行确认。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "清华大学校园预约系统",
+        "url": "https://campusvisit.tsinghua.edu.cn/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "当期公告"
+        ]
+      },
+      {
+        "title": "清华官方个人参访说明",
+        "url": "https://www.tsinghua.edu.cn/en/Visitor/Visitor_Information/Individual_Visit.htm",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "清华大学艺术博物馆参观提示",
+        "url": "https://www.artmuseum.tsinghua.edu.cn/cgfw/dlfw_1268/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "博物馆预约",
+          "通道",
+          "费用"
+        ]
+      }
+    ]
+  }
+}

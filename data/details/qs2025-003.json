@@ -1,0 +1,149 @@
+{
+  "id": "qs2025-003",
+  "sourceIndex": 3,
+  "rank": 3,
+  "name": "牛津大学",
+  "nameEn": "University of Oxford",
+  "country": "英国",
+  "region": "欧洲",
+  "flag": "🇬🇧",
+  "highlight": "学术声誉全球前三，国际学生比例位居英国高校首位。",
+  "history": "牛津大学是英语世界最古老的大学,教学证据可追溯到1096年,尽管它在1167年亨利二世禁止英国学生进入巴黎大学后获得了快速发展。到1201年,该大学由学者大师领导,他后来获得了校长头衔,到1231年大师们被认可为一个universitas或法人团体。牛津独特的学院制度出现在13世纪,大学学院(1249年)、贝利奥尔(1263年)和默顿(1264年)成为最古老的学院。该大学已培养出76位诺贝尔奖得主、31位英国首相和世界各地的众多国家元首,校友中有160枚奥运奖牌。牛津在古典学、神学、政治学和人文学科方面一直拥有最高的学术声誉,同时在科学方面也取得了卓越成就,特别是在物理学、医学和数学方面。该大学运营着世界上最古老的大学博物馆(阿什莫林博物馆,成立于1683年)、博德利图书馆(欧洲最古老的图书馆之一)和世界上最大的大学出版社。著名的历史里程碑包括1870年代建立的第一批女子学院(到1920年女性被接纳为正式成员)以及著名的1860年进化论倡导者托马斯·赫胥黎与威尔伯福斯主教之间的辩论,标志着科学思想的转折点。",
+  "visit": "预约：学院、图书馆与导览各自预约，不存在一张通行全校的预约。\n\n费用：各学院开放时间和入场费用不同，需逐项查阅。\n\n开放范围：部分区域因教学、考试或活动临时关闭，不能把室外观看等同于入内许可。\n\n交通：先定位目标学院或图书馆入口，使用大学官方地图规划市中心步行路线。",
+  "photos": [
+    {
+      "file": "1 oxford aerial panorama 2016.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/1_oxford_aerial_panorama_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_oxford_aerial_panorama_2016.jpg",
+      "author": "Chensiyuan",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "aerial panorama of Oxford",
+      "width": 960,
+      "height": 322,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-003-1",
+      "institutionId": "qs2025-003",
+      "schoolName": "牛津大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-003-1.webp",
+      "bytes": 118802,
+      "sha256": "c5d52b34666d59825ac6a7ceeef232b7c68357bb70ec1aacb6a5c4e44f10d416",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "牛津城市与学院区",
+      "campus": "牛津市中心学院区",
+      "alt": "牛津大学：牛津城市与学院区"
+    },
+    {
+      "file": "Radcliffe Camera, Oxford - Oct 2006.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxford_-_Oct_2006.jpg",
+      "author": "Diliff",
+      "credit": "Own work",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "caption": "The Radcliffe Camera in Oxford, England as viewed from the tower of the Church of St Mary the Virgin. This is a 10 (2x5) segment panorama taken by myself with a Canon 5D and 70-200mm f/2.8L at 70mm. This is a photo of listed building number 1099146 .",
+      "width": 653,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-003-2",
+      "institutionId": "qs2025-003",
+      "schoolName": "牛津大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-003-2.webp",
+      "bytes": 113048,
+      "sha256": "07c6d0ed65de363f586367d4dc052e50e30e54a9e4c506669ea843ae29e073e1",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Radcliffe Camera",
+      "campus": "牛津市中心学院区",
+      "alt": "牛津大学：Radcliffe Camera"
+    },
+    {
+      "file": "Weston Library exterior on Broad Street by John Cairns 6.7.15-121.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Weston_Library_exterior_on_Broad_Street_by_John_Cairns_6.7.15-121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weston_Library_exterior_on_Broad_Street_by_John_Cairns_6.7.15-121.jpg",
+      "author": "John Cairns photography , work commissioned by the Bodleian Libraries",
+      "credit": "Bodleian Libraries Communications team",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "View of the East end of Broad Street, Oxford, with the Weston Library on the left, Oxford Martin School straight ahead, and the Bodleian Libraries' Clarendon Building on the right. Photo taken by John Cairns with copyright owned by the client, Bodleian Libraries, and uploaded to Commons by an authorised employee of the Libraries.",
+      "width": 960,
+      "height": 641,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-003-3",
+      "institutionId": "qs2025-003",
+      "schoolName": "牛津大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-003-3.webp",
+      "bytes": 123290,
+      "sha256": "1651e2279aed4d8b00886d21cbc69239a55707c06b7655b5d59c69cf0ddbcbab",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Weston Library",
+      "campus": "牛津市中心学院区",
+      "alt": "牛津大学：Weston Library"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-003-1",
+    "path": "assets/campuses/qs2025-003-1.webp",
+    "width": 960,
+    "height": 322,
+    "alt": "牛津大学：牛津城市与学院区",
+    "title": "牛津城市与学院区",
+    "campus": "牛津市中心学院区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "牛津",
+    "campus": "市中心学院与图书馆片区",
+    "website": "https://www.ox.ac.uk/",
+    "overview": "牛津没有一处可代表全校的封闭大校园：学院、图书馆和博物馆散布在城市街道间。适合先确定想参观的学院，再把广场、庭院和公共文化空间串成步行路线。",
+    "visit": {
+      "booking": "学院、图书馆与导览各自预约，不存在一张通行全校的预约。",
+      "fee": "各学院开放时间和入场费用不同，需逐项查阅。",
+      "access": "部分区域因教学、考试或活动临时关闭，不能把室外观看等同于入内许可。",
+      "arrival": "先定位目标学院或图书馆入口，使用大学官方地图规划市中心步行路线。",
+      "address": "",
+      "officialUrl": "https://www.ox.ac.uk/about/visit-us/visiting-colleges"
+    },
+    "highlights": [
+      {
+        "title": "Radcliffe Camera 外观",
+        "text": "在公共步行区域欣赏建筑，进入阅览区另有规则。"
+      },
+      {
+        "title": "学院庭院",
+        "text": "选择一所开放学院慢慢看，按该院当日规定入场。"
+      },
+      {
+        "title": "Bodleian Libraries",
+        "text": "馆区包含不同参观项目与展览，分别查看预约。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oxford 学院参访目录",
+        "url": "https://www.ox.ac.uk/about/visit-us/visiting-colleges",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "学院",
+          "开放范围",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "牛津",
+  "website": "https://www.ox.ac.uk/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

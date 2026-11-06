@@ -1,0 +1,179 @@
+{
+  "id": "qs2025-005",
+  "sourceIndex": 5,
+  "rank": 5,
+  "name": "剑桥大学",
+  "nameEn": "University of Cambridge",
+  "country": "英国",
+  "region": "欧洲",
+  "flag": "🇬🇧",
+  "highlight": "自然科学领域实力强劲，师生比例指标表现优异。",
+  "history": "剑桥大学的教学、研究与生活空间分布在多个学院和学术部门。学院、博物馆与图书馆共同构成城市中的大学环境。斯蒂芬·霍金曾在剑桥从事理论物理研究，不能将他列为诺贝尔奖得主；个人荣誉应以剑桥大学与 Stephen Hawking Estate 的生平资料为准。",
+  "visit": "预约：学院参观由各学院安排；开放日、学院访问和普通游览适用不同预约。\n\n费用：部分学院有入场收费或时段限制；博物馆和植物园也须分别确认。\n\n开放范围：考试期间或活动日可能限制开放，出发前查看目标学院当天公告。\n\n交通：市中心校园分散，先确定学院或博物馆地址，再用官方地图规划步行。",
+  "photos": [
+    {
+      "file": "St John's College Second Court, Cambridge, UK - Diliff.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/St_John%27s_College_Second_Court%2C_Cambridge%2C_UK_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_John%27s_College_Second_Court,_Cambridge,_UK_-_Diliff.jpg",
+      "author": "Diliff",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The tower of the Second Court, leading towards the Third Court of St John's College, Cambridge, England. Statue of Mary Talbot, Countess of Shrewsbury (1556–1632) the wife of Gilbert Talbot, 7th Earl of Shrewsbury . A white marble copy of this statue depicts Lady Rachel Fane (Countess of Bath) in Tawstock Church, Devon.",
+      "width": 913,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-005-1",
+      "institutionId": "qs2025-005",
+      "schoolName": "剑桥大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-005-1.webp",
+      "bytes": 182808,
+      "sha256": "8688f5359dc0667c3a42fd1e04bbf481f53bb543f58cddfe3d78680b8e5bcf5c",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "St John’s College 庭院",
+      "campus": "St John’s College（封面）；相册含其他学院",
+      "alt": "剑桥大学：St John’s College 庭院"
+    },
+    {
+      "file": "KingsCollegeChapelWest.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/KingsCollegeChapelWest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingsCollegeChapelWest.jpg",
+      "author": "Andrew Dunn",
+      "credit": "http://www.andrewdunnphoto.com/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "w:en:King's_College_Chapel",
+      "width": 960,
+      "height": 719,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-005-2",
+      "institutionId": "qs2025-005",
+      "schoolName": "剑桥大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-005-2.webp",
+      "bytes": 104530,
+      "sha256": "66453ea87c7d19e577bcdfcb21f9605e2fe0cbe7415b975b204d8f70e1771ec2",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "King’s College Chapel",
+      "campus": "King’s College",
+      "alt": "剑桥大学：King’s College Chapel"
+    },
+    {
+      "file": "Mathematical Bridge in Cambridge, UK.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mathematical_Bridge_in_Cambridge%2C_UK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mathematical_Bridge_in_Cambridge,_UK.jpg",
+      "author": "TheKaphox",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Timber \"Mathematical Bridge\" footbridge in Cambridge , UK.",
+      "width": 960,
+      "height": 679,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-005-3",
+      "institutionId": "qs2025-005",
+      "schoolName": "剑桥大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-005-3.webp",
+      "bytes": 171870,
+      "sha256": "59aca88034ea49b90a4fbbf25b36df9177a4c0d21a82996a59d65b48dbfae2c6",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Mathematical Bridge",
+      "campus": "Queens’ College",
+      "alt": "剑桥大学：Mathematical Bridge"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-005-1",
+    "path": "assets/campuses/qs2025-005-1.webp",
+    "width": 913,
+    "height": 960,
+    "alt": "剑桥大学：St John’s College 庭院",
+    "title": "St John’s College 庭院",
+    "campus": "St John’s College（封面）；相册含其他学院",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "剑桥（英国）",
+    "campus": "市中心学院与博物馆片区",
+    "website": "https://www.cam.ac.uk/",
+    "overview": "沿着剑河和学院之间的街道步行，比把剑桥当成单一景点更合适。学院各自管理参观，大学博物馆也有独立入口；提前选好两三处目的地，能给建筑和展览留出时间。",
+    "visit": {
+      "booking": "学院参观由各学院安排；开放日、学院访问和普通游览适用不同预约。",
+      "fee": "部分学院有入场收费或时段限制；博物馆和植物园也须分别确认。",
+      "access": "考试期间或活动日可能限制开放，出发前查看目标学院当天公告。",
+      "arrival": "市中心校园分散，先确定学院或博物馆地址，再用官方地图规划步行。",
+      "address": "",
+      "officialUrl": "https://www.cam.ac.uk/about-the-university/visiting-the-university"
+    },
+    "highlights": [
+      {
+        "title": "King’s College Chapel",
+        "text": "学院礼拜堂参观须查该学院票务与开放说明。"
+      },
+      {
+        "title": "Mathematical Bridge",
+        "text": "位于 Queens’ College，观看与入院规则应分开确认。"
+      },
+      {
+        "title": "大学博物馆",
+        "text": "可按兴趣选择艺术、自然史或考古相关展馆。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge 官方访问入口",
+        "url": "https://www.cam.ac.uk/about-the-university/visiting-the-university",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "参访入口"
+        ]
+      },
+      {
+        "title": "Cambridge 学院参观说明",
+        "url": "https://www.postgraduate.study.cam.ac.uk/postgraduate-open-days-faq",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Cambridge 大学博物馆",
+        "url": "https://www.museums.cam.ac.uk/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "剑桥（英国）",
+  "website": "https://www.cam.ac.uk/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": {
+    "text": "已删除原资料将斯蒂芬·霍金列为诺贝尔奖得主的错误表述。霍金是剑桥著名理论物理学家；所获荣誉以校方与其遗产管理机构的生平资料为准。",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "Cambridge：Stephen Hawking",
+        "url": "https://www.cam.ac.uk/stories/stephen-hawking"
+      },
+      {
+        "title": "Stephen Hawking Estate 生平",
+        "url": "https://www.hawking.org.uk/biography"
+      }
+    ]
+  },
+  "detailsLoaded": true
+}

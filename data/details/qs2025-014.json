@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-014",
+  "sourceIndex": 14,
+  "rank": 14,
+  "name": "北京大学",
+  "nameEn": "Peking University",
+  "country": "中国",
+  "region": "亚洲",
+  "flag": "🇨🇳",
+  "highlight": "内地排名最高的大学，化学、材料科学等学科进入全球前十。",
+  "history": "北京大学成立于1898年,最初名为京师大学堂,是中国第一所国立综合性大学,在中国高等教育现代化和国家智力文化发展中发挥了关键作用。该大学在中国近代史上的转折点时期建立,由光绪皇帝下令作为戊戌变法的一部分创建,旨在通过教育改革使中国现代化。在1912年辛亥革命后,该机构于1912年更名为北京大学,并在著名教育家蔡元培(1916-1927年任校长)的领导下成为中国新文化运动的中心,该运动倡导科学、民主和西方思想。北大在1919年五四运动中发挥了核心作用,这是一场由学生领导的爱国抗议运动,塑造了现代中国政治。该大学在整个20世纪经历了重大转型,包括在抗日战争期间(1937-1945)与清华大学和南开大学临时合并为西南联合大学,并在1949年中华人民共和国成立后进行重组。北大已成为中国顶尖大学,培养了众多中国领导人、诺贝尔奖得主和杰出学者。该大学在人文、社会科学、自然科学和基础医学方面表现出色,在数学、物理学、化学、生物学、计算机科学和经济学方面特别强大。北大运营着众多研究机构,包括北京国际数学研究中心、前沿交叉学科研究院和中国经济研究中心。该大学的光华管理学院是亚洲领先的商学院之一,而北京大学医学部(前北京医学院,1952年并入)是中国最负盛名的医学院。北大一直在亚洲和全球大学排名中名列前茅,在QS 2025排名中上升至第14位,被认为是中国第一大学,巩固了其作为中国学术卓越和创新标志的地位。",
+  "visit": "预约：个人参观使用“参观北大”微信小程序，凭本人有效证件实名预约。\n\n费用：学校不收取校园参观费用。\n\n开放范围：开放日期、入校时段和通道按预约确认；教学科研、宿舍、图书馆等不开放。\n\n交通：官方个人参观通道位于校园东侧，邻近地铁 4 号线北京大学东门站 A 口。",
+  "photos": [
+    {
+      "file": "PekingUniversityPic6.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/PekingUniversityPic6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PekingUniversityPic6.jpg",
+      "author": "galaygobi",
+      "credit": "DSC_5647",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "An entrance to the Peking University",
+      "width": 960,
+      "height": 638,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-014-1",
+      "institutionId": "qs2025-014",
+      "schoolName": "北京大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-014-1.webp",
+      "bytes": 137022,
+      "sha256": "686f3003781d3c45149af594ad117155b011f8cea3646bf44bd03f39be3a9fae",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "燕园校门",
+      "campus": "燕园校区",
+      "alt": "北京大学：燕园校门"
+    },
+    {
+      "file": "Autumn in Peking University's Weiming Lake Island 002.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Autumn_in_Peking_University%27s_Weiming_Lake_Island_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autumn_in_Peking_University%27s_Weiming_Lake_Island_002.jpg",
+      "author": "星外之神",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Autumn in Peking University's Weiming Lake Island",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-014-2",
+      "institutionId": "qs2025-014",
+      "schoolName": "北京大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-014-2.webp",
+      "bytes": 134852,
+      "sha256": "992d902409a7a0fdcda0d7a5620025a23c986fa055cb4072616ed185c6547305",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "未名湖秋景",
+      "campus": "燕园校区",
+      "alt": "北京大学：未名湖秋景"
+    },
+    {
+      "file": "博雅塔.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%8D%9A%E9%9B%85%E5%A1%94.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%9A%E9%9B%85%E5%A1%94.jpg",
+      "author": "2502project",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Tower of Boya and Weiming Lake",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-014-3",
+      "institutionId": "qs2025-014",
+      "schoolName": "北京大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-014-3.webp",
+      "bytes": 56334,
+      "sha256": "9ace3210d6d05890dfc626f504013123f8b09725499340d9167cf446e88ffeaf",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "博雅塔",
+      "campus": "燕园校区",
+      "alt": "北京大学：博雅塔"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-014-1",
+    "path": "assets/campuses/qs2025-014-1.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "北京大学：燕园校门",
+    "title": "燕园校门",
+    "campus": "燕园校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "北京",
+    "campus": "燕园校区",
+    "website": "https://www.pku.edu.cn/",
+    "overview": "燕园的湖、塔与园林建筑适合步行细看。公众参访先解决预约与入校时段，再规划未名湖周边路线；校内教学科研、图书馆和生活空间不属于一般开放参观区域。",
+    "visit": {
+      "booking": "个人参观使用“参观北大”微信小程序，凭本人有效证件实名预约。",
+      "fee": "学校不收取校园参观费用。",
+      "access": "开放日期、入校时段和通道按预约确认；教学科研、宿舍、图书馆等不开放。",
+      "arrival": "官方个人参观通道位于校园东侧，邻近地铁 4 号线北京大学东门站 A 口。",
+      "address": "",
+      "officialUrl": "https://www.pku.edu.cn/visit.html"
+    },
+    "highlights": [
+      {
+        "title": "未名湖",
+        "text": "燕园中有辨识度的湖泊与步行景观。"
+      },
+      {
+        "title": "博雅塔",
+        "text": "与未名湖相邻的校园地标。"
+      },
+      {
+        "title": "园林建筑",
+        "text": "沿开放路线观察建筑与环境，避免进入教学区域。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "北京大学官方参观入口",
+        "url": "https://www.pku.edu.cn/visit.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "参访入口"
+        ]
+      },
+      {
+        "title": "北京大学个人预约须知",
+        "url": "https://www.bwb.pku.edu.cn/ywbl/xycg/02c37f0e32854390817887846c67e4a4.htm",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "交通",
+          "开放范围"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "北京",
+  "website": "https://www.pku.edu.cn/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

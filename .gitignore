@@ -4,3 +4,5 @@ test-results/
 *.tmp
 .DS_Store
 dist/
+__pycache__/
+*.pyc

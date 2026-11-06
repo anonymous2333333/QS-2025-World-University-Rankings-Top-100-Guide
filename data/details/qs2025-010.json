@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-010",
+  "sourceIndex": 10,
+  "rank": 10,
+  "name": "加州理工学院",
+  "nameEn": "Caltech",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "科研密度全球第一，物理学、天文学等学科顶尖。",
+  "history": "加州理工学院始于1891年9月23日,当时当地商人和政治家阿莫斯·G·斯鲁普在帕萨迪纳创立了一所名为斯鲁普大学(后来的斯鲁普理工学院)的谦卑职业学校。该机构向世界级科学强国的转变始于1907年,当时天文学家乔治·埃勒里·黑尔,附近威尔逊山天文台主任,加入董事会并着手重新构想学校的使命。在1919年至1921年之间,斯鲁普经历了戏剧性的蜕变,获得了大量捐赠,采用了加州理工学院的名称,并招募了三位有远见的领导者:黑尔、化学家阿瑟·阿莫斯·诺伊斯和物理学家罗伯特·A·密立根(1921-1945年成为校长,并成为该机构的第一位诺贝尔奖得主,1923年)。在他们的领导下,加州理工学院吸引了非凡的访问学者,包括阿尔伯特·爱因斯坦(1931年、1932年和1933年访问)、尼尔斯·玻尔、维尔纳·海森堡和埃尔温·薛定谔。二战后,在此期间加州理工学院成为主要的国防研究中心,建立了喷气推进实验室,该机构在校长李·杜布里奇和教务长罗伯特·巴彻的领导下扩大,发展了包括化学生物学、行星科学和核天体物理学在内的新领域。今天,加州理工学院拥有无与伦比的科学卓越集中度,80位相关诺贝尔奖得主(48位校友和教职员工获得49个奖项),使其成为美国人均诺贝尔奖得主最多的机构。该大学专注于科学、技术、工程和数学,分为六个学术部门,拥有传奇教职员工,包括理查德·费曼和莱纳斯·鲍林(唯一获得两项非共享诺贝尔奖的人)。尽管在其紧凑的124英亩校园上仅维持1,000名本科生,但加州理工学院的研究影响是巨大的,管理着NASA的喷气推进实验室,并开创了从引力波(LIGO)到量子物理学进步的发现。",
+  "visit": "预约：招生导览、建筑导览分别预约；也可以使用官方自助步行图。\n\n费用：各导览或活动费用依对应项目确认，不推定所有设施免费开放。\n\n开放范围：研究空间和内部设施以学校管理要求为准。\n\n交通：使用官方校园地图与到访页，定位 Pasadena 校区的实际目的建筑。",
+  "photos": [
+    {
+      "file": "Caltech Entrance.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Caltech_Entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caltech_Entrance.jpg",
+      "author": "Canon.vs.nikon",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Caltech campus entrance — at 1200 East California Boulevard, in Pasadena, California. On the left is East Norman Bridge Laboratory of Physics, and on the right is the Alfred Sloan Laboratory of Mathematics and Physics.",
+      "width": 960,
+      "height": 286,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-010-1",
+      "institutionId": "qs2025-010",
+      "schoolName": "加州理工学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-010-1.webp",
+      "bytes": 84308,
+      "sha256": "d0e414352b38a55a125d7228ba980069251ea96351719a657e214513d08e1638",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "校园庭院",
+      "campus": "Pasadena 校区",
+      "alt": "加州理工学院：校园庭院"
+    },
+    {
+      "file": "Caltech Beckman Auditorium.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Caltech_Beckman_Auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caltech_Beckman_Auditorium.jpg",
+      "author": "BorderlineRebel",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Caltech Beckman Auditorium",
+      "width": 540,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-010-2",
+      "institutionId": "qs2025-010",
+      "schoolName": "加州理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-010-2.webp",
+      "bytes": 36990,
+      "sha256": "5e92fd492682b041467f038d970f219e14a9bb3370cca02260b6e44756040762",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Beckman Auditorium",
+      "campus": "Pasadena 校区",
+      "alt": "加州理工学院：Beckman Auditorium"
+    },
+    {
+      "file": "Pond at Caltech.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pond_at_Caltech.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pond_at_Caltech.jpg",
+      "author": "AmeteurAngeleno",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "A pond full of turtles at the California Institute of Technology.",
+      "width": 960,
+      "height": 454,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-010-3",
+      "institutionId": "qs2025-010",
+      "schoolName": "加州理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-010-3.webp",
+      "bytes": 149248,
+      "sha256": "3d1f9c395c8d7837d0cabfcc4bab252db0bdeb78139b3666210295dfa61bbb03",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "校园水景",
+      "campus": "Pasadena 校区",
+      "alt": "加州理工学院：校园水景"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-010-1",
+    "path": "assets/campuses/qs2025-010-1.webp",
+    "width": 960,
+    "height": 286,
+    "alt": "加州理工学院：校园庭院",
+    "title": "校园庭院",
+    "campus": "Pasadena 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "帕萨迪纳",
+    "campus": "Pasadena 校区",
+    "website": "https://www.caltech.edu/",
+    "overview": "加州理工的校园规模适合步行观察。官方自助路线把建筑、研究传统与校园生活联系起来；礼堂、庭院和水景各有特色，而实验室内部并不属于普通散步路线。",
+    "visit": {
+      "booking": "招生导览、建筑导览分别预约；也可以使用官方自助步行图。",
+      "fee": "各导览或活动费用依对应项目确认，不推定所有设施免费开放。",
+      "access": "研究空间和内部设施以学校管理要求为准。",
+      "arrival": "使用官方校园地图与到访页，定位 Pasadena 校区的实际目的建筑。",
+      "address": "",
+      "officialUrl": "https://www.caltech.edu/about/visit/tours"
+    },
+    "highlights": [
+      {
+        "title": "Beckman Auditorium",
+        "text": "具有鲜明轮廓的校园礼堂，演出入场另查活动页。"
+      },
+      {
+        "title": "校园庭院与水景",
+        "text": "可结合官方自助图观察步行空间。"
+      },
+      {
+        "title": "建筑自助路线",
+        "text": "官方路线串联校园中的不同建筑与历史节点。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Caltech 官方导览",
+        "url": "https://www.caltech.edu/about/visit/tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "路线"
+        ]
+      },
+      {
+        "title": "Caltech 校园到访资源",
+        "url": "https://local.caltech.edu/visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地图",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "帕萨迪纳",
+  "website": "https://www.caltech.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

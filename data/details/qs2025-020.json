@@ -1,0 +1,168 @@
+{
+  "id": "qs2025-020",
+  "sourceIndex": 20,
+  "rank": 20,
+  "name": "清华大学",
+  "nameEn": "Tsinghua University",
+  "country": "中国",
+  "region": "亚洲",
+  "flag": "🇨🇳",
+  "highlight": "工科全球前五，土木工程、电子工程等学科优势显著。",
+  "history": "清华大学成立于1911年,最初名为\"清华学堂\",是利用美国退还的部分庚子赔款在北京创办的留美预备学校。1912年更名为\"清华学校\",1928年更名为\"国立清华大学\"。清华大学在中华民国时期就已经发展成为中国最好的大学之一,培养了包括杨振宁、李政道等诺贝尔奖得主在内的众多杰出人才。\n\n1952年,清华大学经历了院系调整,成为一所多科性工业大学,重点为国家培养工程技术人才。1978年以来,清华大学逐步恢复和发展为综合性研究型大学,目前设有21个学院和59个系,涵盖理学、工学、文学、艺术、历史、哲学、经济学、管理学、法学、教育学、医学和交叉学科等12个学科门类。\n\n清华大学在2025年QS世界大学排名中位列全球第20位,中国内地第二。该大学在工程与技术领域全球第五,在土木工程、电气工程、计算机科学、材料科学、环境科学和化学工程等学科排名全球前十。清华大学已培养出1位诺贝尔奖得主杨振宁(物理学,1957)、1位图灵奖得主姚期智(2000)、1位菲尔兹奖得主丘成桐等世界级科学家。\n\n清华大学运营着众多研究机构,包括航天航空学院、汽车工程研究院、核能与新能源技术研究院、环境学院等。该大学在人工智能、量子计算、集成电路、生命科学和气候变化研究方面处于世界领先地位。清华大学的校友网络庞大且影响力深远,培养了中国国家主席习近平、前国家主席胡锦涛、前国务院总理朱镕基等众多国家领导人,以及大批科技企业家和学术领袖。",
+  "visit": "预约：通过“参观清华”微信小程序实名预约；证件支持情况与具体通道见当前官方说明。\n\n费用：学校不收取校园参观费用；艺术博物馆等项目另查票务。\n\n开放范围：开放日期及时段可能随活动调整，未经允许不进入教学、办公或科研室内场所。\n\n交通：以预约确认的入校通道为准，不凭旧攻略导航到其他校门。",
+  "photos": [
+    {
+      "file": "Thu gate.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Thu_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thu_gate.JPG",
+      "author": "User:Yaoleilei",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "2nd (or formal) gate of Tsinghua University, Beijing.",
+      "width": 800,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-020-1",
+      "institutionId": "qs2025-020",
+      "schoolName": "清华大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-020-1.webp",
+      "bytes": 94666,
+      "sha256": "9d22423beec11fa5259a71b53e21d46f28a8cf04e226bd776b303cecb64c3422",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "二校门",
+      "campus": "清华园校区",
+      "alt": "清华大学：二校门"
+    },
+    {
+      "file": "2019年清華二校門.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/2019%E5%B9%B4%E6%B8%85%E8%8F%AF%E4%BA%8C%E6%A0%A1%E9%96%80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019%E5%B9%B4%E6%B8%85%E8%8F%AF%E4%BA%8C%E6%A0%A1%E9%96%80.jpg",
+      "author": "清華匿名學生",
+      "credit": "來自清華樹洞",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "​2019年清華二校門",
+      "width": 960,
+      "height": 642,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-020-2",
+      "institutionId": "qs2025-020",
+      "schoolName": "清华大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-020-2.webp",
+      "bytes": 129504,
+      "sha256": "e8a4c24c8cfbc69069c6061bf6843ff6f772498628bf1af3e3ac75817fc8e07d",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "二校门近景",
+      "campus": "清华园校区",
+      "alt": "清华大学：二校门近景"
+    },
+    {
+      "file": "View of Grand Auditorium of Tsinghua University.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/View_of_Grand_Auditorium_of_Tsinghua_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Grand_Auditorium_of_Tsinghua_University.jpg",
+      "author": "Dquai",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "​清华大学大礼堂",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-020-3",
+      "institutionId": "qs2025-020",
+      "schoolName": "清华大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-020-3.webp",
+      "bytes": 98590,
+      "sha256": "d7a25190c858e4d2dbbe178aa141ba1a57482ebcb7726ec090d7a8c9741473d1",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "大礼堂",
+      "campus": "清华园校区",
+      "alt": "清华大学：大礼堂"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-020-1",
+    "path": "assets/campuses/qs2025-020-1.webp",
+    "width": 800,
+    "height": 960,
+    "alt": "清华大学：二校门",
+    "title": "二校门",
+    "campus": "清华园校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "北京",
+    "campus": "清华园校区",
+    "website": "https://www.tsinghua.edu.cn/",
+    "overview": "清华园中的校门、礼堂与绿地适合沿规定路线步行观察。公众参访首先要完成官方预约，艺术博物馆又有独立的参观通道与要求，不能把入馆和进入校园当成同一权限。",
+    "visit": {
+      "booking": "通过“参观清华”微信小程序实名预约；证件支持情况与具体通道见当前官方说明。",
+      "fee": "学校不收取校园参观费用；艺术博物馆等项目另查票务。",
+      "access": "开放日期及时段可能随活动调整，未经允许不进入教学、办公或科研室内场所。",
+      "arrival": "以预约确认的入校通道为准，不凭旧攻略导航到其他校门。",
+      "address": "",
+      "officialUrl": "https://campusvisit.tsinghua.edu.cn/"
+    },
+    "highlights": [
+      {
+        "title": "二校门",
+        "text": "校园历史地标，按开放路线到访。"
+      },
+      {
+        "title": "大礼堂",
+        "text": "清华园的代表性建筑，可从开放区域观察外观。"
+      },
+      {
+        "title": "清华大学艺术博物馆",
+        "text": "独立安排参观，入口与票务须另行确认。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "清华大学校园预约系统",
+        "url": "https://campusvisit.tsinghua.edu.cn/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "当期公告"
+        ]
+      },
+      {
+        "title": "清华官方个人参访说明",
+        "url": "https://www.tsinghua.edu.cn/en/Visitor/Visitor_Information/Individual_Visit.htm",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "清华大学艺术博物馆参观提示",
+        "url": "https://www.artmuseum.tsinghua.edu.cn/cgfw/dlfw_1268/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "博物馆预约",
+          "通道",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "北京",
+  "website": "https://www.tsinghua.edu.cn/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

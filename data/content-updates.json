@@ -1,0 +1,63 @@
+{
+  "qs2025-005": {
+    "text": "已删除原资料将斯蒂芬·霍金列为诺贝尔奖得主的错误表述。霍金是剑桥著名理论物理学家；所获荣誉以校方与其遗产管理机构的生平资料为准。",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "Cambridge：Stephen Hawking",
+        "url": "https://www.cam.ac.uk/stories/stephen-hawking"
+      },
+      {
+        "title": "Stephen Hawking Estate 生平",
+        "url": "https://www.hawking.org.uk/biography"
+      }
+    ]
+  },
+  "qs2025-046": {
+    "text": "本条目对应 Institut Polytechnique de Paris（IP Paris）。École Polytechnique 是其成员学校，不将后者的建校历史直接作为 IP Paris 的历史。",
+    "website": "https://www.ip-paris.fr/",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "IP Paris 官方机构介绍",
+        "url": "https://www.ip-paris.fr/en/about/about-us"
+      },
+      {
+        "title": "École Polytechnique 官方历史",
+        "url": "https://www.polytechnique.edu/en/school/history"
+      }
+    ]
+  },
+  "qs2025-047": {
+    "text": "已纠正把港铁大学站当作香港科技大学直达车站的旧攻略。清水湾校区可从彩虹、坑口等站换乘巴士或小巴；大学站不能等同于科大校门。",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "HKUST 官方到访交通",
+        "url": "https://oma.hkust.edu.hk/visit-hkust"
+      }
+    ]
+  },
+  "qs2025-082": {
+    "text": "2025 榜单保留 University of Adelaide 的历史名称。2026 年起，原阿德莱德大学与南澳大学的合并机构 Adelaide University 开展运营；不能将两者视作同一年度排名实体直接连接。",
+    "website": "https://adelaide.edu.au/",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "Adelaide University 官方启用公告",
+        "url": "https://adelaide.edu.au/about/news/2026/a-bold-new-future-for-australian-higher-education-begins-today/"
+      }
+    ]
+  },
+  "qs2025-085": {
+    "text": "东京工业大学与东京医科齿科大学于 2024 年 10 月 1 日合并成立东京科学大学（Institute of Science Tokyo）。此处保留 QS 2025 榜单历史名称；当前机构信息请看新校官网。",
+    "website": "https://www.isct.ac.jp/en",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "Science Tokyo 官方机构介绍",
+        "url": "https://www.isct.ac.jp/en/001/about"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "qs2025-046",
+  "sourceIndex": 46,
+  "rank": 46,
+  "name": "巴黎理工学院",
+  "nameEn": "Institut Polytechnique de Paris",
+  "country": "法国",
+  "region": "欧洲",
+  "flag": "🇫🇷",
+  "highlight": "由多所法国工程院校构成的高等教育与研究机构，须与成员学校区分。",
+  "history": "本条目对应 Institut Polytechnique de Paris（IP Paris），是由多所法国工程院校组成的高等教育与研究机构。École Polytechnique 是成员学校之一，不能把成员校的 1794 年建校历史、校友或校园介绍直接等同于 IP Paris 整体。机构构成与当前项目请以 IP Paris 官方介绍为准。",
+  "visit": "IP Paris 的教学与研究分布在成员学校的不同场所。规划参访时先确定具体成员学校、校区和建筑，再查看其官方访问与门禁要求；本条目的校园代表图片不构成整个机构的统一参访入口。官方信息：https://www.ip-paris.fr/en/about/about-us",
+  "photos": [
+    {
+      "file": "Institut polytechnique de Paris main entrance.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Institut_polytechnique_de_Paris_main_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Institut_polytechnique_de_Paris_main_entrance.jpg",
+      "author": "RutoSu",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Entrée de l’Institut polytechnique de Paris (IP Paris)",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-046-1",
+      "institutionId": "qs2025-046",
+      "schoolName": "巴黎理工学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-046-1.webp",
+      "bytes": 238598,
+      "sha256": "d8cf5928c7945407f987dc0192d298212e65cf78f5f822d5ac8e7a568ce6c17c",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "巴黎理工学院校园代表图",
+      "campus": "图示地点见原始图源说明",
+      "alt": "巴黎理工学院：巴黎理工学院校园代表图"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-046-1",
+    "path": "assets/campuses/qs2025-046-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "巴黎理工学院：巴黎理工学院校园代表图",
+    "title": "巴黎理工学院校园代表图",
+    "campus": "图示地点见原始图源说明",
+    "creditLine": ""
+  },
+  "guide": null,
+  "guideAvailable": false,
+  "city": "",
+  "website": "https://www.ip-paris.fr/",
+  "reviewedOn": "",
+  "institutionUpdate": {
+    "text": "本条目对应 Institut Polytechnique de Paris（IP Paris）。École Polytechnique 是其成员学校，不将后者的建校历史直接作为 IP Paris 的历史。",
+    "website": "https://www.ip-paris.fr/",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "IP Paris 官方机构介绍",
+        "url": "https://www.ip-paris.fr/en/about/about-us"
+      },
+      {
+        "title": "École Polytechnique 官方历史",
+        "url": "https://www.polytechnique.edu/en/school/history"
+      }
+    ]
+  },
+  "detailsLoaded": true
+}

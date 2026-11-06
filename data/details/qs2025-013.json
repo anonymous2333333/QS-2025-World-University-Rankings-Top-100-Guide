@@ -1,0 +1,166 @@
+{
+  "id": "qs2025-013",
+  "sourceIndex": 13,
+  "rank": 13,
+  "name": "墨尔本大学",
+  "nameEn": "University of Melbourne",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "flag": "🇦🇺",
+  "highlight": "南半球排名最高的大学，医学与艺术学科表现突出。",
+  "history": "墨尔本大学成立于1853年,是澳大利亚第二古老的大学,仅次于悉尼大学,也是维多利亚州最古老的大学。该大学由维多利亚殖民地立法机关根据1853年法案建立,首批四位教授于1855年开始教学,只有16名学生。从谦卑的开端,墨尔本大学发展成为澳大利亚顶尖的研究型大学和南半球领先的高等教育机构之一,一直在QS世界大学排名中位列前20名。该大学已培养出8位诺贝尔奖得主,包括弗兰克·麦克法兰·伯内特爵士(医学,1960)、约翰·埃克尔斯爵士(医学,1963)、伊丽莎白·布莱克本(医学,2009)和彼得·多尔蒂(医学,1996),以及120位罗德学者,四位澳大利亚总理和众多最高法院大法官。墨尔本大学在几乎所有学科领域都表现出色,在医学、法律、教育、商业、工程和艺术方面特别强大。该大学的医学院是澳大利亚最古老和最负盛名的医学院之一,与众多教学医院合作,在医学研究和临床培训方面处于全球领先地位。墨尔本商学院(前墨尔本大学商学院)是亚太地区领先的商学院之一,其MBA课程在国际上排名很高。该大学运营着众多研究机构,包括沃尔特和伊丽莎·霍尔医学研究所、多尔蒂研究所和墨尔本能源研究所,在从癌症研究到气候科学的领域推动突破。墨尔本采用独特的\"墨尔本模式\"本科课程结构,于2008年引入,提供广泛的本科学位,然后是专业研究生课程,类似于美国体系。该大学对可持续发展的承诺通过其碳中和目标和绿色建筑计划而显而易见,而其对社会正义的奉献反映在其无障碍和多样性计划中。",
+  "visit": "预约：一般公众及私人旅游团目前不提供校方带领的团体导览，可使用自助地图。\n\n费用：符合条件的学校团体导览有独立安排；普通游客不应据此推定可报名免费导览。\n\n开放范围：建筑和活动场所各自管理，使用自助路线时遵守现场标识。\n\n交通：可从 Parkville Station 或 Melbourne University 电车站到校，再确认目的建筑。",
+  "photos": [
+    {
+      "file": "Old Quad lawn University of Melbourne 2018.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Old_Quad_lawn_University_of_Melbourne_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Quad_lawn_University_of_Melbourne_2018.jpg",
+      "author": "Gracchus250",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Old Quad lawn, University of Melbourne 2018",
+      "width": 720,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-013-1",
+      "institutionId": "qs2025-013",
+      "schoolName": "墨尔本大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-013-1.webp",
+      "bytes": 182630,
+      "sha256": "67c425bc2f358e12ef2d942fe434937c001f882b1c63be1156f2599b02d498f6",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Old Quad",
+      "campus": "Parkville 校区",
+      "alt": "墨尔本大学：Old Quad"
+    },
+    {
+      "file": "Southern colonnade Old Quad University of Melbourne 2018.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Southern_colonnade_Old_Quad_University_of_Melbourne_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_colonnade_Old_Quad_University_of_Melbourne_2018.jpg",
+      "author": "Gracchus250",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Southern colonnade Old Quad University of Melbourne 2018",
+      "width": 720,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-013-2",
+      "institutionId": "qs2025-013",
+      "schoolName": "墨尔本大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-013-2.webp",
+      "bytes": 102670,
+      "sha256": "4d0f77cb40bc2eb3bf2698c9d8ca6d8288cd046d1bcd447bdd14662f77d21830",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Old Quad 柱廊",
+      "campus": "Parkville 校区",
+      "alt": "墨尔本大学：Old Quad 柱廊"
+    },
+    {
+      "file": "Melbourne Uni underground carpark interior.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Melbourne_Uni_underground_carpark_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melbourne_Uni_underground_carpark_interior.jpg",
+      "author": "Canley",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Interior of the South Lawn car park on the University of Melbourne Parkville campus.",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-013-3",
+      "institutionId": "qs2025-013",
+      "schoolName": "墨尔本大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-013-3.webp",
+      "bytes": 86230,
+      "sha256": "a342096e6ba1e32f0004b3aa93fb619428941383d9a4495671bbcafb152fcdcd",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "South Lawn 地下车库",
+      "campus": "Parkville 校区",
+      "alt": "墨尔本大学：South Lawn 地下车库"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-013-1",
+    "path": "assets/campuses/qs2025-013-1.webp",
+    "width": 720,
+    "height": 960,
+    "alt": "墨尔本大学：Old Quad",
+    "title": "Old Quad",
+    "campus": "Parkville 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "墨尔本",
+    "campus": "Parkville 校区",
+    "website": "https://www.unimelb.edu.au/",
+    "overview": "Parkville 校区位于墨尔本市中心以北，历史庭院与现代建筑相邻。普通游客可下载官方自助地图，按自己的节奏查看建筑和景观；不应把面向学校团体的导览当成面向所有游客开放。",
+    "visit": {
+      "booking": "一般公众及私人旅游团目前不提供校方带领的团体导览，可使用自助地图。",
+      "fee": "符合条件的学校团体导览有独立安排；普通游客不应据此推定可报名免费导览。",
+      "access": "建筑和活动场所各自管理，使用自助路线时遵守现场标识。",
+      "arrival": "可从 Parkville Station 或 Melbourne University 电车站到校，再确认目的建筑。",
+      "address": "",
+      "officialUrl": "https://www.unimelb.edu.au/campustour/self-guided"
+    },
+    "highlights": [
+      {
+        "title": "Old Quad",
+        "text": "校园中的历史庭院与柱廊。"
+      },
+      {
+        "title": "South Lawn 片区",
+        "text": "绿地与具有特色的地下车库建筑，内外开放依现场要求。"
+      },
+      {
+        "title": "Parkville 步行路线",
+        "text": "按官方地图把建筑与校园景观串联起来。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Melbourne 官方自助参观",
+        "url": "https://www.unimelb.edu.au/campustour/self-guided",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "路线"
+        ]
+      },
+      {
+        "title": "Melbourne 团体导览政策",
+        "url": "https://www.unimelb.edu.au/campustour/guided-campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用"
+        ]
+      },
+      {
+        "title": "Parkville 校区与交通",
+        "url": "https://about.unimelb.edu.au/campus-locations/parkville-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "校区",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "墨尔本",
+  "website": "https://www.unimelb.edu.au/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

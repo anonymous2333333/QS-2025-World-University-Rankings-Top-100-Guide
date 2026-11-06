@@ -22,6 +22,35 @@
     const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[ch]));
     const sourceId = index => `qs2025-${String(index).padStart(3, '0')}`;
 
+    function safeHttpURL(value) {
+        try {
+            const url = new URL(asText(value, 2000));
+            return ['https:', 'http:'].includes(url.protocol) && !url.username && !url.password ? url.href : '';
+        } catch (_) { return ''; }
+    }
+    function normalizeSources(value) {
+        return Array.isArray(value) ? value.slice(0, 12).filter(x => x && typeof x === 'object' && safeHttpURL(x.url)).map(x => ({title: asText(x.title, 250) || '原始来源', url: safeHttpURL(x.url), checkedOn: asText(x.checkedOn, 10), supports: Array.isArray(x.supports) ? x.supports.filter(v => typeof v === 'string').slice(0, 12) : []})) : [];
+    }
+    function normalizeMedia(value, full = false) {
+        if (!value || typeof value !== 'object' || !/^qs2025-\d{3}-[1-9]$/.test(value.id || '') ||
+            value.path !== `assets/campuses/${value.id}.webp` ||
+            !Number.isInteger(value.width) || !Number.isInteger(value.height) || value.width < 1 || value.height < 1) return null;
+        const photo = {id: value.id, path: value.path, width: value.width, height: value.height, alt: asText(value.alt, 400), title: asText(value.title, 300), campus: asText(value.campus, 300), creditLine: asText(value.creditLine, 150)};
+        if (full) {
+            if (!asText(value.author) || !asText(value.license) || !safeHttpURL(value.sourceUrl) || !safeHttpURL(value.licenseUrl)) return null;
+            Object.assign(photo, {author: asText(value.author, 1000), license: asText(value.license, 150), licenseUrl: safeHttpURL(value.licenseUrl), sourceUrl: safeHttpURL(value.sourceUrl), caption: asText(value.caption, 1200), adaptation: asText(value.adaptation, 500), file: asText(value.file, 700)});
+        }
+        return photo;
+    }
+    function normalizeGuide(value) {
+        if (!value || typeof value !== 'object' || Array.isArray(value) || !value.visit) return null;
+        const sources = normalizeSources(value.sources);
+        if (!sources.length) return null;
+        return {reviewedOn: asText(value.reviewedOn, 10), city: asText(value.city, 200), campus: asText(value.campus, 300), website: safeHttpURL(value.website), overview: asText(value.overview, 2000),
+            visit: Object.fromEntries(['booking', 'fee', 'access', 'arrival', 'address'].map(key => [key, asText(value.visit[key], 2000)]).concat([['officialUrl', safeHttpURL(value.visit.officialUrl)]])),
+            highlights: Array.isArray(value.highlights) ? value.highlights.filter(x => x && typeof x === 'object').slice(0, 8).map(x => ({title: asText(x.title, 200), text: asText(x.text, 700)})) : [], sources};
+    }
+
     function normalizeDataset(raw) {
         if (!Array.isArray(raw)) throw new Error('院校数据应为数组');
         const ids = new Set();
@@ -44,12 +73,21 @@
                 country: asText(entry.country, 100) || '其他地区', region: asText(entry.region, 80) || '其他',
                 flag: asText(entry.flag, 20) || '🌐', highlight,
                 history: asText(entry.history).replace(/^[：:\s]+/, ''),
-                visit: asText(entry.visit).replace(/^[：:\s]+/, '')
+                visit: asText(entry.visit).replace(/^[：:\s]+/, ''),
+                city: asText(entry.city, 200), website: safeHttpURL(entry.website),
+                cover: normalizeMedia(entry.cover),
+                photos: Array.isArray(entry.photos) ? entry.photos.slice(0, 8).map(photo => normalizeMedia(photo, true)).filter(Boolean) : [],
+                guide: normalizeGuide(entry.guide), guideAvailable: Boolean(entry.guideAvailable),
+                reviewedOn: asText(entry.reviewedOn, 10), detailsLoaded: entry.detailsLoaded === true || Boolean(entry.history || entry.visit),
+                institutionUpdate: entry.institutionUpdate && typeof entry.institutionUpdate === 'object' ? {text: asText(entry.institutionUpdate.text, 4000), checkedOn: asText(entry.institutionUpdate.checkedOn, 10), website: safeHttpURL(entry.institutionUpdate.website), sources: normalizeSources(entry.institutionUpdate.sources)} : null
             };
+            if (row.cover && !row.cover.id.startsWith(id + '-')) row.cover = null;
+            row.photos = row.photos.filter(photo => photo.id.startsWith(id + '-'));
             const subjectText = highlight;
             row.subjects = Object.keys(SUBJECTS).filter(key => SUBJECTS[key].words.some(word =>
                 word === '文学' ? /(^|[^天])文学/.test(subjectText) : subjectText.includes(word)));
-            row.searchText = fold([name, row.nameEn, row.country, row.region, highlight].join(' '));
+            row.guideAvailable = row.guideAvailable || Boolean(row.guide);
+            row.searchText = fold([name, row.nameEn, row.country, row.region, row.city, highlight].join(' '));
             rows.push(row);
         });
         if (!rows.length) throw new Error('没有可用的院校记录');
@@ -129,13 +167,20 @@
         params.set('compare', compare.join(','));
         return params.toString();
     }
-    async function loadDataset({fetcher, fallback, url = 'data/universities.json', timeoutMs = 5000, expectedCount = 100, preferInline = false}) {
+    async function loadDataset({fetcher, fallback, fallbackLoader, url = 'data/catalog.json', timeoutMs = 5000, expectedCount = 100, preferInline = false}) {
         function validate(raw) {
             const rows = normalizeDataset(raw);
             if (rows.length !== raw.length || (expectedCount && rows.length !== expectedCount)) throw new Error('院校数据不完整或包含无效记录');
             return rows;
         }
-        if (preferInline && Array.isArray(fallback) && fallback.length) return {rows: validate(fallback), source: 'inline'};
+        async function readFallback() {
+            const raw = Array.isArray(fallback) && fallback.length ? fallback : await fallbackLoader?.();
+            return validate(raw);
+        }
+        if (preferInline) {
+            try { return {rows: await readFallback(), source: 'inline'}; }
+            catch (_) { throw new Error('本地院校资料无法读取，请检查 data 文件夹后重试'); }
+        }
         let timer;
         const controller = typeof AbortController === 'function' ? new AbortController() : null;
         try {
@@ -148,8 +193,34 @@
             })();
             return {rows: await Promise.race([request, timeout]), source: 'network'};
         } catch (error) {
-            try { return {rows: validate(fallback), source: 'fallback', reason: String(error.message || error)}; }
+            try { return {rows: await readFallback(), source: 'fallback', reason: String(error.message || error)}; }
             catch (_) { throw new Error('院校数据暂时无法读取，请检查 data 文件夹后重试'); }
+        } finally { clearTimeout(timer); }
+    }
+    async function loadUniversityDetail({id, fetcher, fallbackLoader, timeoutMs = 5000}) {
+        if (!/^qs2025-\d{3}$/.test(id)) throw new Error('学校编号无效');
+        let timer;
+        const controller = typeof AbortController === 'function' ? new AbortController() : null;
+        function validate(raw) {
+            if (!raw || raw.id !== id) throw new Error('学校详情缺少对应编号');
+            const row = normalizeDataset([raw])[0];
+            if (row.id !== id || !row.detailsLoaded || !row.history || !row.visit || !row.cover || !row.photos.length) throw new Error('学校详情不完整或与编号不匹配');
+            return row;
+        }
+        try {
+            const request = (async () => {
+                const response = await fetcher(`data/details/${id}.json`, {cache: 'no-cache', signal: controller?.signal});
+                if (!response.ok) throw new Error('详情暂不可用');
+                return validate(await response.json());
+            })();
+            const timeout = new Promise((_, reject) => { timer = setTimeout(() => { controller?.abort(); reject(new Error('详情读取超时')); }, timeoutMs); });
+            return await Promise.race([request, timeout]);
+        } catch (_) {
+            try {
+                const data = await fallbackLoader?.();
+                const raw = Array.isArray(data) ? data.find(row => row?.id === id) : null;
+                return validate(raw);
+            } catch (_) { throw new Error('学校详情暂时无法读取，请重试；列表仍可正常浏览'); }
         } finally { clearTimeout(timer); }
     }
     function toCSV(rows) {
@@ -159,7 +230,7 @@
             if (/^[\s\u0000-\u001f]*[=+@-]/.test(text)) text = "'" + text;
             return '"' + text.replace(/"/g, '""') + '"';
         };
-        return '\uFEFF' + [['QS 2025名次', '学校', '英文名', '国家或地区', '区域', '原资料亮点', '固定编号'], ...rows.map(row => [row.rank, row.name, row.nameEn, row.country, row.region, row.highlight, row.id])].map(row => row.map(cell).join(',')).join('\r\n');
+        return '\uFEFF' + [['QS 2025名次', '学校', '英文名', '国家或地区', '城市', '区域', '原资料亮点', '固定编号', '参访指南核对日期', '学校官网'], ...rows.map(row => [row.rank, row.name, row.nameEn, row.country, row.city, row.region, row.highlight, row.id, row.reviewedOn, row.website])].map(row => row.map(cell).join(',')).join('\r\n');
     }
-    return {MAX_COMPARE, PAGE_SIZE, STORAGE_KEY, DEFAULT_FILTERS, SUBJECTS, escapeHTML, normalizeDataset, sanitizeFilters, filterUniversities, paginate, uniqueKnownIds, readPreferences, savePreferences, decodeState, encodeState, loadDataset, toCSV, sourceId};
+    return {MAX_COMPARE, PAGE_SIZE, STORAGE_KEY, DEFAULT_FILTERS, SUBJECTS, escapeHTML, normalizeDataset, normalizeMedia, normalizeGuide, safeHttpURL, sanitizeFilters, filterUniversities, paginate, uniqueKnownIds, readPreferences, savePreferences, decodeState, encodeState, loadDataset, loadUniversityDetail, toCSV, sourceId};
 });

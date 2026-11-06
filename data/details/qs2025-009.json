@@ -1,0 +1,173 @@
+{
+  "id": "qs2025-009",
+  "sourceIndex": 9,
+  "rank": 9,
+  "name": "伦敦大学学院",
+  "nameEn": "UCL",
+  "country": "英国",
+  "region": "欧洲",
+  "flag": "🇬🇧",
+  "highlight": "跨学科研究能力强，教育学、建筑学等学科全球前十。",
+  "history": "伦敦大学学院于1826年2月11日由激进知识分子包括詹姆斯·穆勒和亨利·布鲁厄姆创立,名为\"伦敦大学\",受到杰里米·边沁进步哲学思想的启发。UCL开创了革命性的先河,成为英格兰第一所完全世俗的大学,无论学生的宗教信仰如何都接纳学生,并且是第一批在1878年接纳女性与男性一起学习的大学之一。虽然创立时雄心勃勃地成为英格兰的第三所大学,但政治反对迫使它在1836年成为伦敦大学的组成学院,尽管它在1990年代获得了事实上的大学认可,并在2023年获得正式大学地位。UCL拥有非凡的成就遗产,33位诺贝尔奖得主和3位菲尔兹奖得主作为校友或教职员工。著名的获奖者包括发现五种稀有气体的威廉·拉姆齐爵士(化学,1904)、共同发现DNA结构的弗朗西斯·克里克(医学,1962),以及最近的获奖者包括杰弗里·辛顿(物理学,2024)和德米斯·哈萨比斯(化学,2024),因其开创性的人工智能工作。该大学在医学、生命科学、工程、人文和社会科学方面在令人印象深刻的广度学科中表现出色,开创性工作从真空管的发明到现代统计学的基础进步。通过战略合并包括教育学院(2014年),UCL已成长为伦敦领先的多学科大学,拥有来自150个国家的16,000多名员工和50,000名学生。",
+  "visit": "预约：学生带领导览需要预订；官方自助路线通常不需要预约，但须避开关闭日期。\n\n费用：校内博物馆与研究访问规则不同；以各项目页面说明为准。\n\n开放范围：一般校园导览不包括学术部门或宿舍参观；UCL East 是另一校区。\n\n交通：可从 Euston Square 或 Warren Street 等地铁站前往 Gower Street 主门。",
+  "photos": [
+    {
+      "file": "Wilkins Building 1, UCL, London - Diliff.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Wilkins_Building_1%2C_UCL%2C_London_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilkins_Building_1,_UCL,_London_-_Diliff.jpg",
+      "author": "Diliff",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The Wilkins Building, University College London, Gower Street, Bloomsbury, London, England",
+      "width": 960,
+      "height": 633,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-009-1",
+      "institutionId": "qs2025-009",
+      "schoolName": "伦敦大学学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-009-1.webp",
+      "bytes": 88456,
+      "sha256": "3762becca29707e571bf1f0902880cad94144b42cb769bb69912bb047ab4f64d",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Wilkins Building",
+      "campus": "Bloomsbury 校区",
+      "alt": "伦敦大学学院：Wilkins Building"
+    },
+    {
+      "file": "London UCL Wilkins Building portico 240 20220427 1049.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/London_UCL_Wilkins_Building_portico_240_20220427_1049.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_UCL_Wilkins_Building_portico_240_20220427_1049.jpg",
+      "author": "Karlunun",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "University Collge London, Bloomsbury Campus, portico at backside of Wilkins Building; in April 2022",
+      "width": 638,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-009-2",
+      "institutionId": "qs2025-009",
+      "schoolName": "伦敦大学学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-009-2.webp",
+      "bytes": 43668,
+      "sha256": "ed29aa108244cf3cd05699b2bc15870fb5c81e16aae4cf69dc030c734ea7eadf",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Wilkins Building 柱廊",
+      "campus": "Bloomsbury 校区",
+      "alt": "伦敦大学学院：Wilkins Building 柱廊"
+    },
+    {
+      "file": "UCL Main Quad towards the Cruciform Building.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/UCL_Main_Quad_towards_the_Cruciform_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:UCL_Main_Quad_towards_the_Cruciform_Building.jpg",
+      "author": "L. Carlos",
+      "credit": "https://web.archive.org/web/20161029144602/http://www.panoramio.com/photo/104906599",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "UCL Main Quad towards the Cruciform Building",
+      "width": 960,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-009-3",
+      "institutionId": "qs2025-009",
+      "schoolName": "伦敦大学学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-009-3.webp",
+      "bytes": 208314,
+      "sha256": "948480fc19be6e2fe3ebeaaee6c63e67873ccbe7527b28347266d98164180863",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Main Quad",
+      "campus": "Bloomsbury 校区",
+      "alt": "伦敦大学学院：Main Quad"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-009-1",
+    "path": "assets/campuses/qs2025-009-1.webp",
+    "width": 960,
+    "height": 633,
+    "alt": "伦敦大学学院：Wilkins Building",
+    "title": "Wilkins Building",
+    "campus": "Bloomsbury 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伦敦",
+    "campus": "Bloomsbury 校区",
+    "website": "https://www.ucl.ac.uk/",
+    "overview": "Bloomsbury 校区与伦敦街区紧密相接。主门、Wilkins Building 和庭院可以串成简短步行路线；校内博物馆各有参观安排，值得与校园建筑分开留时间。",
+    "visit": {
+      "booking": "学生带领导览需要预订；官方自助路线通常不需要预约，但须避开关闭日期。",
+      "fee": "校内博物馆与研究访问规则不同；以各项目页面说明为准。",
+      "access": "一般校园导览不包括学术部门或宿舍参观；UCL East 是另一校区。",
+      "arrival": "可从 Euston Square 或 Warren Street 等地铁站前往 Gower Street 主门。",
+      "address": "Gower Street, London",
+      "officialUrl": "https://www.ucl.ac.uk/study/prospective-students/campus-tours"
+    },
+    "highlights": [
+      {
+        "title": "Wilkins Building",
+        "text": "Bloomsbury 校区代表性建筑与柱廊。"
+      },
+      {
+        "title": "Main Quad",
+        "text": "主门内的公共庭院。"
+      },
+      {
+        "title": "Grant / Petrie Museum",
+        "text": "选择一个校内博物馆，核对其当日开放安排。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UCL 导览预约",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "UCL 自助参观",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours/about-self-guided-campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "自助路线"
+        ]
+      },
+      {
+        "title": "UCL 到访交通",
+        "url": "https://www.ucl.ac.uk/study/prospective-students/campus-tours/plan-your-visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通"
+        ]
+      },
+      {
+        "title": "UCL 博物馆访客信息",
+        "url": "https://www.ucl.ac.uk/engage/museums-collections/about-us/visitor-information",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "伦敦",
+  "website": "https://www.ucl.ac.uk/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

@@ -1,0 +1,157 @@
+{
+  "id": "qs2025-001",
+  "sourceIndex": 1,
+  "rank": 1,
+  "name": "麻省理工学院",
+  "nameEn": "MIT",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "连续 13 年蝉联榜首，学术声誉与雇主声誉均获满分 100 分。",
+  "history": "麻省理工学院由自然科学家威廉·巴顿·罗杰斯于1861年创建,诞生于美国工业革命时期,旨在将科学研究与实际应用相结合。该学院于1861年4月10日获得特许,创立了一种与日益工业化的国家相关的新型独立教育机构。MIT已成为科学、工程和技术领域的全球动力源,以在多个学科的突破性贡献而闻名。截至2024年,该学院已培养出105位诺贝尔奖得主、26位图灵奖得主和8位菲尔兹奖得主。MIT的学术卓越涵盖计算机科学(对人工智能、机器学习和控制论做出根本性贡献)、物理学(8项诺贝尔奖)、工程学(雷达、磁芯存储器和惯性制导控制的发明)以及经济学(包括保罗·萨缪尔森和罗伯特·索洛等众多诺贝尔奖得主)。校园内设有尖端设施,包括MIT媒体实验室、布罗德研究所以及众多研究中心,这些中心已孵化出超过30,000家由校友创办的活跃公司,其规模相当于全球第11大经济体。",
+  "visit": "预约：招生说明会与学生带领的导览均需提前预约，不能依赖现场补位。\n\n费用：导览、博物馆和活动分别核对各自票务，不将校园参访与博物馆门票混为一谈。\n\n开放范围：教学楼、实验室和活动空间各有管理要求；优先使用官方自助路线。\n\n交通：乘 MBTA 红线到 Kendall/MIT；欢迎中心就在肯德尔广场。",
+  "photos": [
+    {
+      "file": "MIT Dome night1 Edit.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/MIT_Dome_night1_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MIT_Dome_night1_Edit.jpg",
+      "author": "Fcb981, this edited version by Thermos",
+      "credit": "Photo by Fcb981, COM:FPC",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "A HDR image of the dome at the MIT campus. This version edited by reducing exposure (to save the highlights), applying highlight recovery (to save highlights), some curves work, noise reduction and some cropping.",
+      "width": 960,
+      "height": 585,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-001-1",
+      "institutionId": "qs2025-001",
+      "schoolName": "麻省理工学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-001-1.webp",
+      "bytes": 66384,
+      "sha256": "9443c1b8b46b7a00114ce301e90e291945f06c4fdd2063f805548d4cf2a4aaa9",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "大圆顶夜景",
+      "campus": "Cambridge 主校区",
+      "alt": "麻省理工学院：大圆顶夜景"
+    },
+    {
+      "file": "Stata Center (05689p)2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Stata_Center_%2805689p%292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stata_Center_(05689p)2.jpg",
+      "author": "Rhododendrites",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "The Stata Center , an academic complex at the Massachusetts Institute of Technology designed by Frank Gehry",
+      "width": 644,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-001-2",
+      "institutionId": "qs2025-001",
+      "schoolName": "麻省理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-001-2.webp",
+      "bytes": 54906,
+      "sha256": "cc5e4dba6290c81a3fbc84ba876f79eecdcd4ced077571a468f5ecff53c3ceb5",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Stata Center",
+      "campus": "Cambridge 主校区",
+      "alt": "麻省理工学院：Stata Center"
+    },
+    {
+      "file": "MIT Killian Court.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/MIT_Killian_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MIT_Killian_Court.jpg",
+      "author": "Madcoverboy ( talk )",
+      "credit": "Own work ( Original text: I created this work entirely by myself. )",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "HDR image of the Great Dome and Killian Court at the Massachusetts Institute of Technology",
+      "width": 960,
+      "height": 639,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-001-3",
+      "institutionId": "qs2025-001",
+      "schoolName": "麻省理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-001-3.webp",
+      "bytes": 148706,
+      "sha256": "42170dd189b2bf644cbd90a4a9bb1064dc08fb08dbe1b1823e6c11249df4703d",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Killian Court",
+      "campus": "Cambridge 主校区",
+      "alt": "麻省理工学院：Killian Court"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-001-1",
+    "path": "assets/campuses/qs2025-001-1.webp",
+    "width": 960,
+    "height": 585,
+    "alt": "麻省理工学院：大圆顶夜景",
+    "title": "大圆顶夜景",
+    "campus": "Cambridge 主校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "剑桥（美国马萨诸塞州）",
+    "campus": "Cambridge 主校区",
+    "website": "https://www.mit.edu/",
+    "overview": "从肯德尔广场走到查尔斯河畔，可以把科技展览、公共艺术和校园建筑串在一起。欢迎中心是方便的起点；大圆顶与斯塔塔中心则呈现了校园截然不同的建筑面貌。",
+    "visit": {
+      "booking": "招生说明会与学生带领的导览均需提前预约，不能依赖现场补位。",
+      "fee": "导览、博物馆和活动分别核对各自票务，不将校园参访与博物馆门票混为一谈。",
+      "access": "教学楼、实验室和活动空间各有管理要求；优先使用官方自助路线。",
+      "arrival": "乘 MBTA 红线到 Kendall/MIT；欢迎中心就在肯德尔广场。",
+      "address": "292 Main Street, Cambridge, MA",
+      "officialUrl": "https://www.mit.edu/visitmit/"
+    },
+    "highlights": [
+      {
+        "title": "Killian Court 与大圆顶",
+        "text": "从庭院外部观看校园的代表性建筑。"
+      },
+      {
+        "title": "Stata Center",
+        "text": "具有鲜明造型的教学与研究建筑，室内区域以开放规定为准。"
+      },
+      {
+        "title": "MIT Museum",
+        "text": "科技与艺术展览；入馆时间和票务需单独确认。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "MIT 官方参访指南",
+        "url": "https://www.mit.edu/visitmit/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "MIT 预约说明",
+        "url": "https://mitadmissions.org/schedule-your-visit/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "剑桥（美国马萨诸塞州）",
+  "website": "https://www.mit.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

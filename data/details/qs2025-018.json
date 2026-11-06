@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-018",
+  "sourceIndex": 18,
+  "rank": 18,
+  "name": "悉尼大学",
+  "nameEn": "University of Sydney",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "flag": "🇦🇺",
+  "highlight": "文科与社会科学领域南半球第一，毕业生就业力全球前十。",
+  "history": "悉尼大学(The University of Sydney)成立于1850年,是澳大利亚第一所大学,也是南半球最古老的大学之一。该大学由新南威尔士殖民地立法会根据《悉尼大学法案》建立,于1852年10月11日开始第一次讲座,最初只有3名教授和24名学生。悉尼大学的创立受到自由主义和民主理想的启发,是澳大利亚第一所接纳学生而不考虑其宗教信仰或社会地位的大学,也是澳大利亚第一所允许女性就读的大学(1881年)。\n\n悉尼大学在2025年QS世界大学排名中位列全球第18位,南半球第一,澳大利亚第三。该大学已发展成为一所全面的研究型大学,拥有8个学院,包括文学与社会科学学院、商学院、工程学院、医学与健康学院、理学院、建筑设计与规划学院、法学院和音乐学院。\n\n悉尼大学在多个学科领域表现卓越,在体育相关学科(全球第2)、护理学(全球第13)、兽医学(全球第11)、药学与药理学(全球第17)、法律(全球第13)、医学(全球第18)、教育学(全球第23)和工程学方面表现突出。该大学的查尔斯·珀金斯中心(Charles Perkins Centre)是世界上最大的致力于解决肥胖、糖尿病和心血管疾病的研究设施之一。\n\n悉尼大学已培养出8位澳大利亚总理(超过任何其他大学)、24位最高法院大法官、2位诺贝尔奖得主、110位罗德学者和195位奥运奖牌得主。著名校友包括前澳大利亚总理托尼·阿博特和马尔科姆·特恩布尔、《权力的游戏》演员Rose Byrne等。该大学运营着众多研究机构,包括悉尼纳米科学中心、心脏研究所和大脑与心智中心。",
+  "visit": "预约：部分导览面向特定群体并须预约；也可下载多语言自助地图。\n\n费用：潜在学生导览与文化遗产团体导览的收费不同，不应统一标为免费。\n\n开放范围：礼堂与建筑内部受活动安排影响，公共散步不代表可参加所有室内项目。\n\n交通：Redfern 站可步行到校；也可从 Central 前往，再按 Parramatta Road 或 City Road 入口导航。",
+  "photos": [
+    {
+      "file": "University of Sydney Main Quadrangle.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/University_of_Sydney_Main_Quadrangle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Main_Quadrangle.jpg",
+      "author": "No machine-readable author provided. KittySaturn~commonswiki assumed (based on copyright claims).",
+      "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Main_Quadrangle.jpg",
+      "caption": "Main Quadrangle of the University of Sydney . Own photo.",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-018-1",
+      "institutionId": "qs2025-018",
+      "schoolName": "悉尼大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-018-1.webp",
+      "bytes": 90042,
+      "sha256": "ec0bbc5455ed7e702a4936ab3bb7f076307f60ca271ca2e4080525b5ea25bf85",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Main Quadrangle",
+      "campus": "Camperdown 校区",
+      "alt": "悉尼大学：Main Quadrangle"
+    },
+    {
+      "file": "Quadrangle, University of Sydney, April 2021.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Quadrangle%2C_University_of_Sydney%2C_April_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quadrangle,_University_of_Sydney,_April_2021.jpg",
+      "author": "Sun jess",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "A photograph taken of the University of Sydney's Quadrangle",
+      "width": 720,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-018-2",
+      "institutionId": "qs2025-018",
+      "schoolName": "悉尼大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-018-2.webp",
+      "bytes": 93632,
+      "sha256": "6473d5bfc5677fc6968081ac35a0109922ab52cac45ce75f4aac7a9f4440b5ae",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Quadrangle 庭院",
+      "campus": "Camperdown 校区",
+      "alt": "悉尼大学：Quadrangle 庭院"
+    },
+    {
+      "file": "University of Sydney Great Hall (12262757925).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/University_of_Sydney_Great_Hall_%2812262757925%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Great_Hall_(12262757925).jpg",
+      "author": "Jason Tong from Sydney, Australia",
+      "credit": "University of Sydney Great Hall",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Founded in 1850, the University of Sydney is Australia's first university and is regarded as one of its most prestigious, ranked as the 27th most reputable university in the world. In 2013, it was ranked 38th and in the top 0.3% in the QS World University Rankings. Five Nobel or Crafoord laureates have been affiliated with the university as graduates and faculty. The University is colloquially known as one of Australia's \"Sandstones\", a status similar to that of the \"Ivy League\" in the United States and the \"Russell Group\" in the United Kingdom. The university's Coat of Arms, granted by the College of Arms are an amalgamation of the arms of the universities of Oxford and Cambridge, and their",
+      "width": 960,
+      "height": 643,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-018-3",
+      "institutionId": "qs2025-018",
+      "schoolName": "悉尼大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-018-3.webp",
+      "bytes": 165310,
+      "sha256": "4314cb2a6d048642997081977c5c63161c16636f530e5a79257f96a7d8470a2f",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Great Hall",
+      "campus": "Camperdown 校区",
+      "alt": "悉尼大学：Great Hall"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-018-1",
+    "path": "assets/campuses/qs2025-018-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "悉尼大学：Main Quadrangle",
+    "title": "Main Quadrangle",
+    "campus": "Camperdown 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "悉尼",
+    "campus": "Camperdown / Darlington 校区",
+    "website": "https://www.sydney.edu.au/",
+    "overview": "悉尼大学的砂岩建筑、Quadrangle 和钟楼构成鲜明的校园景观。自助地图适合普通漫游；面向潜在学生、学校团体和文化参访的导览不同，报名时应选择对应项目。",
+    "visit": {
+      "booking": "部分导览面向特定群体并须预约；也可下载多语言自助地图。",
+      "fee": "潜在学生导览与文化遗产团体导览的收费不同，不应统一标为免费。",
+      "access": "礼堂与建筑内部受活动安排影响，公共散步不代表可参加所有室内项目。",
+      "arrival": "Redfern 站可步行到校；也可从 Central 前往，再按 Parramatta Road 或 City Road 入口导航。",
+      "address": "",
+      "officialUrl": "https://www.sydney.edu.au/engage/visit/campus-tours.html"
+    },
+    "highlights": [
+      {
+        "title": "Main Quadrangle",
+        "text": "围合式庭院与砂岩建筑群。"
+      },
+      {
+        "title": "Great Hall 外观",
+        "text": "校园的历史礼堂，进入须按开放或活动安排。"
+      },
+      {
+        "title": "校园博物馆与文化路线",
+        "text": "可另查 Chau Chak Wing Museum 或遗产导览。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sydney 官方校园导览",
+        "url": "https://www.sydney.edu.au/engage/visit/campus-tours.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "校园看点"
+        ]
+      },
+      {
+        "title": "Sydney 到校交通",
+        "url": "https://www.sydney.edu.au/about-us/campuses/getting-to-campus.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "悉尼",
+  "website": "https://www.sydney.edu.au/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

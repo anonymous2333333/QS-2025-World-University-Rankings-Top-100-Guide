@@ -1,0 +1,156 @@
+{
+  "id": "qs2025-019",
+  "sourceIndex": 19,
+  "rank": 19,
+  "name": "新南威尔士大学",
+  "nameEn": "UNSW Sydney",
+  "country": "澳大利亚",
+  "region": "大洋洲",
+  "flag": "🇦🇺",
+  "highlight": "工程学科全澳第一，人工智能与量子计算研究领先。",
+  "history": "新南威尔士大学(The University of New South Wales, UNSW Sydney)成立于1949年,是澳大利亚八校联盟(Group of Eight)的创始成员之一。该大学的历史可以追溯到1843年悉尼技工学校(Sydney Mechanics' School of Arts)和1878年悉尼技术学院(Sydney Technical College)的成立。UNSW由新南威尔士州议会法案于1949年7月1日正式成立,最初名为新南威尔士技术大学(New South Wales University of Technology),旨在满足二战后澳大利亚对科学、技术和工程人才的迫切需求。\n\nUNSW于1958年更名为新南威尔士大学,并在1960年代至1970年代迅速扩张,增加了人文、社会科学和商业学科。1949年建校时只有3个学院(建筑、工程和理学),现已发展成为一所全面的研究型大学,拥有8个学院,包括艺术设计与建筑学院、工程学院、法学院、医学与健康学院、理学院、商学院、堪培拉校区(UNSW Canberra at ADFA)和Graduate Research School。\n\nUNSW在2025年QS世界大学排名中位列全球第19位,澳大利亚第二。该大学在工程与技术、医学、科学和商业领域表现卓越,特别是在可持续能源、量子计算、人工智能、机器人技术和材料科学方面处于世界领先地位。UNSW的工程学院是澳大利亚最大和最负盛名的工程学院之一,在土木工程、采矿工程、电气工程和石油工程方面排名全球前列。\n\nUNSW已培养出众多杰出校友,包括澳大利亚前总理斯科特·莫里森(Scott Morrison)、Atlassian联合创始人Mike Cannon-Brookes和Scott Farquhar、以及多位诺贝尔奖得主和罗德学者。该大学运营着众多研究中心,包括光伏和可再生能源工程中心(世界领先的太阳能研究中心)、量子计算与通信技术中心和澳大利亚人工智能研究所。UNSW的毕业生收入中位数在澳大利亚八校联盟中最高,展示了其强大的就业竞争力。",
+  "visit": "预约：Kensington 校园导览须在官方页面选择可预约日期；学校团体另行安排。\n\n费用：导览页未列统一覆盖所有项目的费用，具体活动按报名页确认。\n\n开放范围：教学楼、研究空间及住宿区域不属于全部开放的游览范围。\n\n交通：L2 到 UNSW High Street 一侧，L3 到 UNSW Anzac Parade 一侧，按目的建筑选择入口。",
+  "photos": [
+    {
+      "file": "Main Walkway, Lower campus UNSW.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Main_Walkway%2C_Lower_campus_UNSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Walkway,_Lower_campus_UNSW.jpg",
+      "author": "J Bar",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "University of NSW, Kensington",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-019-1",
+      "institutionId": "qs2025-019",
+      "schoolName": "新南威尔士大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-019-1.webp",
+      "bytes": 174244,
+      "sha256": "cb288512191726207bbf0000e306febe805462970c948f6357393543109ed290",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Lower Campus 主步道",
+      "campus": "Kensington 校区",
+      "alt": "新南威尔士大学：Lower Campus 主步道"
+    },
+    {
+      "file": "John Niland Scientia Building UNSW.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/John_Niland_Scientia_Building_UNSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Niland_Scientia_Building_UNSW.jpg",
+      "author": "unsw.flickr",
+      "credit": "John Niland Scientia Building",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "The John Niland Scientia Building at the University of New South Wales",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-019-2",
+      "institutionId": "qs2025-019",
+      "schoolName": "新南威尔士大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-019-2.webp",
+      "bytes": 60902,
+      "sha256": "445e26e82f6d21bd07bd53ac3cc01df1c4626fe9b799bec685f92c70dd08820f",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Scientia Building",
+      "campus": "Kensington 校区",
+      "alt": "新南威尔士大学：Scientia Building"
+    },
+    {
+      "file": "University of New South Wales Main Walkway.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/University_of_New_South_Wales_Main_Walkway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_New_South_Wales_Main_Walkway.jpg",
+      "author": "MapStaringEnthusiast",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Main walkway of UNSW, Sydney.",
+      "width": 640,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-019-3",
+      "institutionId": "qs2025-019",
+      "schoolName": "新南威尔士大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-019-3.webp",
+      "bytes": 95052,
+      "sha256": "4b143967a725bbc9fe7ccbc2052a56657d173ef576d12470f6ce42067bfd06c7",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Main Walkway",
+      "campus": "Kensington 校区",
+      "alt": "新南威尔士大学：Main Walkway"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-019-1",
+    "path": "assets/campuses/qs2025-019-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "新南威尔士大学：Lower Campus 主步道",
+    "title": "Lower Campus 主步道",
+    "campus": "Kensington 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "悉尼",
+    "campus": "Kensington 校区",
+    "website": "https://www.unsw.edu.au/",
+    "overview": "Kensington 校区由不同高差的建筑与步行空间组成。可沿主步道观察教学区和 Scientia 建筑，再结合官方学生导览了解校园；Paddington 艺术设计校区是另一处目的地。",
+    "visit": {
+      "booking": "Kensington 校园导览须在官方页面选择可预约日期；学校团体另行安排。",
+      "fee": "导览页未列统一覆盖所有项目的费用，具体活动按报名页确认。",
+      "access": "教学楼、研究空间及住宿区域不属于全部开放的游览范围。",
+      "arrival": "L2 到 UNSW High Street 一侧，L3 到 UNSW Anzac Parade 一侧，按目的建筑选择入口。",
+      "address": "",
+      "officialUrl": "https://www.unsw.edu.au/study/discover/campus/campus-tours"
+    },
+    "highlights": [
+      {
+        "title": "Main Walkway",
+        "text": "串联校园不同教学片区的步行轴线。"
+      },
+      {
+        "title": "John Niland Scientia Building",
+        "text": "高处的代表性校园建筑。"
+      },
+      {
+        "title": "分校区体验",
+        "text": "参访艺术设计设施前，先确认是否在 Paddington。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNSW 官方校园导览",
+        "url": "https://www.unsw.edu.au/study/discover/campus/campus-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "校区"
+        ]
+      },
+      {
+        "title": "UNSW 官方到访交通",
+        "url": "https://www.unsw.edu.au/estate/getting-here",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "悉尼",
+  "website": "https://www.unsw.edu.au/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

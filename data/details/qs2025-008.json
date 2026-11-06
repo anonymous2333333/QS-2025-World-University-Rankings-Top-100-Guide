@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-008",
+  "sourceIndex": 8,
+  "rank": 8,
+  "name": "新加坡国立大学",
+  "nameEn": "NUS",
+  "country": "新加坡",
+  "region": "亚洲",
+  "flag": "🇸🇬",
+  "highlight": "亚洲排名最高的大学，工程与商业管理学科优势突出。",
+  "history": "新加坡国立大学的历史可追溯到1905年,当时著名商人陈嘉庚领导当地华人社区向殖民当局请愿,筹集了超过80,000美元建立医学院,成立海峡殖民地和马来联邦政府医学院,只有23名学生。这一谦卑的开端通过合并演变,1912年成为爱德华七世医学院,然后在1949年与莱佛士学院合并形成马来亚大学。在新加坡独立并与马来西亚分离后,NUS于1980年8月8日通过南洋大学和新加坡大学的合并正式成立。在其120年的历史中,NUS已转变为一个全球强国,一直跻身世界前10名大学之列(2025年QS世界大学排名第8,亚洲第1)。该大学在多个学科中表现出色,拥有17个学院和学校,提供从医学到工程、商业到科学的综合课程。NUS已建立了四个卓越研究中心,并与杜克大学(杜克-NUS医学院)和耶鲁大学(耶鲁-NUS学院,现为NUS学院)等机构保持战略合作伙伴关系。该大学对创新的承诺通过其支持500多家初创公司的创业生态系统而显而易见,而其对可持续发展的奉献使其在2025年QS可持续发展排名中获得全球第5名。",
+  "visit": "预约：学生导览按官方平台预约；部分时段对访客、校车和食堂有限制。\n\n费用：博物馆、导览与活动分别查询，不推定全校项目都免费。\n\n开放范围：避免进入教学或住宿区域；限制时段须遵守官方关于陪同导览的要求。\n\n交通：前往 NUS Museum 可在 Clementi 换乘公交；馆址为 Kent Ridge Crescent，UTown 须另行定位。",
+  "photos": [
+    {
+      "file": "University Town, National University of Singapore, February 2020 (2).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/University_Town%2C_National_University_of_Singapore%2C_February_2020_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_Town,_National_University_of_Singapore,_February_2020_(2).jpg",
+      "author": "Joshua Rommel Hayag Vargas",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "University Town, a residential and educational development at the National University of Singapore. Buildings shown include the Educational Resource Centre, the UTown Residences, and the CREATE research complex.",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-008-1",
+      "institutionId": "qs2025-008",
+      "schoolName": "新加坡国立大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-008-1.webp",
+      "bytes": 105410,
+      "sha256": "b154538028432327d6da5acc5548a82e9a42df64a0ac7d6c0a64a1227be02b92",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "University Town",
+      "campus": "Kent Ridge / University Town",
+      "alt": "新加坡国立大学：University Town"
+    },
+    {
+      "file": "I Was Here (2004) by Francis Ng, University Cultural Centre, National University of Singapore - 20080118.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/I_Was_Here_%282004%29_by_Francis_Ng%2C_University_Cultural_Centre%2C_National_University_of_Singapore_-_20080118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:I_Was_Here_(2004)_by_Francis_Ng,_University_Cultural_Centre,_National_University_of_Singapore_-_20080118.jpg",
+      "author": "artonice from Amsterdam, Netherlands.",
+      "credit": "I WAS HERE .",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:I_Was_Here_(2004)_by_Francis_Ng,_University_Cultural_Centre,_National_University_of_Singapore_-_20080118.jpg",
+      "caption": "The sculpture I Was Here (2004) by Francis Ng in front of the University Cultural Centre, National University of Singapore .",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-008-2",
+      "institutionId": "qs2025-008",
+      "schoolName": "新加坡国立大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-008-2.webp",
+      "bytes": 166024,
+      "sha256": "7adf0ddff905ce4d67208a09361c0cbf3d27e6fe2289f3c1019d38387a40accd",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "公共艺术 I Was Here",
+      "campus": "Kent Ridge / University Town",
+      "alt": "新加坡国立大学：公共艺术 I Was Here"
+    },
+    {
+      "file": "CREATE, University Town, National University of Singapore, at night - 20140920.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/CREATE%2C_University_Town%2C_National_University_of_Singapore%2C_at_night_-_20140920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CREATE,_University_Town,_National_University_of_Singapore,_at_night_-_20140920.jpg",
+      "author": "Smuconlaw",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "CREATE (Campus for Research Excellence And Technological Enterprise) at University Town (\"UTown\"), National University of Singapore , at night.",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-008-3",
+      "institutionId": "qs2025-008",
+      "schoolName": "新加坡国立大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-008-3.webp",
+      "bytes": 58026,
+      "sha256": "5e668cf58ae3e55ae70fa9dfb9853c3287b74c4f49ffdaf72872b592edc63572",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "CREATE / University Town",
+      "campus": "Kent Ridge / University Town",
+      "alt": "新加坡国立大学：CREATE / University Town"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-008-1",
+    "path": "assets/campuses/qs2025-008-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "新加坡国立大学：University Town",
+    "title": "University Town",
+    "campus": "Kent Ridge / University Town",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "新加坡",
+    "campus": "Kent Ridge 校区与 University Town",
+    "website": "https://nus.edu.sg/",
+    "overview": "Kent Ridge 的校园参访可以围绕大学文化中心、博物馆和 University Town 展开。各地点距离不一，校园交通及部分公共设施会有访客限制，适合先确认路线与当期通知。",
+    "visit": {
+      "booking": "学生导览按官方平台预约；部分时段对访客、校车和食堂有限制。",
+      "fee": "博物馆、导览与活动分别查询，不推定全校项目都免费。",
+      "access": "避免进入教学或住宿区域；限制时段须遵守官方关于陪同导览的要求。",
+      "arrival": "前往 NUS Museum 可在 Clementi 换乘公交；馆址为 Kent Ridge Crescent，UTown 须另行定位。",
+      "address": "NUS Museum, 50 Kent Ridge Crescent, Singapore",
+      "officialUrl": "https://uci.nus.edu.sg/campus-tour/"
+    },
+    "highlights": [
+      {
+        "title": "University Town",
+        "text": "校园中的教学、居住与公共活动片区。"
+      },
+      {
+        "title": "University Cultural Centre",
+        "text": "文化演出与公共艺术所在区域。"
+      },
+      {
+        "title": "NUS Museum",
+        "text": "可独立查看展览和到访要求。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NUS 官方校园导览与限制公告",
+        "url": "https://uci.nus.edu.sg/campus-tour/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "NUS Museum 访客信息",
+        "url": "https://nus.edu.sg/museum/visit",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "地址",
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "新加坡",
+  "website": "https://nus.edu.sg/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

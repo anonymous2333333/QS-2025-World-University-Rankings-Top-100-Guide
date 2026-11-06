@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-017",
+  "sourceIndex": 17,
+  "rank": 17,
+  "name": "香港大学",
+  "nameEn": "HKU",
+  "country": "中国香港",
+  "region": "亚洲",
+  "flag": "🇭🇰",
+  "highlight": "跃居全球第 17 位，创历史新高，医学与牙科学科亚洲第一The University of Hong Kong。",
+  "history": "香港大学(The University of Hong Kong, HKU)成立于1911年,是香港历史最悠久的高等教育机构。该大学由香港总督卢押爵士(Sir Frederick Lugard)建议创立,最初只有医学和工程两个学院,于1912年3月正式开学,首批学生仅有72人。HKU在英国殖民统治时期发挥了关键作用,成为培养香港和整个亚洲地区领导人的重要机构。\n\nHKU在2025年QS世界大学排名中跃居全球第17位,创历史新高,亚洲第一(与新加坡国立大学并列)。该大学已发展成为一所全面的研究型大学,拥有10个学院,包括建筑学院、文学院、经济及工商管理学院、牙医学院、教育学院、工程学院、法律学院、李嘉诚医学院、理学院和社会科学学院。\n\nHKU在多个学科领域表现卓越,在牙科学(全球第2)、教育学(全球第3)、语言学(全球第9)、地理学(全球第10)、社会政策与管理(全球第11)、建筑学(全球第13)、土木工程(全球第13)和法律(全球第15)等学科排名全球前20。该大学的医学院是亚洲最负盛名的医学院之一,在SARS疫情和COVID-19大流行期间发挥了关键作用。\n\nHKU已培养出众多杰出校友,包括中华民国国父孙中山博士(1892年医学院毕业)、香港首位华人法官杨铁樑爵士、文学家张爱玲等。该大学运营着众多研究中心,包括巴斯德研究中心(对SARS冠状病毒的突破性研究)、港大深圳医院和港大-剑桥联合生物医学创新中心。",
+  "visit": "预约：游客在校方规定时段参观须通过 Visit HKU 实名预约；官方导赏另行报名。\n\n费用：官方导赏有收费；一般参观预约与导赏不是同一项目，按当期预订说明确认。\n\n开放范围：部分室内空间仅在导赏或特定活动中开放，不能据室外可达推定可入内。\n\n交通：港铁港岛线香港大学站 A 或 C 出口，按校园标识前往；西营盘站也有步行路线。",
+  "photos": [
+    {
+      "file": "The University of Hong Kong.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_University_of_Hong_Kong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_University_of_Hong_Kong.jpg",
+      "author": "Baycrest",
+      "credit": "Own work",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "香港大學(梅堂及儀禮堂) The University of Hong Kong (Eliot Hall & Meng Wah Complex)",
+      "width": 960,
+      "height": 720,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-017-1",
+      "institutionId": "qs2025-017",
+      "schoolName": "香港大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-017-1.webp",
+      "bytes": 162096,
+      "sha256": "447a9d594ed62629ec4f05db5ea5acc13ee8adafb9796a3bd478215e5a82966d",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "本部校园",
+      "campus": "薄扶林本部",
+      "alt": "香港大学：本部校园"
+    },
+    {
+      "file": "Main Building of The University of Hong Kong Entrance view 2016.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Main_Building_of_The_University_of_Hong_Kong_Entrance_view_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Building_of_The_University_of_Hong_Kong_Entrance_view_2016.jpg",
+      "author": "Wpcpey",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Main Building of The University of Hong Kong Entrance",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-017-2",
+      "institutionId": "qs2025-017",
+      "schoolName": "香港大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-017-2.webp",
+      "bytes": 98600,
+      "sha256": "aeb0252c6212d53b00d57ac86148e7757cbb002d67f560d4e6ef8ff4b58add38",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Main Building",
+      "campus": "薄扶林本部",
+      "alt": "香港大学：Main Building"
+    },
+    {
+      "file": "Exterior of Fung Ping Shan Building.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Exterior_of_Fung_Ping_Shan_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_Fung_Ping_Shan_Building.jpg",
+      "author": "University Museum and Art Gallery (The University of Hong Kong)",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Exterior of Fung Ping Shan Building",
+      "width": 720,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-017-3",
+      "institutionId": "qs2025-017",
+      "schoolName": "香港大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-017-3.webp",
+      "bytes": 122742,
+      "sha256": "7040470e18d325ef8f3efcaaecb77ea18c298dc192da581be820272716ad1abe",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Fung Ping Shan Building",
+      "campus": "薄扶林本部",
+      "alt": "香港大学：Fung Ping Shan Building"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-017-1",
+    "path": "assets/campuses/qs2025-017-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "香港大学：本部校园",
+    "title": "本部校园",
+    "campus": "薄扶林本部",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "中国香港",
+    "campus": "薄扶林本部与百周年校园",
+    "website": "https://www.hku.hk/",
+    "overview": "港大本部依山展开，历史建筑、庭院和城市景观交织。游客应先确认预约，再规划主楼及博物馆周边的步行；校园有坡度，入口、升降机和目的建筑的位置值得提前查看。",
+    "visit": {
+      "booking": "游客在校方规定时段参观须通过 Visit HKU 实名预约；官方导赏另行报名。",
+      "fee": "官方导赏有收费；一般参观预约与导赏不是同一项目，按当期预订说明确认。",
+      "access": "部分室内空间仅在导赏或特定活动中开放，不能据室外可达推定可入内。",
+      "arrival": "港铁港岛线香港大学站 A 或 C 出口，按校园标识前往；西营盘站也有步行路线。",
+      "address": "",
+      "officialUrl": "https://www.hku.hk/en/campus-life/visit-hku"
+    },
+    "highlights": [
+      {
+        "title": "Main Building",
+        "text": "本部的历史建筑与庭院。"
+      },
+      {
+        "title": "Fung Ping Shan Building",
+        "text": "可查看大学美术博物馆的独立参访安排。"
+      },
+      {
+        "title": "百周年校园",
+        "text": "与本部相连，校内步行需留意高差。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "HKU 官方到访与交通",
+        "url": "https://www.hku.hk/en/campus-life/visit-hku",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "交通",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Visit HKU 官方预约平台",
+        "url": "https://tourist-registration-form.hku.hk/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "导赏费用"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "中国香港",
+  "website": "https://www.hku.hk/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-012",
+  "sourceIndex": 12,
+  "rank": 12,
+  "name": "加州大学伯克利分校",
+  "nameEn": "UC Berkeley",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "公立大学标杆，计算机科学、环境科学等学科排名全球前三。",
+  "history": "加州大学伯克利分校成立于1868年,是加州大学系统的旗舰校区和创始校区,源于加州学院(College of California)与州立农业、矿业和机械艺术学院的合并。该大学以英国哲学家乔治·伯克利的名字命名,于1873年迁至伯克利现址。作为公立研究型大学的典范,伯克利在其155年历史中培养了114位诺贝尔奖得主(包括32位校友)、14位菲尔兹奖得主、25位图灵奖得主和众多其他杰出学者,使其成为全球获得诺贝尔奖最多的公立大学。该大学在1930年代至1960年代经历了黄金时期,在校长罗伯特·戈登·斯普劳尔和物理学家欧内斯特·劳伦斯的领导下,发展成为世界领先的研究机构,劳伦斯因发明回旋加速器而获得1939年诺贝尔物理学奖。伯克利在众多学科中表现卓越,在工程、计算机科学、物理学、化学、数学、经济学和社会科学方面尤其突出。该大学管理三个国家实验室(劳伦斯伯克利国家实验室、劳伦斯利弗莫尔国家实验室和洛斯阿拉莫斯国家实验室),在这些实验室中发现了16种化学元素,比世界上任何其他大学都多。伯克利的开创性成就包括在曼哈顿计划中的关键作用、开发UNIX操作系统、发现维生素E、发现流感病毒、创建RISC架构计算机处理器,以及在量子力学、核物理学和基因编辑(CRISPR技术)方面的突破性工作。该大学在QS 2025可持续发展排名中获得美国第一名(与隆德大学并列全球第三),展示了其在环境研究和可持续实践方面的领导地位。伯克利的学术影响力延伸到社会运动,校园是1960年代言论自由运动的发源地,塑造了美国民权和反战抗议活动。",
+  "visit": "预约：免费学生步行导览须登记；招生说明会另行预约，团体有不同安排。\n\n费用：官方普通步行导览免费；钟楼、私人导览或其他项目另查费用。\n\n开放范围：导览不包括宿舍参观；比赛、假期等日期可能变更集合点。\n\n交通：可乘 BART 到 Downtown Berkeley，再步行穿过校园前往确认信中的集合点。",
+  "photos": [
+    {
+      "file": "Berkeley glade afternoon.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Berkeley_glade_afternoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berkeley_glade_afternoon.jpg",
+      "author": "Gku",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Memorial Glade and Sather Tower on the campus of the University of California, Berkeley in Berkeley , California , United States",
+      "width": 640,
+      "height": 480,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-012-1",
+      "institutionId": "qs2025-012",
+      "schoolName": "加州大学伯克利分校",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-012-1.webp",
+      "bytes": 53768,
+      "sha256": "9cdbfbb87396fe0051e67fe5fba24c1637553a4abc09f5c6e8cee3362d87ce62",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Memorial Glade",
+      "campus": "Berkeley 主校区",
+      "alt": "加州大学伯克利分校：Memorial Glade"
+    },
+    {
+      "file": "Sather Tower (Campanile).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sather_Tower_%28Campanile%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sather_Tower_(Campanile).jpg",
+      "author": "Pollito310",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Sather Tower",
+      "width": 640,
+      "height": 480,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-012-2",
+      "institutionId": "qs2025-012",
+      "schoolName": "加州大学伯克利分校",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-012-2.webp",
+      "bytes": 42510,
+      "sha256": "886e1af78864516673b282a8b3c4ac63b6aa8157722c119aab2a09959cfbbcb7",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Campanile / Sather Tower",
+      "campus": "Berkeley 主校区",
+      "alt": "加州大学伯克利分校：Campanile / Sather Tower"
+    },
+    {
+      "file": "Sather Gate - University of California, Berkeley - DSC04925.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sather_Gate_-_University_of_California%2C_Berkeley_-_DSC04925.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sather_Gate_-_University_of_California,_Berkeley_-_DSC04925.JPG",
+      "author": "Daderot",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Sather Gate - University of California, Berkeley - Berkeley, California, USA.",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-012-3",
+      "institutionId": "qs2025-012",
+      "schoolName": "加州大学伯克利分校",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-012-3.webp",
+      "bytes": 145594,
+      "sha256": "522f1da091f26bf00af25f37faefb8e965cb0c07e901ad8f71c0bf14cba4d6d2",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Sather Gate",
+      "campus": "Berkeley 主校区",
+      "alt": "加州大学伯克利分校：Sather Gate"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-012-1",
+    "path": "assets/campuses/qs2025-012-1.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "加州大学伯克利分校：Memorial Glade",
+    "title": "Memorial Glade",
+    "campus": "Berkeley 主校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伯克利",
+    "campus": "Berkeley 主校区",
+    "website": "https://www.berkeley.edu/",
+    "overview": "从 Sather Gate 进入，再沿广场与林荫步道走向钟楼，可以感受伯克利校园的不同尺度。官方校园导览与招生说明会是两个项目，预约前应分别确认。",
+    "visit": {
+      "booking": "免费学生步行导览须登记；招生说明会另行预约，团体有不同安排。",
+      "fee": "官方普通步行导览免费；钟楼、私人导览或其他项目另查费用。",
+      "access": "导览不包括宿舍参观；比赛、假期等日期可能变更集合点。",
+      "arrival": "可乘 BART 到 Downtown Berkeley，再步行穿过校园前往确认信中的集合点。",
+      "address": "",
+      "officialUrl": "https://visit.berkeley.edu/campus-tours/free-guided-walking-tours"
+    },
+    "highlights": [
+      {
+        "title": "Sather Gate",
+        "text": "校园与城市街区相接的地标入口。"
+      },
+      {
+        "title": "Campanile / Sather Tower",
+        "text": "校园钟楼；观景开放须另查。"
+      },
+      {
+        "title": "Memorial Glade",
+        "text": "可结合校园步道观察草坪与公共空间。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Berkeley 官方步行导览",
+        "url": "https://visit.berkeley.edu/campus-tours/free-guided-walking-tours",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Berkeley 官方交通说明",
+        "url": "https://visit.berkeley.edu/map-directions/directions-parking",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "交通",
+          "集合点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "伯克利",
+  "website": "https://www.berkeley.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

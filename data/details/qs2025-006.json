@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-006",
+  "sourceIndex": 6,
+  "rank": 6,
+  "name": "斯坦福大学",
+  "nameEn": "Stanford University",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "创业生态全球顶尖，计算机科学与工程学科常年位居前列。",
+  "history": "斯坦福大学由铁路大亨和前加州州长利兰·斯坦福及其妻子简于1885年创立,以纪念他们唯一的儿子小利兰·斯坦福,他于1884年15岁时死于伤寒。该大学于1891年作为男女同校和非宗派机构向学生开放。二战后,教务长弗雷德里克·特曼培养了一种企业家文化,帮助在1950年代建立了斯坦福工业园,为后来成为硅谷奠定了基础。斯坦福取得了非凡的学术成就,现任和前任教员中有58位诺贝尔奖得主,29位图灵奖得主占计算机科学所有奖项的三分之一。该大学在工程、计算机科学、商业和科学方面表现出色,其商学院研究生院(成立于1925年)和SLAC国家加速器实验室(成立于1962年)代表了世界级的创新中心。斯坦福365亿美元的捐赠基金是美国四大之一,支持开创性研究和技术知识产权转让,孵化了包括Google、Nike和惠普在内的公司。",
+  "visit": "预约：招生导览按官方登记；自助参观可参考官方地图，临时活动安排可能影响路线。\n\n费用：胡佛塔观景、展馆或活动的费用需单独查阅，未列出统一校园门票。\n\n开放范围：部分建筑、教学空间及活动场地不向一般参访开放。\n\n交通：以 Stanford Visitor Center 为自助路线起点；官方地图可查看到访与停车安排。",
+  "photos": [
+    {
+      "file": "Stanford Oval May 2011 panorama.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Stanford_Oval_May_2011_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanford_Oval_May_2011_panorama.jpg",
+      "author": "King of Hearts",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "View of Stanford University from the Oval.",
+      "width": 960,
+      "height": 240,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-006-1",
+      "institutionId": "qs2025-006",
+      "schoolName": "斯坦福大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-006-1.webp",
+      "bytes": 45492,
+      "sha256": "1a3e8401324cfdef675af542c437f84505d3a1ab5ed67bfd7dcd251538ade835",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Stanford Oval",
+      "campus": "Stanford 主校区",
+      "alt": "斯坦福大学：Stanford Oval"
+    },
+    {
+      "file": "Stanford Memorial Church May 2011 HDR 1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Stanford_Memorial_Church_May_2011_HDR_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanford_Memorial_Church_May_2011_HDR_1.jpg",
+      "author": "King of Hearts",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Stanford Memorial Church . HDR created from 9 images taken at ISO 100 with f/8 aperture and shutter speeds ranging from 1/8 to 30 sec in full stops. Photoshop Merge to HDR Pro was used.",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-006-2",
+      "institutionId": "qs2025-006",
+      "schoolName": "斯坦福大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-006-2.webp",
+      "bytes": 52312,
+      "sha256": "4028214d8d6138663f6acd6b15a542879001325bf00d929f02c11a7a2f7a9f34",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Memorial Church",
+      "campus": "Stanford 主校区",
+      "alt": "斯坦福大学：Memorial Church"
+    },
+    {
+      "file": "Hoover Tower Stanford January 2013.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hoover_Tower_Stanford_January_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoover_Tower_Stanford_January_2013.jpg",
+      "author": "King of Hearts",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Hoover Tower , Stanford University , California .",
+      "width": 576,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-006-3",
+      "institutionId": "qs2025-006",
+      "schoolName": "斯坦福大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-006-3.webp",
+      "bytes": 90110,
+      "sha256": "56d08a67807dc18c9dc38ca59f7002ebc63edb49b37481e6e3043b33feebad72",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Hoover Tower",
+      "campus": "Stanford 主校区",
+      "alt": "斯坦福大学：Hoover Tower"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-006-1",
+    "path": "assets/campuses/qs2025-006-1.webp",
+    "width": 960,
+    "height": 240,
+    "alt": "斯坦福大学：Stanford Oval",
+    "title": "Stanford Oval",
+    "campus": "Stanford 主校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "斯坦福",
+    "campus": "Stanford 主校区",
+    "website": "https://www.stanford.edu/",
+    "overview": "主庭院、公共艺术和绿地共同构成斯坦福的步行体验。可以从游客中心领取信息，再沿官方自助路线走向 Main Quad；不要把招生导览的预约等同于所有校园建筑的进入权限。",
+    "visit": {
+      "booking": "招生导览按官方登记；自助参观可参考官方地图，临时活动安排可能影响路线。",
+      "fee": "胡佛塔观景、展馆或活动的费用需单独查阅，未列出统一校园门票。",
+      "access": "部分建筑、教学空间及活动场地不向一般参访开放。",
+      "arrival": "以 Stanford Visitor Center 为自助路线起点；官方地图可查看到访与停车安排。",
+      "address": "295 Galvez Street, Stanford, CA",
+      "officialUrl": "https://visit.stanford.edu/"
+    },
+    "highlights": [
+      {
+        "title": "Main Quad",
+        "text": "校园中心的庭院和连续拱廊。"
+      },
+      {
+        "title": "Memorial Church 外观",
+        "text": "主庭院中的代表性建筑。"
+      },
+      {
+        "title": "Hoover Tower",
+        "text": "可单独了解观景平台开放与票务。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stanford 官方游客信息",
+        "url": "https://visit.stanford.edu/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "地址",
+          "开放范围"
+        ]
+      },
+      {
+        "title": "Stanford 自助路线与校园看点",
+        "url": "https://visit.stanford.edu/explore-campus",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点",
+          "路线"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "斯坦福",
+  "website": "https://www.stanford.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

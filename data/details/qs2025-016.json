@@ -1,0 +1,165 @@
+{
+  "id": "qs2025-016",
+  "sourceIndex": 16,
+  "rank": 16,
+  "name": "康奈尔大学",
+  "nameEn": "Cornell University",
+  "country": "美国",
+  "region": "北美",
+  "flag": "🇺🇸",
+  "highlight": "常春藤盟校中唯一设有农业与生命科学学院的大学。",
+  "history": "康奈尔大学由企业家埃兹拉·康奈尔和教育家安德鲁·迪克森·怀特于1865年创立,并于1868年开始招生,是常春藤盟校中最年轻的成员,也是唯一一所在美国内战后成立的常春藤大学。康奈尔的创立理念具有革命性——\"我将创立一所大学,任何人都能在这里学习任何学科\"(I would found an institution where any person can find instruction in any study),这体现了其对包容性和实用教育的承诺。\n\n与其他常春藤盟校相比,康奈尔是唯一一所将公立和私立资金结合的大学,其农业与生命科学学院、人类生态学院和工业与劳工关系学院由纽约州资助,而其他学院则为私立。这种独特的结构使康奈尔能够提供从兽医学到酒店管理等多样化的学术课程,涵盖人文、科学、工程和专业领域。\n\n康奈尔已培养出61位诺贝尔奖得主(截至2024年),包括物理学家汉斯·贝特(1967)、珍珠·穆勒(物理学,2018)和化学家罗尔德·霍夫曼(1981)。该大学在多个学科领域表现卓越,在工程学(特别是土木工程、电气工程和计算机科学)、农业科学、兽医学、酒店管理和劳工关系方面尤其突出。康奈尔的酒店管理学院(1922年成立)是世界上第一所大学酒店管理学院,至今仍是全球最负盛名的学院之一。\n\n康奈尔运营着众多研究设施,包括康奈尔实验室鸟类学研究所、康奈尔航空航天实验室和康奈尔高能同步加速器光源(CHESS)。该大学在COVID-19大流行期间的创新,包括开发快速测试协议和广泛的校园测试计划,展示了其在公共卫生研究方面的领导地位。",
+  "visit": "预约：校园导览按 Visit Cornell 当期可用日期预约，也可选择自助路线。\n\n费用：导览、展馆及特别活动分别查看项目页，未给出统一费用承诺。\n\n开放范围：部分景点受活动和季节影响；住宿、教学与研究空间不是普通开放参观范围。\n\n交通：可先定位 Martin Y. Tang Welcome Center，再按官方到访工具规划交通。",
+  "photos": [
+    {
+      "file": "Cornell University, Ho Plaza and Sage Hall.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cornell_University%2C_Ho_Plaza_and_Sage_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_University,_Ho_Plaza_and_Sage_Hall.jpg",
+      "author": "sach1tb",
+      "credit": "https://www.flickr.com/photos/sach1tb/274991658/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Cornell University from atop McGraw Tower looking southeast; Barnes Hall, Sage Hall",
+      "width": 960,
+      "height": 718,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-016-1",
+      "institutionId": "qs2025-016",
+      "schoolName": "康奈尔大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-016-1.webp",
+      "bytes": 204444,
+      "sha256": "4fef38bbc69286ad33b20e850b6ffcf672b4d557093a3eb8bf32d8dab81982de",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Ho Plaza 与 Sage Hall",
+      "campus": "Ithaca 校区",
+      "alt": "康奈尔大学：Ho Plaza 与 Sage Hall"
+    },
+    {
+      "file": "Cornell University - McGraw Tower (Uris Library).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cornell_University_-_McGraw_Tower_%28Uris_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_University_-_McGraw_Tower_(Uris_Library).jpg",
+      "author": "P. Hughes",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "McGraw Tower, Uris Library, Cornell University, Ithaca, New York",
+      "width": 630,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-016-2",
+      "institutionId": "qs2025-016",
+      "schoolName": "康奈尔大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-016-2.webp",
+      "bytes": 136336,
+      "sha256": "b4d0207f58b09ea00d94cd3633528defb294b0d49035289b0b24a266dc288495",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "McGraw Tower",
+      "campus": "Ithaca 校区",
+      "alt": "康奈尔大学：McGraw Tower"
+    },
+    {
+      "file": "Cornell University - West side of Arts Quad.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cornell_University_-_West_side_of_Arts_Quad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_University_-_West_side_of_Arts_Quad.jpg",
+      "author": "P. Hughes",
+      "credit": "Own work",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "West side of Arts Quad, Cornell University, Ithaca, New York, taken from McGraw Tower.",
+      "width": 667,
+      "height": 960,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-016-3",
+      "institutionId": "qs2025-016",
+      "schoolName": "康奈尔大学",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-016-3.webp",
+      "bytes": 179854,
+      "sha256": "9c1e0b26a217063e3ae822a812d26e13554c19ad89fe728119ca892147098093",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Arts Quad",
+      "campus": "Ithaca 校区",
+      "alt": "康奈尔大学：Arts Quad"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-016-1",
+    "path": "assets/campuses/qs2025-016-1.webp",
+    "width": 960,
+    "height": 718,
+    "alt": "康奈尔大学：Ho Plaza 与 Sage Hall",
+    "title": "Ho Plaza 与 Sage Hall",
+    "campus": "Ithaca 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "伊萨卡",
+    "campus": "Ithaca 校区",
+    "website": "https://www.cornell.edu/",
+    "overview": "康奈尔的参访既有大学建筑，也与伊萨卡周边的自然环境相连。游客中心是合适的咨询起点，麦格劳塔和 Arts Quad 可作为步行节点；展馆和峡谷周边仍需留意各自开放与安全提示。",
+    "visit": {
+      "booking": "校园导览按 Visit Cornell 当期可用日期预约，也可选择自助路线。",
+      "fee": "导览、展馆及特别活动分别查看项目页，未给出统一费用承诺。",
+      "access": "部分景点受活动和季节影响；住宿、教学与研究空间不是普通开放参观范围。",
+      "arrival": "可先定位 Martin Y. Tang Welcome Center，再按官方到访工具规划交通。",
+      "address": "616 Thurston Avenue, Ithaca, NY",
+      "officialUrl": "https://admissions.cornell.edu/visit-and-connect"
+    },
+    "highlights": [
+      {
+        "title": "McGraw Tower 与 Uris Library 外观",
+        "text": "校园中具有辨识度的建筑组合。"
+      },
+      {
+        "title": "Arts Quad",
+        "text": "适合感受学院建筑与草坪空间的片区。"
+      },
+      {
+        "title": "Johnson Museum / Botanic Gardens",
+        "text": "可按兴趣选一处，另外查看开放安排。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cornell 官方访问入口",
+        "url": "https://admissions.cornell.edu/visit-and-connect",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "校区"
+        ]
+      },
+      {
+        "title": "Cornell Visitor Relations",
+        "url": "https://universityrelations.cornell.edu/units/visitor/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "地址",
+          "路线"
+        ]
+      },
+      {
+        "title": "Cornell 自助参访建议",
+        "url": "https://faq.enrollment.cornell.edu/kb/article/444-what-if-i-cannot-attend-cornell-days/",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校园看点"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "伊萨卡",
+  "website": "https://www.cornell.edu/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

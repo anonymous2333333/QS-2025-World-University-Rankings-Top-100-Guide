@@ -1,0 +1,158 @@
+{
+  "id": "qs2025-007",
+  "sourceIndex": 7,
+  "rank": 7,
+  "name": "苏黎世联邦理工学院",
+  "nameEn": "ETH Zurich",
+  "country": "瑞士",
+  "region": "欧洲",
+  "flag": "🇨🇭",
+  "highlight": "工程与技术领域欧洲第一，国际研究网络覆盖广泛。",
+  "history": "苏黎世联邦理工学院(Eidgenössische Technische Hochschule Zürich)由瑞士联邦政府于1854年2月7日成立,名为联邦理工学院,旨在教育工程师和科学家。该机构于1855年开始教学,并于1911年更名为瑞士联邦理工学院。从一开始,ETH就将国际化视野与强大的民族根基相结合,通过将专业知识带入国家并培训技术专家,成为瑞士工业化的推动力。ETH在其整个历史中一直是非凡科学人才的家园,最著名的是阿尔伯特·爱因斯坦,他在1900年代初期在那里学习和教书。该大学已培养出20多位诺贝尔奖得主,包括沃尔夫冈·泡利(物理学,1945)、理查德·恩斯特(化学,1991)和库尔特·武特里希(化学,2002)。ETH在化学、数学、物理学和计算机科学方面取得了特别的声誉,在1950年代发明第一台计算机(ERMETH)和量子物理学的开创性工作等显著成就。该机构在2024年部署了Alps超级计算机,配备超过10,000个Nvidia GPU,使其成为全球最大的学术超级计算机之一,体现了ETH对尖端研究基础设施的持续承诺。",
+  "visit": "预约：官方 meet ETH 导览通过当期日历预订，语言和集合点按确认信息。\n\n费用：官方导览有收费，当前价格应以预订页为准；不能概括成全部免费。\n\n开放范围：主楼的公共开放区域与实验室权限不同，学术空间须按规定访问。\n\n交通：前往 Zentrum 可乘电车到 ETH/Universitätsspital，或经 Central 换乘 Polybahn。",
+  "photos": [
+    {
+      "file": "ETH Zurich from Polyterrace.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/ETH_Zurich_from_Polyterrace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ETH_Zurich_from_Polyterrace.jpg",
+      "author": "Anand Kesari",
+      "credit": "Own work",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:ETH_Zurich_from_Polyterrace.jpg",
+      "caption": "The \"Zentrum\" campus of the ETH Zürich. Zürich, Hauptgebäude der ETH.",
+      "width": 510,
+      "height": 338,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-007-1",
+      "institutionId": "qs2025-007",
+      "schoolName": "苏黎世联邦理工学院",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-007-1.webp",
+      "bytes": 30556,
+      "sha256": "e2500197012724852c5cf9b178befdd9974d13a11b2c568524cc75a1b287a460",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "ETH 主楼",
+      "campus": "Zentrum 校区",
+      "alt": "苏黎世联邦理工学院：ETH 主楼"
+    },
+    {
+      "file": "Hauptgebäude der ETH Zürich and Polyterrasse 2022-09-24 01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Hauptgeb%C3%A4ude_der_ETH_Z%C3%BCrich_and_Polyterrasse_2022-09-24_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hauptgeb%C3%A4ude_der_ETH_Z%C3%BCrich_and_Polyterrasse_2022-09-24_01.jpg",
+      "author": "Leonhard Lenz",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Polyterrasse square and main building of the ETH Zürich.",
+      "width": 960,
+      "height": 641,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-007-2",
+      "institutionId": "qs2025-007",
+      "schoolName": "苏黎世联邦理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-007-2.webp",
+      "bytes": 143842,
+      "sha256": "b9edd46faa42f9adbe8631cdba045665149f3c0a371b80bcf08a461874e472c8",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Polyterrasse",
+      "campus": "Zentrum 校区",
+      "alt": "苏黎世联邦理工学院：Polyterrasse"
+    },
+    {
+      "file": "ETH Hönggerberg campus, seen from Hönggerbergstrasse.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/ETH_H%C3%B6nggerberg_campus%2C_seen_from_H%C3%B6nggerbergstrasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ETH_H%C3%B6nggerberg_campus,_seen_from_H%C3%B6nggerbergstrasse.jpg",
+      "author": "Balise42",
+      "credit": "Own work",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "ETH Hönggerberg campus, seen from Hönggerbergstrasse: 4-5 stery buildings with varying amount of glass, behind a street and a small meadow. There's a large bright yellow ETHZürich sign in front of the buildings, and a Hönggerberg bus stop in the foreground.",
+      "width": 960,
+      "height": 641,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-007-3",
+      "institutionId": "qs2025-007",
+      "schoolName": "苏黎世联邦理工学院",
+      "isCover": false,
+      "path": "assets/campuses/qs2025-007-3.webp",
+      "bytes": 109270,
+      "sha256": "6801777d0f40ba8ced07b42b9b0340b307efdb909ba419c1b26f9e65b6f479b8",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "Hönggerberg 校区",
+      "campus": "Hönggerberg 校区（与 Zentrum 分开）",
+      "alt": "苏黎世联邦理工学院：Hönggerberg 校区"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-007-1",
+    "path": "assets/campuses/qs2025-007-1.webp",
+    "width": 510,
+    "height": 338,
+    "alt": "苏黎世联邦理工学院：ETH 主楼",
+    "title": "ETH 主楼",
+    "campus": "Zentrum 校区",
+    "creditLine": ""
+  },
+  "guide": {
+    "reviewedOn": "2026-11-06",
+    "reviewScope": [
+      "校区与概览",
+      "参访入口与限制",
+      "交通建议"
+    ],
+    "city": "苏黎世",
+    "campus": "Zentrum 校区；相册另含 Hönggerberg",
+    "website": "https://ethz.ch/",
+    "overview": "从市中心到山坡上的主楼和 Polyterrasse，可看到苏黎世校园与城市的关系。ETH 另有 Hönggerberg 校区；规划参访时要认清导览集合点，两个校区不能按同一个地址导航。",
+    "visit": {
+      "booking": "官方 meet ETH 导览通过当期日历预订，语言和集合点按确认信息。",
+      "fee": "官方导览有收费，当前价格应以预订页为准；不能概括成全部免费。",
+      "access": "主楼的公共开放区域与实验室权限不同，学术空间须按规定访问。",
+      "arrival": "前往 Zentrum 可乘电车到 ETH/Universitätsspital，或经 Central 换乘 Polybahn。",
+      "address": "Rämistrasse 101, 8092 Zürich",
+      "officialUrl": "https://ethz.ch/en/campus/access/zentrum.html"
+    },
+    "highlights": [
+      {
+        "title": "ETH 主楼",
+        "text": "Zentrum 校区的历史主建筑。"
+      },
+      {
+        "title": "Polyterrasse",
+        "text": "主楼旁眺望城市的公共平台。"
+      },
+      {
+        "title": "Hönggerberg 校区",
+        "text": "现代教学科研建筑片区，与市中心校区分开规划。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ETH Zentrum 交通与地址",
+        "url": "https://ethz.ch/en/campus/access/zentrum.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "校区",
+          "交通",
+          "地址"
+        ]
+      },
+      {
+        "title": "meet ETH 官方导览",
+        "url": "https://ethz.ch/en/news-and-events/meet-eth/tours.html",
+        "checkedOn": "2026-11-06",
+        "supports": [
+          "预约",
+          "费用"
+        ]
+      }
+    ]
+  },
+  "guideAvailable": true,
+  "city": "苏黎世",
+  "website": "https://ethz.ch/",
+  "reviewedOn": "2026-11-06",
+  "institutionUpdate": null,
+  "detailsLoaded": true
+}

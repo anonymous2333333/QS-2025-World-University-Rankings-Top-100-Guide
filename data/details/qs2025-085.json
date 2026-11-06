@@ -1,0 +1,66 @@
+{
+  "id": "qs2025-085",
+  "sourceIndex": 85,
+  "rank": 84,
+  "name": "东京工业大学",
+  "nameEn": "Tokyo Institute of Technology",
+  "country": "日本",
+  "region": "亚洲",
+  "flag": "🇯🇵",
+  "highlight": "工程学科亚洲第四，材料科学与化学全球前二十。",
+  "history": "此条目使用 QS 2025 榜单中的 Tokyo Institute of Technology 历史名称。东京工业大学与东京医科齿科大学于 2024 年 10 月 1 日合并成立东京科学大学（Institute of Science Tokyo / Science Tokyo），新机构整合理工与医学相关教育研究。此处不将两所合并前学校和合并后机构的名次直接连成趋势。",
+  "visit": "当前参访、校园地图、博物馆或公开活动请通过东京科学大学官网查阅。图示为大冈山校区历史建筑；访问前应确定具体校区和建筑，不将历史名称视为当前所有校区的统一预约入口。官方信息：https://www.isct.ac.jp/en/001/about",
+  "photos": [
+    {
+      "file": "Titech2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Titech2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titech2.jpg",
+      "author": "03 at Japanese Wikipedia",
+      "credit": "own work by the original uploader ( Original text: 本人が撮影 )",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The main building of Ookayama Campus, Tokyo Institute of Technology.",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-085-1",
+      "institutionId": "qs2025-085",
+      "schoolName": "东京工业大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-085-1.webp",
+      "bytes": 90020,
+      "sha256": "b45d13ef70d14e65003a84b4f1223f0428217587d84a086c43f5c1507ab7cb3f",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "东京工业大学校园代表图",
+      "campus": "大冈山校区（历史名称）",
+      "alt": "东京工业大学：东京工业大学校园代表图"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-085-1",
+    "path": "assets/campuses/qs2025-085-1.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "东京工业大学：东京工业大学校园代表图",
+    "title": "东京工业大学校园代表图",
+    "campus": "大冈山校区（历史名称）",
+    "creditLine": ""
+  },
+  "guide": null,
+  "guideAvailable": false,
+  "city": "",
+  "website": "https://www.isct.ac.jp/en",
+  "reviewedOn": "",
+  "institutionUpdate": {
+    "text": "东京工业大学与东京医科齿科大学于 2024 年 10 月 1 日合并成立东京科学大学（Institute of Science Tokyo）。此处保留 QS 2025 榜单历史名称；当前机构信息请看新校官网。",
+    "website": "https://www.isct.ac.jp/en",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "Science Tokyo 官方机构介绍",
+        "url": "https://www.isct.ac.jp/en/001/about"
+      }
+    ]
+  },
+  "detailsLoaded": true
+}

@@ -1,6 +1,6 @@
 {
   "name": "qs-2025-university-explorer",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "description": "可离线使用的 QS 2025 大学探索与参访指南",
   "scripts": {

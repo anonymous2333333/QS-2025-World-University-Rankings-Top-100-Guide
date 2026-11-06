@@ -14,6 +14,12 @@
     let initVersion = 0;
     let storageWarningShown = false;
     const dialogFocus = new WeakMap();
+    const detailRequests = new Map();
+    let inlineDatasetPromise = null;
+    let detailGeneration = 0;
+    let comparisonGeneration = 0;
+    let photoGeneration = 0;
+    let activePhoto = null;
     const countryNames = {
         '美国': 'United States of America', '加拿大': 'Canada', '英国': 'United Kingdom', '瑞士': 'Switzerland',
         '法国': 'France', '德国': 'Germany', '荷兰': 'Netherlands', '比利时': 'Belgium', '瑞典': 'Sweden',
@@ -106,13 +112,19 @@
     function rankBadge(row) {
         return `<div class="rank-badge${row.rank <= 3 ? ' top-rank' : ''}"><span>#</span><strong>${row.rank}</strong>${tiedRanks.has(row.rank) ? '<small>并列</small>' : ''}</div>`;
     }
+    function photoFrame(photo, className = '', loading = 'lazy') {
+        if (!photo) return `<div class="photo-frame ${className} is-missing"><span class="photo-placeholder">校园照片暂不可用</span></div>`;
+        return `<div class="photo-frame ${className}"><img data-campus-photo src="${e(photo.path)}" alt="${e(photo.alt)}" width="${photo.width}" height="${photo.height}" loading="${loading}" decoding="async"><span class="photo-placeholder">照片未能加载，学校资料仍可阅读</span><button class="photo-credit-button" type="button" data-photo="${photo.id}" aria-label="查看${e(photo.alt)}的图片与许可">${photo.creditLine ? e(photo.creditLine) + ' · ' : ''}图源与许可 ↗</button></div>`;
+    }
     function renderCard(row) {
         const saved = state.favorites.includes(row.id);
         const selected = state.compare.includes(row.id);
         return `<article class="university-card" data-school="${row.id}">
+            ${photoFrame(row.cover, 'card-photo')}
             <div class="card-topline">${rankBadge(row)}<button type="button" class="icon-button bookmark-button" data-action="favorite" data-id="${row.id}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'}${e(row.name)}">${icon('bookmark')}</button></div>
             <div class="card-main"><h3><button type="button" class="school-title" data-action="detail" data-id="${row.id}">${e(row.name)}</button></h3><p class="university-name-en" lang="en">${e(row.nameEn)}</p></div>
-            <p class="card-location"><span aria-hidden="true">${e(row.flag)}</span><span>${e(row.country)}</span></p>
+            <p class="card-location"><span aria-hidden="true">${e(row.flag)}</span><span>${e(row.city || row.country)}</span></p>
+            ${row.guideAvailable ? '<span class="guide-badge">参访指南已核对</span>' : '<span class="archive-badge">2025 年度资料</span>'}
             <div class="card-tags">${row.subjects.slice(0, 2).map(key => `<span class="subject-tag">${e(C.SUBJECTS[key].label)}</span>`).join('')}</div>
             <p class="card-highlight">${e(row.highlight || '了解这所大学的历史与校园参访资料。')}</p>
             <div class="card-bottom"><button type="button" class="compare-button" data-action="compare" data-id="${row.id}" aria-pressed="${selected}" aria-label="${selected ? '从对比中移除' : '加入对比'}${e(row.name)}">${icon(selected ? 'check' : 'compare')}${selected ? '已加入对比' : '加入对比'}</button><button type="button" class="details-button" data-action="detail" data-id="${row.id}" aria-label="查看${e(row.name)}详情">了解学校${icon('chevron')}</button></div>
@@ -190,27 +202,108 @@
         document.body.classList.add('dialog-open');
     }
     function closeDialog(dialog) { if (dialog.open) dialog.close(); }
-    function openDetail(id, mode = 'push') {
+    function loadInlineDataset() {
+        const complete = () => {
+            try { return window.__QS_UNIVERSITIES__?.length === 100 && C.normalizeDataset(window.__QS_UNIVERSITIES__).length === 100; }
+            catch (_) { return false; }
+        };
+        if (complete()) return Promise.resolve(window.__QS_UNIVERSITIES__);
+        if (inlineDatasetPromise) return inlineDatasetPromise;
+        inlineDatasetPromise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'data/universities.inline.js?v=3.0.0';
+            script.dataset.inlineFallback = 'true';
+            const timer = setTimeout(() => finish(new Error('内置资料读取超时')), 6000);
+            function finish(error) {
+                clearTimeout(timer); script.onload = null; script.onerror = null;
+                if (error) { script.remove(); inlineDatasetPromise = null; reject(error); }
+                else resolve(window.__QS_UNIVERSITIES__);
+            }
+            script.onload = () => complete() ? finish() : finish(new Error('内置资料格式无效或不完整'));
+            script.onerror = () => finish(new Error('缺少内置资料脚本'));
+            document.head.appendChild(script);
+        });
+        return inlineDatasetPromise;
+    }
+    async function ensureDetail(id) {
+        const existing = byId(id);
+        if (existing?.detailsLoaded) return existing;
+        if (detailRequests.has(id)) return detailRequests.get(id);
+        const request = C.loadUniversityDetail({id, fetcher: window.fetch?.bind(window), fallbackLoader: loadInlineDataset}).then(row => {
+            const index = state.rows.findIndex(item => item.id === id);
+            if (index !== -1) state.rows[index] = row;
+            return row;
+        }).catch(error => { detailRequests.delete(id); throw error; });
+        detailRequests.set(id, request);
+        return request;
+    }
+    function sourceLinks(sources) {
+        return sources.map(source => `<a href="${e(source.url)}" target="_blank" rel="noopener noreferrer">${e(source.title)} ↗</a>`).join('');
+    }
+    function renderGuide(guide) {
+        if (!guide) return '';
+        const facts = [['预约怎么做', guide.visit.booking], ['费用怎么查', guide.visit.fee], ['哪些地方能进', guide.visit.access], ['公共交通与到访', guide.visit.arrival]];
+        return `<section class="detail-section visit-guide"><div class="guide-heading"><h3>先把参访安排好</h3><span>核对日期 ${e(guide.reviewedOn)}</span></div><p class="campus-label">${e(guide.campus)}${guide.visit.address ? ' · ' + e(guide.visit.address) : ''}</p><dl class="visit-facts">${facts.map(([label, value]) => `<div><dt>${label}</dt><dd>${e(value)}</dd></div>`).join('')}</dl><div class="visit-actions"><a class="primary-button" href="${e(guide.visit.officialUrl)}" target="_blank" rel="noopener noreferrer">打开官方参访入口 ↗</a>${guide.visit.address ? `<a class="secondary-button" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(guide.visit.address)}" target="_blank" rel="noopener noreferrer">查看地址地图 ↗</a>` : ''}</div><p class="field-help">已核对校区、参访入口与交通建议；不代表全校历史或学科断言均已核验。出发前再确认当日公告。</p></section><section class="detail-section"><h3>到校园里看什么</h3><div class="campus-highlights">${guide.highlights.map(place => `<div><h4>${e(place.title)}</h4><p>${e(place.text)}</p></div>`).join('')}</div></section><section class="detail-section sources-section"><h3>这份指南的依据</h3><div class="detail-source">${sourceLinks(guide.sources)}</div></section>`;
+    }
+    function renderDetailBody(row, pending = false, error = '') {
+        const guide = row.guide;
+        const update = row.institutionUpdate;
+        $('modalBody').innerHTML = `<div class="detail-header">${rankBadge(row)}<h2 id="detailTitle">${e(row.name)}</h2><p class="university-name-en" lang="en">${e(row.nameEn)}</p><p class="card-location"><span aria-hidden="true">${e(row.flag)}</span><span>${e(row.city || row.country)} / ${e(row.region)}</span></p></div>${photoFrame(row.cover, 'detail-photo', 'eager')}<div class="detail-actions" id="detailActions"></div><div class="detail-content">${update ? `<aside class="institution-update"><h3>名称与资料更新</h3><p>${e(update.text)}</p><p class="field-help">核对日期 ${e(update.checkedOn)}</p><div class="detail-source">${sourceLinks(update.sources)}</div></aside>` : ''}${pending ? '<p class="detail-loading" role="status">正在读取这所学校的详细资料…</p>' : error ? `<div class="detail-error" role="status"><p>${e(error)}</p><button type="button" class="secondary-button" data-retry-detail="${row.id}">重新读取详情</button></div>` : `<section class="detail-section"><h3>${guide ? '先认识这所学校' : '原资料亮点'}</h3><div class="prose">${paragraphs(guide?.overview || row.highlight)}</div>${!guide ? '<p class="field-help">以下介绍沿用原项目，尚未逐项独立核验。</p>' : ''}</section>${renderGuide(guide)}${row.photos.length > 1 ? `<section class="detail-section campus-gallery-section"><h3>再看几处校园风景</h3><div class="campus-gallery">${row.photos.map(photo => `<figure>${photoFrame(photo, 'gallery-photo')}<figcaption>${e(photo.title)}<small>${e(photo.campus)}</small></figcaption></figure>`).join('')}</div></section>` : ''}<details class="legacy-reading"><summary>历史故事与原始整理资料（未逐项核验）</summary><section class="detail-section"><h3>历史背景与学科故事</h3><div class="prose">${paragraphs(row.history)}</div></section>${!guide ? `<section class="detail-section"><h3>原始参访资料</h3><div class="prose">${paragraphs(row.visit)}</div></section>` : ''}</details><p class="reading-note">名次口径：QS 2025。${tiedRanks.has(row.rank) ? '此名次包含并列学校。' : ''}照片是注明来源的真实校园影像，不代表实时景象或当前开放范围。${!guide ? '此校参访安排尚未做结构化核对，出行前请自行确认学校官网。' : ''}</p><div class="detail-source"><a href="https://www.topuniversities.com/world-university-rankings/2025" target="_blank" rel="noopener noreferrer">QS 年度来源 ↗</a><a href="IMAGE_CREDITS.md" target="_blank" rel="noopener">全部照片署名与许可 ↗</a><a href="QS2025%20top100.md" target="_blank" rel="noopener">原始整理资料 ↗</a></div>`}</div>`;
+        updateDetailButtons(row);
+    }
+    async function openDetail(id, mode = 'push') {
         const row = byId(id);
         if (!row) return;
+        const generation = ++detailGeneration;
         state.detail = id;
-        $('modalBody').innerHTML = `<div class="detail-header">${rankBadge(row)}<h2 id="detailTitle">${e(row.name)}</h2><p class="university-name-en" lang="en">${e(row.nameEn)}</p><p class="card-location"><span aria-hidden="true">${e(row.flag)}</span><span>${e(row.country)} / ${e(row.region)}</span></p></div><div class="detail-actions" id="detailActions"></div><div class="detail-content"><section class="detail-section"><h3>资料亮点</h3><div class="prose">${paragraphs(row.highlight)}</div></section><section class="detail-section"><h3>历史背景与学科故事</h3><div class="prose">${paragraphs(row.history)}</div></section><section class="detail-section"><h3>校园参访攻略</h3><div class="prose">${paragraphs(row.visit)}</div></section><p class="reading-note">名次口径：QS 2025。${tiedRanks.has(row.rank) ? '此名次包含并列学校。' : ''}介绍与攻略保留原整理资料，未逐项独立核验；名称和参访政策可能已变化，请在出行前向学校确认。</p><div class="detail-source"><a href="https://www.topuniversities.com/world-university-rankings/2025" target="_blank" rel="noopener noreferrer">查看 QS 年度来源 ↗</a><a href="QS2025%20top100.md" target="_blank" rel="noopener">阅读原始完整资料 ↗</a></div></div>`;
-        updateDetailButtons(row);
+        renderDetailBody(row, !row.detailsLoaded);
         openDialog($('detailModal'));
         $('detailModal').scrollTop = 0;
         syncURL(mode);
+        if (row.detailsLoaded) return;
+        try {
+            const full = await ensureDetail(id);
+            if (state.detail !== id || generation !== detailGeneration || !$('detailModal').open) return;
+            renderDetailBody(full);
+        } catch (error) {
+            if (state.detail === id && generation === detailGeneration && $('detailModal').open) renderDetailBody(row, false, error.message);
+        }
+    }
+    async function openPhoto(id) {
+        if (!/^qs2025-\d{3}-[1-9]$/.test(id)) return;
+        const institutionId = id.slice(0, -2);
+        const generation = ++photoGeneration;
+        $('photoBody').innerHTML = '<p class="detail-loading" role="status">正在读取照片署名与许可…</p>';
+        openDialog($('photoModal'));
+        try {
+            const row = await ensureDetail(institutionId);
+            const photo = row.photos.find(item => item.id === id);
+            if (generation !== photoGeneration || !$('photoModal').open) return;
+            if (!photo) throw new Error('这张照片的署名资料暂不可用');
+            activePhoto = {institutionId, id};
+            $('photoBody').innerHTML = `<div class="lightbox-image photo-frame"><img data-campus-photo src="${e(photo.path)}" alt="${e(photo.alt)}" width="${photo.width}" height="${photo.height}" decoding="async"><span class="photo-placeholder">照片未能加载，图源与署名仍可查看</span></div><div class="photo-provenance"><h3>${e(row.name)} · ${e(photo.title)}</h3><p class="campus-label">${e(photo.campus)}</p><p><strong>摄影 / 作者：</strong>${e(photo.author)}</p><p><strong>许可：</strong><a href="${e(photo.licenseUrl)}" target="_blank" rel="noopener noreferrer">${e(photo.license)} ↗</a> · <a href="${e(photo.sourceUrl)}" target="_blank" rel="noopener noreferrer">原始图源与完整说明 ↗</a></p><p class="adaptation">${e(photo.adaptation)}</p><div class="lightbox-nav">${row.photos.map((item, index) => `<button type="button" class="secondary-button" data-photo="${item.id}" ${item.id === id ? 'aria-current="true"' : ''}>照片 ${index + 1}</button>`).join('')}</div></div>`;
+        } catch (error) {
+            if (generation === photoGeneration && $('photoModal').open) $('photoBody').innerHTML = `<div class="detail-error"><p>${e(error.message)}</p><a href="IMAGE_CREDITS.md" target="_blank" rel="noopener">查看全部图片署名与许可 ↗</a></div>`;
+        }
     }
     function updateDetailButtons(row) {
         if (!row || !$('detailActions')) return;
         const focused = document.activeElement;
         const action = $('detailActions').contains(focused) ? focused.dataset.action : null;
         const saved = state.favorites.includes(row.id), compared = state.compare.includes(row.id);
-        $('detailActions').innerHTML = `<button type="button" class="secondary-button" data-action="favorite" data-id="${row.id}" aria-pressed="${saved}">${icon('bookmark')}${saved ? '已收藏' : '收藏学校'}</button><button type="button" class="secondary-button" data-action="compare" data-id="${row.id}" aria-pressed="${compared}">${icon(compared ? 'check' : 'compare')}${compared ? '已加入对比' : '加入对比'}</button><button type="button" class="secondary-button" data-share>${icon('arrow')}分享学校</button>`;
+        $('detailActions').innerHTML = `<button type="button" class="secondary-button" data-action="favorite" data-id="${row.id}" aria-pressed="${saved}">${icon('bookmark')}${saved ? '已收藏' : '收藏学校'}</button><button type="button" class="secondary-button" data-action="compare" data-id="${row.id}" aria-pressed="${compared}">${icon(compared ? 'check' : 'compare')}${compared ? '已加入对比' : '加入对比'}</button><button type="button" class="secondary-button" data-share>${icon('arrow')}分享学校</button>${row.website ? `<a class="secondary-button" href="${e(row.website)}" target="_blank" rel="noopener noreferrer">学校官网 ↗</a>` : ''}`;
         if (action) $('detailActions').querySelector(`[data-action="${action}"]`)?.focus({preventScroll: true});
     }
-    function openComparison() {
-        const rows = state.compare.map(byId).filter(Boolean);
+    async function openComparison() {
+        const selected = [...state.compare];
+        let rows = selected.map(byId).filter(Boolean);
         if (rows.length < 2) { toast('至少选择 2 所学校再开始对比。'); return; }
+        const generation = ++comparisonGeneration;
+        $('compareBody').innerHTML = '<p class="detail-loading" role="status">正在准备院校资料…</p>';
+        openDialog($('compareModal'));
+        const outcomes = await Promise.allSettled(selected.map(ensureDetail));
+        if (!$('compareModal').open || generation !== comparisonGeneration || selected.join(',') !== state.compare.join(',')) return;
+        rows = outcomes.map((result, index) => result.status === 'fulfilled' ? result.value : byId(selected[index]));
         const longCell = text => {
             const full = text || '原资料未提供';
             return full.length > 220 ? paragraphs(full.slice(0, 220) + '…') + `<details><summary>展开完整资料</summary>${paragraphs(full)}</details>` : paragraphs(full);
@@ -220,10 +313,12 @@
             ['国家 / 地区', row => `${e(row.flag)} ${e(row.country)}`],
             ['地理区域', row => e(row.region)],
             ['资料亮点', row => paragraphs(row.highlight)],
-            ['历史与学科', row => longCell(row.history)],
-            ['校园参访', row => longCell(row.visit)]
+            ['概览与资料', row => longCell(row.guide?.overview || row.history || '详情暂未读取，请稍后重试')],
+            ['参访预约', row => longCell(row.guide?.visit.booking || row.visit || '参访安排尚未核对')],
+            ['费用与开放', row => longCell(row.guide ? row.guide.visit.fee + '\n\n' + row.guide.visit.access : '以学校官方当期安排为准')],
+            ['来源与核对', row => row.guide ? e(row.guide.reviewedOn) + '<div class="detail-source">' + sourceLinks(row.guide.sources) + '</div>' : '原资料未逐项核验']
         ].map(([label, value]) => `<tr><th scope="row">${label}</th>${rows.map(row => `<td>${value(row)}</td>`).join('')}</tr>`).join('');
-        $('compareBody').innerHTML = `<div class="compare-intro"><p>同一年度，一起看清不同。手机上可左右滑动表格。</p><button type="button" class="text-button" data-share>复制对比链接</button></div><div class="compare-table-scroll" tabindex="0" role="region" aria-label="可横向滚动的院校对比表"><table class="compare-table"><caption>介绍与参访资料沿用原项目，仅供探索；名次已保留并列。学科亮点不是独立核验的学科排名。</caption><thead><tr><th scope="col">比较项目</th>${rows.map(row => `<th scope="col">${e(row.name)}<p class="university-name-en" lang="en">${e(row.nameEn)}</p></th>`).join('')}</tr></thead><tbody>${rowsHTML}</tbody></table></div>`;
+        $('compareBody').innerHTML = `<div class="compare-intro"><p>同一年度，一起看清不同。手机上可左右滑动表格。</p><button type="button" class="text-button" data-share>复制对比链接</button></div><div class="compare-table-scroll" tabindex="0" role="region" aria-label="可横向滚动的院校对比表"><table class="compare-table"><caption>20 校参访指南附官方来源；其余为原始整理资料。名次口径为 QS 2025，学科亮点不是学科排名。</caption><thead><tr><th scope="col">比较项目</th>${rows.map(row => `<th scope="col">${e(row.name)}<p class="university-name-en" lang="en">${e(row.nameEn)}</p></th>`).join('')}</tr></thead><tbody>${rowsHTML}</tbody></table></div>`;
         openDialog($('compareModal'));
         $('compareModal').scrollTop = 0;
     }
@@ -348,6 +443,8 @@
             else if (button.dataset.removeCompare) toggleCompare(button.dataset.removeCompare);
             else if (button.dataset.close) closeDialog($(button.dataset.close));
             else if ('share' in button.dataset) share();
+            else if (button.dataset.photo) openPhoto(button.dataset.photo);
+            else if (button.dataset.retryDetail) openDetail(button.dataset.retryDetail, 'replace');
         });
         $('searchInput').addEventListener('input', event => {
             if (event.isComposing) return;
@@ -361,6 +458,7 @@
         $('gridView').addEventListener('click', () => changeFilters({view: 'grid'}));
         $('listView').addEventListener('click', () => changeFilters({view: 'list'}));
         $('resetFilters').addEventListener('click', resetFilters);
+        $('toggleFilters').addEventListener('click', () => { const open = !$('filtersPanel').classList.contains('is-open'); $('filtersPanel').classList.toggle('is-open', open); $('toggleFilters').setAttribute('aria-expanded', String(open)); $('toggleFilters').textContent = open ? '收起筛选条件' : '展开筛选条件'; });
         $('mapReset').addEventListener('click', resetFilters);
         $('exportButton').addEventListener('click', exportCSV);
         $('themeButton').addEventListener('click', () => { state.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; persist(); applyTheme(); });
@@ -369,7 +467,9 @@
         document.querySelectorAll('dialog').forEach(dialog => {
             dialog.addEventListener('click', event => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeDialog(dialog); } });
             dialog.addEventListener('close', () => {
-                if (dialog.id === 'detailModal') { state.detail = null; syncURL(); }
+                if (dialog.id === 'detailModal') { detailGeneration++; state.detail = null; syncURL(); }
+                if (dialog.id === 'compareModal') comparisonGeneration++;
+                if (dialog.id === 'photoModal') { photoGeneration++; activePhoto = null; }
                 document.body.classList.toggle('dialog-open', !!document.querySelector('dialog[open]'));
                 const previousFocus = dialogFocus.get(dialog);
                 if (previousFocus?.isConnected) previousFocus.focus({preventScroll: true});
@@ -379,13 +479,17 @@
                 }
             });
         });
+        document.addEventListener('error', event => { const image = event.target; if (image.tagName === 'IMG' && image.hasAttribute('data-campus-photo')) { image.hidden = true; image.closest('.photo-frame')?.classList.add('is-missing'); } }, true);
         document.addEventListener('keydown', event => {
+            if ($('photoModal').open && activePhoto && ['ArrowLeft', 'ArrowRight'].includes(event.key)) { const row = byId(activePhoto.institutionId); const index = row.photos.findIndex(photo => photo.id === activePhoto.id); const next = (index + (event.key === 'ArrowRight' ? 1 : row.photos.length - 1)) % row.photos.length; event.preventDefault(); openPhoto(row.photos[next].id); return; }
             if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !document.querySelector('dialog[open]') && !/INPUT|TEXTAREA|SELECT/.test(event.target.tagName) && !event.target.isContentEditable) {
                 event.preventDefault(); $('searchInput').focus(); scrollToResults();
             }
         });
         window.addEventListener('popstate', () => {
             if (!state.ready) return;
+            closeDialog($('photoModal'));
+            closeDialog($('compareModal'));
             clearTimeout(searchTimer);
             const decoded = C.decodeState(location.search, state.rows);
             state.filters = decoded.filters;
@@ -411,7 +515,7 @@
         $('universitiesGrid').innerHTML = '<p class="loading">正在读取 2025 年度院校资料…</p>';
         $('dataStatus').textContent = '正在读取院校资料…';
         try {
-            const loaded = await C.loadDataset({fetcher: window.fetch?.bind(window), fallback: window.__QS_UNIVERSITIES__, preferInline: location.protocol === 'file:'});
+            const loaded = await C.loadDataset({fetcher: window.fetch?.bind(window), fallbackLoader: loadInlineDataset, preferInline: location.protocol === 'file:'});
             if (version !== initVersion) return;
             state.rows = loaded.rows;
             const prefs = C.readPreferences(storage, state.rows);
@@ -439,7 +543,7 @@
             $('universitiesGrid').setAttribute('aria-busy', 'false');
             $('universitiesGrid').innerHTML = `<div class="empty-state">${icon('globe')}<h3>院校资料暂时无法读取</h3><p>${e(error.message)}</p><button class="primary-button" type="button" id="retryLoad">重新读取</button></div>`;
             $('retryLoad').addEventListener('click', init);
-            $('dataStatus').textContent = '请检查 data/universities.json 或 data/universities.inline.js 是否存在。';
+            $('dataStatus').textContent = '请检查 data/catalog.json 或 data/universities.inline.js 是否存在。';
             $('resultCount').textContent = '资料读取失败，可重试';
         }
     }

@@ -6,6 +6,9 @@ const OUTPUT_JSON = path.resolve(__dirname, '..', 'data', 'universities.json');
 const OUTPUT_INLINE = path.resolve(__dirname, '..', 'data', 'universities.inline.js');
 const corrections = require('../data/rank-corrections.json');
 const { sourceId, normalizeDataset } = require('../js/core.js');
+const guides = require('../data/verified-guides.json');
+const media = require('../data/campus-media.json');
+const updates = require('../data/content-updates.json');
 
 const regionMap = {
     '美国': '北美',
@@ -175,7 +178,27 @@ function buildDataset(source = fs.readFileSync(SOURCE_MD, 'utf-8')) {
     const tableEntries = parseTable(tableBlock);
     const sectionDetails = extractSectionBodies(sectionsContent, tableEntries);
 
-    const dataset = tableEntries.map(entry => enrichEntry(entry, sectionDetails[entry.rank]));
+    const dataset = tableEntries.map(entry => {
+        const row = enrichEntry(entry, sectionDetails[entry.rank]);
+        const photos = media.photos.filter(photo => photo.institutionId === row.id);
+        const cover = photos.find(photo => photo.isCover);
+        if (!cover) throw new Error(`缺少校园封面：${row.id}`);
+        row.photos = photos;
+        row.cover = {id: cover.id, path: cover.path, width: cover.width, height: cover.height, alt: cover.alt, title: cover.title, campus: cover.campus, creditLine: cover.creditLine || ''};
+        row.guide = guides[row.id] || null;
+        row.guideAvailable = Boolean(row.guide);
+        row.city = row.guide?.city || '';
+        row.website = row.guide?.website || updates[row.id]?.website || '';
+        row.reviewedOn = row.guide?.reviewedOn || '';
+        row.institutionUpdate = updates[row.id] || null;
+        row.detailsLoaded = true;
+        if (row.guide) {
+            const visit = row.guide.visit;
+            row.visit = [`预约：${visit.booking}`, `费用：${visit.fee}`, `开放范围：${visit.access}`, `交通：${visit.arrival}`].join('\n\n');
+        }
+        if (row.id === 'qs2025-047') row.visit = '清水湾校区可从港铁彩虹、坑口等站换乘巴士或小巴，不能把港铁大学站当作香港科技大学的直达站。具体线路、入口与访问安排请查阅学校官方到访说明：https://oma.hkust.edu.hk/visit-hkust';
+        return row;
+    });
 
     if (dataset.length !== 100 || normalizeDataset(dataset).length !== 100 ||
         new Set(dataset.map(row => row.sourceIndex)).size !== 100 ||
@@ -205,7 +228,13 @@ function main() {
     fs.writeFileSync(OUTPUT_INLINE + '.tmp', 'window.__QS_UNIVERSITIES__ = ' + serialized + ';\n', 'utf-8');
     fs.renameSync(OUTPUT_JSON + '.tmp', OUTPUT_JSON);
     fs.renameSync(OUTPUT_INLINE + '.tmp', OUTPUT_INLINE);
-    console.log(`已同步生成 ${dataset.length} 条院校数据（JSON + 离线脚本），保留并列名次。`);
+    const detailDirectory = path.join(path.dirname(OUTPUT_JSON), 'details');
+    fs.mkdirSync(detailDirectory, {recursive: true});
+    for (const row of dataset) fs.writeFileSync(path.join(detailDirectory, row.id + '.json'), JSON.stringify(row, null, 2) + '\n');
+    const catalog = dataset.map(({history, visit, photos, guide, detailsLoaded, ...row}) => ({...row, detailsLoaded: false}));
+    fs.writeFileSync(path.join(path.dirname(OUTPUT_JSON), 'catalog.json'), JSON.stringify(catalog, null, 2) + '\n');
+    fs.writeFileSync(path.join(__dirname, '..', 'IMAGE_CREDITS.md'), require('./build-photo-credits.js').buildPhotoCredits());
+    console.log(`已同步生成 ${dataset.length} 条院校数据、轻量目录、逐校详情与离线脚本；${Object.keys(guides).length} 校参访指南、${media.photos.length} 张真实照片。`);
 }
 
 if (require.main === module) main();

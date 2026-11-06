@@ -1,0 +1,65 @@
+{
+  "id": "qs2025-047",
+  "sourceIndex": 47,
+  "rank": 47,
+  "name": "香港科技大学",
+  "nameEn": "HKUST",
+  "country": "中国香港",
+  "region": "亚洲",
+  "flag": "🇭🇰",
+  "highlight": "跃居全球第 47 位，工程与计算机科学学科亚洲领先。",
+  "history": "香港科技大学(The Hong Kong University of Science and Technology, HKUST)成立于1991年,是香港最年轻的大学,但发展速度惊人,在短短30多年内就跻身世界顶尖大学行列。HKUST的创立源于1980年代香港经济转型的需求——当时香港正从制造业向高科技和服务业转型,迫切需要培养科技和商业人才。\n\n1986年,香港政府决定建立一所新的研究型大学,选址在清水湾半岛的山坡上,俯瞰牛尾海的壮丽海景。学校于1991年10月正式开学,首批学生仅700人。HKUST从一开始就采用全英语教学,吸引国际顶尖学者,并与世界一流大学建立合作关系,迅速建立起国际声誉。\n\n香港科技大学在2025年QS世界大学排名中位列全球第47位(与浙江大学并列),亚洲第7位。尽管建校时间短,HKUST在工程、商业、科学等领域已经确立了世界领先地位,展现了惊人的发展速度和学术实力。\n\nHKUST在工程与技术(全球第19)、计算机科学(全球第15)、化学(全球第25)、材料科学(全球第18)、商业与管理(全球第19)等学科排名全球前20-30位。该大学的工学院是亚洲最强的工程学院之一,在纳米科学、人工智能、机器人技术和可持续能源等领域处于世界前沿。\n\nHKUST商学院(HKUST Business School)是亚洲排名第一的商学院,其EMBA课程连续多年被《金融时报》评为全球第一。该学院在金融、创业、商业分析和全球管理等领域享有国际声誉,为香港和亚太地区培养了大批商业领袖。\n\nHKUST运营着众多研究中心和实验室,包括高等研究院、大数据研究所、人工智能研究中心、环境与可持续发展学部等。该大学在纳米科技、显示技术、量子材料、生物技术和金融科技等前沿领域进行突破性研究。HKUST教授在2021年成为首位获得计算机科学\"诺贝尔奖\"图灵奖提名的香港学者(虽未最终获奖),展示了其在计算机科学研究方面的国际影响力。\n\nHKUST大力推动创业和知识转移,建立了香港第一个大学科技孵化器,孵化了超过400家创业公司,包括DJI大疆创新的联合创始人等都是HKUST校友。该大学在2019年在广州南沙建立了HKUST(GZ)——香港科技大学(广州),进一步扩展其教育和研究影响力。",
+  "visit": "清水湾校区可从港铁彩虹、坑口等站换乘巴士或小巴，不能把港铁大学站当作香港科技大学的直达站。具体线路、入口与访问安排请查阅学校官方到访说明：https://oma.hkust.edu.hk/visit-hkust",
+  "photos": [
+    {
+      "file": "HKUST campus view looking from above.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/HKUST_campus_view_looking_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HKUST_campus_view_looking_from_above.jpg",
+      "author": "Hkust pao",
+      "credit": "To have photo with the most updated view of the campus, photo taken with helicopter Previously published: Used in corporate publications and other university publications published by us. Example: http://www.ust.hk/eng/images/about/pdf/hkust_corporate_booklet.pdf",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "HKUST campus view looking from above, photo taken in 2012.",
+      "width": 960,
+      "height": 640,
+      "reviewedOn": "2026-11-06",
+      "id": "qs2025-047-1",
+      "institutionId": "qs2025-047",
+      "schoolName": "香港科技大学",
+      "isCover": true,
+      "path": "assets/campuses/qs2025-047-1.webp",
+      "bytes": 147976,
+      "sha256": "50881f79c602f5ee22faf2c9c326159f4edd5f09b11a370d458c114939bd356d",
+      "adaptation": "缩放、移除元数据并转为 WebP；未改变场景内容。",
+      "title": "香港科技大学校园代表图",
+      "campus": "图示地点见原始图源说明",
+      "alt": "香港科技大学：香港科技大学校园代表图"
+    }
+  ],
+  "cover": {
+    "id": "qs2025-047-1",
+    "path": "assets/campuses/qs2025-047-1.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "香港科技大学：香港科技大学校园代表图",
+    "title": "香港科技大学校园代表图",
+    "campus": "图示地点见原始图源说明",
+    "creditLine": ""
+  },
+  "guide": null,
+  "guideAvailable": false,
+  "city": "",
+  "website": "",
+  "reviewedOn": "",
+  "institutionUpdate": {
+    "text": "已纠正把港铁大学站当作香港科技大学直达车站的旧攻略。清水湾校区可从彩虹、坑口等站换乘巴士或小巴；大学站不能等同于科大校门。",
+    "checkedOn": "2026-11-06",
+    "sources": [
+      {
+        "title": "HKUST 官方到访交通",
+        "url": "https://oma.hkust.edu.hk/visit-hkust"
+      }
+    ]
+  },
+  "detailsLoaded": true
+}

@@ -412,3 +412,171 @@ body.dialog-open { overflow: hidden; }
     .container { width: 100%; }
     dialog[open] { position: absolute; inset: 0; max-height: none; width: 100%; overflow: visible; }
 }
+
+/* Campus photographs, short visiting guides, and comfortable reading. */
+.mobile-filter-toggle { display: none; }
+.university-card { padding: 0 18px 14px; overflow: hidden; }
+.photo-frame { position: relative; overflow: hidden; background: var(--surface-soft); isolation: isolate; }
+.photo-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo-placeholder { display: none; padding: 24px; color: var(--muted); font-size: 14px; text-align: center; }
+.photo-frame.is-missing { display: grid; place-items: center; min-height: 150px; }
+.photo-frame.is-missing .photo-placeholder { display: block; }
+.card-photo { margin-inline: -18px; margin-bottom: 17px; aspect-ratio: 16 / 10; }
+.photo-credit-button { position: absolute; right: 8px; bottom: 8px; border: 1px solid #ffffff60; border-radius: 6px; padding: 5px 9px; background: #10223de6; color: #fff; font-size: 11px; min-height: 32px; }
+.photo-credit-button:hover { background: #10223d; }
+.card-topline { margin-bottom: 8px; }
+.school-title { font-size: 17px; min-height: 32px; }
+.university-name-en { font-size: 12px; }
+.card-location { font-size: 12px; margin-top: 10px; }
+.card-highlight { font-size: 12px; }
+.guide-badge, .archive-badge { align-self: flex-start; font-size: 11px; margin-top: 9px; }
+.guide-badge { color: var(--success); }
+.archive-badge { color: var(--muted); }
+.subject-tag { font-size: 11px; }
+.details-button, .compare-button { font-size: 12px; min-height: 36px; }
+.bookmark-button { min-width: 36px; min-height: 36px; }
+.list-view .university-card { grid-template-columns: 105px 45px minmax(0, 1fr) 115px 120px; padding: 12px; gap: 10px; }
+.list-view .card-photo { grid-column: 1; grid-row: 1 / 3; margin: 0; aspect-ratio: 1; border-radius: 7px; }
+.list-view .photo-credit-button { inset: auto 3px 3px auto; padding-inline: 5px; font-size: 10px; }
+.list-view .rank-badge { grid-column: 2; grid-row: 1 / 3; }
+.list-view .rank-badge strong { font-size: 22px; }
+.list-view .card-main { grid-column: 3; grid-row: 1 / 3; }
+.list-view .card-location { grid-column: 4; grid-row: 1; }
+.list-view .card-tags { grid-column: 4; grid-row: 2; }
+.list-view .guide-badge, .list-view .archive-badge { display: none; }
+.list-view .bookmark-button { grid-column: 5; grid-row: 1; margin: 0; }
+.list-view .card-bottom { grid-column: 5; grid-row: 2; gap: 8px; }
+.detail-photo { width: 100%; aspect-ratio: 16 / 9; max-height: 360px; }
+.detail-photo .photo-credit-button { right: 20px; bottom: 14px; }
+.detail-header h2 { line-height: 1.4; }
+.detail-actions .secondary-button { font-size: 13px; min-height: 44px; }
+.detail-section h3, .institution-update h3 { font-size: 19px; }
+.prose { font-size: 16px; line-height: 1.95; }
+.detail-source { font-size: 13px; gap: 12px 18px; overflow-wrap: anywhere; }
+.detail-source a { padding-block: 4px; }
+.guide-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 12px; }
+.guide-heading span { color: var(--muted); font-size: 12px; }
+.campus-label { color: var(--muted); font-size: 14px; line-height: 1.8; margin-bottom: 16px; }
+.visit-guide { padding: 22px; border: 1px solid var(--line); background: var(--page); border-radius: 12px; }
+.visit-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 26px; }
+.visit-facts dt { font-size: 14px; color: var(--ink); font-weight: 650; margin-bottom: 6px; }
+.visit-facts dd { font-size: 15px; line-height: 1.85; color: var(--muted); overflow-wrap: anywhere; }
+.visit-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.visit-guide .field-help, .detail-content .field-help { font-size: 12px; color: var(--muted); margin-top: 14px; }
+.campus-highlights { display: grid; gap: 14px; }
+.campus-highlights h4 { font-size: 15px; margin: 0 0 4px; }
+.campus-highlights p { font-size: 15px; line-height: 1.85; color: var(--muted); }
+.campus-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.campus-gallery figure { margin: 0; min-width: 0; }
+.gallery-photo { aspect-ratio: 4 / 3; border-radius: 8px; }
+.campus-gallery figcaption { margin-top: 8px; font-size: 13px; }
+.campus-gallery small { display: block; color: var(--muted); line-height: 1.7; margin-top: 3px; font-size: 12px; }
+.legacy-reading { border-block: 1px solid var(--line); padding: 18px 0; margin-top: 28px; }
+.legacy-reading > summary { cursor: pointer; font-size: 14px; color: var(--blue); }
+.institution-update { padding: 18px; border-radius: 9px; background: var(--blue-soft); margin-top: 22px; }
+.institution-update p { font-size: 15px; line-height: 1.9; margin-top: 8px; }
+.reading-note { font-size: 13px; }
+.detail-loading, .detail-error { padding: 24px; font-size: 15px; color: var(--muted); }
+.detail-error button { margin-top: 14px; }
+.photo-dialog { width: min(1080px, calc(100% - 40px)); }
+.lightbox-image { background: #101b2c; }
+.lightbox-image img { max-height: 65dvh; height: auto; object-fit: contain; }
+.photo-provenance { padding: 24px 30px; font-size: 14px; overflow-wrap: anywhere; }
+.photo-provenance h3 { font-size: 20px; margin-bottom: 8px; }
+.photo-provenance p + p { margin-top: 10px; }
+.adaptation { font-size: 12px; color: var(--muted); }
+.lightbox-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.lightbox-nav [aria-current] { border-color: var(--blue); color: var(--blue); background: var(--blue-soft); }
+.compare-table td { font-size: 14px; }
+.compare-table th { font-size: 14px; }
+.compare-table caption { font-size: 13px; }
+@media (max-width: 1150px) {
+    .list-view .university-card { grid-template-columns: 90px 40px minmax(0, 1fr) 115px; }
+    .list-view .card-location, .list-view .card-tags { display: none; }
+    .list-view .bookmark-button, .list-view .card-bottom { grid-column: 4; }
+}
+@media (max-width: 700px) {
+    body { font-size: 16px; }
+    .brand small { font-size: 10px; }
+    .brand { font-size: 16px; }
+    .nav-actions { gap: 2px; }
+    .favorite-nav { min-height: 44px; padding-inline: 4px; font-size: 12px; }
+    .icon-button, .nav-actions > .icon-button { min-width: 44px; min-height: 44px; }
+    .hero-description, .section-heading p, .about-intro p, .source-notes p { font-size: 15px; }
+    .edition-label, .hero-stats dt { font-size: 12px; }
+    .map-heading h2 { font-size: 14px; }
+    .map-footer, .map-footer button, .country-chip, .country-chip span, .all-countries { font-size: 12px; }
+    .country-chip, .all-countries summary { min-height: 44px; padding: 10px; }
+    .map-footer { align-items: flex-start; }
+    .map-footer button { min-width: 56px; min-height: 44px; }
+    .source-link, .source-links, .source-notes h3 { font-size: 13px; }
+    .search-field input { font-size: 16px; }
+    .data-status { font-size: 12px; margin-block: 10px; }
+    .mobile-filter-toggle { display: inline-flex; width: 100%; font-size: 14px; }
+    .filters:not(.is-open) { display: none; }
+    .filters { padding: 16px; }
+    .filter-heading h3, .filter-group > label, .filter-group h4, .checkbox-field, .text-button { font-size: 14px; }
+    .region-button, .region-button span:last-child { font-size: 13px; min-height: 44px; }
+    .filter-group select { font-size: 16px; min-height: 44px; }
+    .field-help { font-size: 12px; }
+    .checkbox-field { min-height: 44px; }
+    .result-count { font-size: 12px; }
+    .result-count strong { font-size: 17px; }
+    .result-tools select { min-height: 44px; font-size: 13px; max-width: 120px; }
+    .results-toolbar { flex-wrap: wrap; gap: 10px; }
+    .view-switch .icon-button { min-width: 44px; min-height: 44px; }
+    .filter-chip, .page-button { font-size: 14px; min-height: 44px; min-width: 44px; }
+    .universities-grid { grid-template-columns: 1fr; gap: 22px; }
+    .university-card { padding: 0 18px 12px; border-radius: 12px; }
+    .card-photo { aspect-ratio: 16 / 10; margin-inline: -18px; margin-bottom: 14px; }
+    .photo-credit-button { min-height: 44px; padding: 8px 12px; font-size: 12px; }
+    .rank-badge { font-size: 12px; }
+    .rank-badge strong { font-size: 28px; }
+    .rank-badge small { font-size: 11px; }
+    .school-title { font-size: 20px; min-height: 44px; }
+    .university-name-en { font-size: 14px; min-height: 0; }
+    .card-location { font-size: 14px; }
+    .guide-badge, .archive-badge { font-size: 13px; }
+    .subject-tag { font-size: 12px; padding: 3px 7px; }
+    .card-highlight { font-size: 15px; line-height: 1.85; min-height: 0; margin-block: 12px 18px; }
+    .details-button, .compare-button { min-height: 44px; font-size: 14px; }
+    .card-bottom { padding-top: 8px; }
+    .list-view .university-card { grid-template-columns: 72px minmax(0, 1fr) 44px; gap: 8px 12px; padding: 12px; }
+    .list-view .card-photo { grid-column: 1; grid-row: 1 / 3; margin: 0; aspect-ratio: 1; }
+    .list-view .photo-credit-button { font-size: 10px; padding: 2px; min-height: 44px; max-width: calc(100% - 6px); }
+    .list-view .card-main { grid-column: 2; grid-row: 1 / 3; padding-right: 0; }
+    .list-view .school-title { font-size: 16px; }
+    .list-view .university-name-en { font-size: 12px; }
+    .list-view .rank-badge { grid-column: 3; grid-row: 1; font-size: 10px; }
+    .list-view .rank-badge strong { font-size: 20px; }
+    .list-view .bookmark-button { grid-column: 3; grid-row: 2; }
+    .list-view .card-bottom { grid-column: 1 / -1; grid-row: 3; flex-direction: row; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 6px; }
+    .detail-header { padding-inline: 20px; }
+    .detail-header .university-name-en { font-size: 14px; }
+    .detail-actions { padding: 14px 20px; }
+    .detail-actions button { font-size: 13px; }
+    .detail-section h3, .institution-update h3 { font-size: 19px; }
+    .visit-guide { padding: 16px; margin-inline: -5px; }
+    .visit-facts { grid-template-columns: 1fr; gap: 18px; }
+    .visit-facts dt, .campus-highlights h4 { font-size: 16px; }
+    .visit-facts dd, .campus-highlights p { font-size: 16px; }
+    .visit-actions > a { width: 100%; }
+    .campus-gallery { grid-template-columns: 1fr; gap: 18px; }
+    .campus-gallery figcaption { font-size: 15px; }
+    .campus-gallery small { font-size: 13px; }
+    .prose { font-size: 16px; }
+    .detail-source { font-size: 14px; }
+    .photo-dialog { width: calc(100% - 22px); }
+    .photo-provenance { padding: 20px; font-size: 15px; }
+    .photo-provenance h3 { font-size: 19px; }
+    .photo-provenance .campus-label { font-size: 14px; }
+    .compare-tray .primary-button { font-size: 13px; min-height: 44px; }
+    .compare-item { font-size: 12px; }
+    .compare-item .icon-button { min-width: 32px; min-height: 32px; }
+    .tray-title strong { font-size: 14px; }
+    .compare-intro { font-size: 13px; }
+    .footer { font-size: 12px; }
+}
+@media print {
+    .mobile-filter-toggle, .photo-credit-button { display: none !important; }
+}
