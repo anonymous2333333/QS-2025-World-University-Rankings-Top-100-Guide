@@ -1,0 +1,9 @@
+{
+  "edition": 2025,
+  "sourceUrl": "https://sps.utm.my/wp-content/uploads/2024/09/2025-QS-World-University-Rankings-2.2-For-qs.com_.pdf",
+  "publisher": "QS Quacquarelli Symonds；马来西亚理工大学保存的 QS 原始表格",
+  "checkedOn": "2026-11-06",
+  "description": "原 Markdown 的 rank 列实际为 INDEX。以下以 INDEX 定位，校正为 2025 RANK；重复名次保留，其他记录的名次与 INDEX 相同。",
+  "ranksBySourceIndex": {"33":32,"35":34,"41":40,"48":47,"51":50,"52":50,"64":63,"70":69,"81":80,"83":82,"85":84,"90":89,"91":89,"95":94},
+  "namesBySourceIndex": {"46":{"name":"巴黎理工学院","nameEn":"Institut Polytechnique de Paris"}}
+}

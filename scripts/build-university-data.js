@@ -3,6 +3,9 @@ const path = require('path');
 
 const SOURCE_MD = path.resolve(__dirname, '..', 'QS2025 top100.md');
 const OUTPUT_JSON = path.resolve(__dirname, '..', 'data', 'universities.json');
+const OUTPUT_INLINE = path.resolve(__dirname, '..', 'data', 'universities.inline.js');
+const corrections = require('../data/rank-corrections.json');
+const { sourceId, normalizeDataset } = require('../js/core.js');
 
 const regionMap = {
     '美国': '北美',
@@ -34,7 +37,6 @@ const regionMap = {
     '巴西': '拉丁美洲',
     '智利': '拉丁美洲',
     '墨西哥': '拉丁美洲',
-    '丹麦': '欧洲',
     '俄罗斯': '欧洲',
     '以色列': '中东',
     '沙特阿拉伯': '中东',
@@ -91,12 +93,10 @@ function parseTable(block) {
     const dataLines = lines.filter(line => /\|\s*\d+\s*\|/.test(line));
     return dataLines.map(line => {
         const columns = line
-            .split('|')
-            .map(col => col.trim())
-            .filter(Boolean);
+            .slice(1, -1).split('|')
+            .map(col => col.trim());
         const [rankStr, nameRaw = '', countryRaw = '', highlightRaw = ''] = columns;
         const rank = parseInt(rankStr, 10);
-        let name = nameRaw;
         let nameEn = '';
         let nameZh = nameRaw;
         const match = nameRaw.match(/(.+?)（(.+?)）/);
@@ -116,18 +116,23 @@ function parseTable(block) {
     });
 }
 
-function extractSectionBodies(content) {
+function extractSectionBodies(content, entries = []) {
     const sections = {};
-    const sectionRegex = /##\s+(\d+)\.[^\n]*\n([\s\S]*?)(?=\n##\s+\d+\.|$)/g;
-    let match;
-    while ((match = sectionRegex.exec(content)) !== null) {
-        const rank = parseInt(match[1], 10);
-        const body = match[2].trim();
+    const headings = [...content.matchAll(/^##\s+(?:\*\*)?(\d+)\.\s*([^\n]*)\n/gm)];
+    for (let index = 0; index < headings.length; index++) {
+        const match = headings[index];
+        // Some source headings are bold and two are numbered 94. Match names first
+        // so UNAM's chapter can never overwrite Moscow State University's chapter.
+        const entry = entries.filter(row => match[2].includes(row.nameZh)).sort((a, b) => b.nameZh.length - a.nameZh.length)[0];
+        const rank = entry ? entry.rank : parseInt(match[1], 10);
+        if (sections[rank]) throw new Error(`重复的院校章节：${rank}`);
+        const body = content.slice(match.index + match[0].length, headings[index + 1]?.index ?? content.length).trim();
         const historyMatch = body.match(/\*\*历史背景与学科优势[^\n]*\*\*:?([\s\S]*?)(?=\n\s*\*\*参观攻略|\n\s*---|$)/);
         const visitMatch = body.match(/\*\*参观攻略[^\n]*\*\*:?([\s\S]*?)(?=\n\s*---|$)/);
         const clean = (text = '') => text
             .replace(/^-{3,}$/gm, '')
             .replace(/\r/g, '')
+            .replace(/^[：:\s]+/, '')
             .trim();
         sections[rank] = {
             history: clean(historyMatch ? historyMatch[1] : ''),
@@ -143,9 +148,11 @@ function enrichEntry(entry, details) {
     const history = (details?.history || '').trim();
     const visit = (details?.visit || '').trim();
     return {
-        rank: entry.rank,
-        name: entry.nameZh,
-        nameEn: entry.nameEn,
+        id: sourceId(entry.rank),
+        sourceIndex: entry.rank,
+        rank: corrections.ranksBySourceIndex[entry.rank] || entry.rank,
+        name: corrections.namesBySourceIndex[entry.rank]?.name || entry.nameZh,
+        nameEn: corrections.namesBySourceIndex[entry.rank]?.nameEn || entry.nameEn,
         country: entry.country,
         region,
         flag,
@@ -155,8 +162,8 @@ function enrichEntry(entry, details) {
     };
 }
 
-function buildDataset() {
-    const raw = fs.readFileSync(SOURCE_MD, 'utf-8');
+function buildDataset(source = fs.readFileSync(SOURCE_MD, 'utf-8')) {
+    const raw = source.replace(/\r\n?/g, '\n');
     const tableStart = raw.indexOf('| 排名');
     const tableEnd = raw.indexOf('\n\n## 1.');
     if (tableStart === -1 || tableEnd === -1) {
@@ -166,9 +173,15 @@ function buildDataset() {
     const sectionsContent = raw.slice(tableEnd);
 
     const tableEntries = parseTable(tableBlock);
-    const sectionDetails = extractSectionBodies(sectionsContent);
+    const sectionDetails = extractSectionBodies(sectionsContent, tableEntries);
 
     const dataset = tableEntries.map(entry => enrichEntry(entry, sectionDetails[entry.rank]));
+
+    if (dataset.length !== 100 || normalizeDataset(dataset).length !== 100 ||
+        new Set(dataset.map(row => row.sourceIndex)).size !== 100 ||
+        dataset.some(row => row.sourceIndex < 1 || row.sourceIndex > 100 || !row.history || !row.visit)) {
+        throw new Error('数据不完整：须包含 100 个独立编号和完整的历史、参访章节；不会覆盖现有输出');
+    }
 
     const missingNameEn = dataset.filter(item => !item.nameEn);
     if (missingNameEn.length) {
@@ -186,8 +199,14 @@ function buildDataset() {
 function main() {
     ensureOutputDir();
     const dataset = buildDataset();
-    fs.writeFileSync(OUTPUT_JSON, JSON.stringify(dataset, null, 2), 'utf-8');
-    console.log(`已生成 ${dataset.length} 条院校数据 -> ${OUTPUT_JSON}`);
+    const serialized = JSON.stringify(dataset, null, 2);
+    // Generate both channels from one serialization. Validate before writing either output.
+    fs.writeFileSync(OUTPUT_JSON + '.tmp', serialized + '\n', 'utf-8');
+    fs.writeFileSync(OUTPUT_INLINE + '.tmp', 'window.__QS_UNIVERSITIES__ = ' + serialized + ';\n', 'utf-8');
+    fs.renameSync(OUTPUT_JSON + '.tmp', OUTPUT_JSON);
+    fs.renameSync(OUTPUT_INLINE + '.tmp', OUTPUT_INLINE);
+    console.log(`已同步生成 ${dataset.length} 条院校数据（JSON + 离线脚本），保留并列名次。`);
 }
 
-main();
+if (require.main === module) main();
+module.exports = { parseTable, extractSectionBodies, buildDataset };

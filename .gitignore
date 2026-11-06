@@ -1,0 +1,6 @@
+node_modules/
+.openai/
+test-results/
+*.tmp
+.DS_Store
+dist/
